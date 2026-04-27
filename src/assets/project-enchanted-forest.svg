@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf8f2" />
+      <stop offset="1" stop-color="#f0e6d6" />
+    </linearGradient>
+    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.18 0" />
+    </filter>
+  </defs>
+  <rect width="860" height="620" fill="url(#g)" />
+  <rect width="860" height="620" filter="url(#grain)" opacity="0.55" />
+
+  <rect x="56" y="56" width="748" height="508" fill="none" stroke="#151318" stroke-opacity="0.14" stroke-width="2" rx="22" />
+
+  <!-- forest lines -->
+  <g opacity="0.52" stroke="#151318" stroke-linecap="round" stroke-width="3" fill="none">
+    <path d="M185 500c28-88 28-166 0-240c-26 74-26 152 0 240z" opacity="0.18" />
+    <path d="M285 520c34-110 34-208 0-300c-32 92-32 190 0 300z" opacity="0.24" />
+    <path d="M385 540c40-140 40-270 0-390c-38 120-38 250 0 390z" opacity="0.3" />
+    <path d="M485 520c34-110 34-208 0-300c-32 92-32 190 0 300z" opacity="0.24" />
+    <path d="M585 500c28-88 28-166 0-240c-26 74-26 152 0 240z" opacity="0.18" />
+  </g>
+
+  <!-- musical points -->
+  <g opacity="0.28" stroke="#8c6a3a" stroke-width="2" fill="none">
+    <path d="M150 360h560" />
+    <path d="M150 390h560" />
+    <path d="M150 420h560" />
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fill="#151318" fill-opacity="0.36">
+    <text x="92" y="120" font-size="16" letter-spacing="0.26em">THE ENCHANTED FOREST</text>
+    <text x="92" y="148" font-size="12" letter-spacing="0.18em">R H Y T H M " S T O R Y " G E S T U R E</text>
+  </g>
+</svg>
+

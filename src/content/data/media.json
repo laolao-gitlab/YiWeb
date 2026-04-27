@@ -1,0 +1,367 @@
+{
+  "intro": {
+    "en": "Selected media materials for presenters, collaborators, and audiences.",
+    "de": "Ausgewählte Medienmaterialien für Veranstalter, Partner und Publikum.",
+    "zh-Hant": "為主辦單位、合作夥伴與觀眾精選整理的媒體素材。"
+  },
+  "items": [
+    {
+      "id": "m1",
+      "kind": "image",
+      "title": {
+        "en": "Live Performance with Ensemble",
+        "de": "Live-Auftritt mit Ensemble",
+        "zh-Hant": "與團隊同台演出"
+      },
+      "caption": {
+        "en": "Gemelli in Harmonia performing with vocal and instrumental ensemble.",
+        "de": "Gemelli in Harmonia im Konzert mit vokalem und instrumentalem Ensemble.",
+        "zh-Hant": "Gemelli in Harmonia 與聲樂及器樂團隊同台演出。"
+      },
+      "thumbnailSrc": "/image/gemelli-duo-live-with-ensemble.JPG",
+      "imageAlt": {
+        "en": "Gemelli duo live performance with ensemble",
+        "de": "Gemelli im Live-Auftritt mit Ensemble",
+        "zh-Hant": "Gemelli in Harmonia 與團隊現場演出"
+      }
+    },
+    {
+      "id": "m2",
+      "kind": "image",
+      "title": {
+        "en": "Concert Group Photo",
+        "de": "Konzert-Gruppenfoto",
+        "zh-Hant": "音樂會合照"
+      },
+      "caption": {
+        "en": "Gemelli in Harmonia and ensemble after concert performance.",
+        "de": "Gemelli in Harmonia und Ensemble nach dem Konzert.",
+        "zh-Hant": "Gemelli in Harmonia 與合作團隊於演出後合影。"
+      },
+      "thumbnailSrc": "/image/gemelli-group-photo-concert.JPG",
+      "imageAlt": {
+        "en": "Gemelli group photo concert",
+        "de": "Gruppenfoto nach dem Konzert",
+        "zh-Hant": "Gemelli in Harmonia 音樂會合照"
+      }
+    },
+    {
+      "id": "m3",
+      "kind": "image",
+      "title": {
+        "en": "Harpsichord Ensemble Setting",
+        "de": "Cembalo im Ensemblekontext",
+        "zh-Hant": "羽管鍵琴與合奏配置"
+      },
+      "caption": {
+        "en": "Gemelli in Harmonia with harpsichord and ensemble collaboration.",
+        "de": "Gemelli in Harmonia in Zusammenarbeit mit Cembalo und Ensemble.",
+        "zh-Hant": "Gemelli in Harmonia 與羽管鍵琴及合奏團隊合作演出。"
+      },
+      "thumbnailSrc": "/image/gemelli-group-photo-harpsichord.JPG",
+      "imageAlt": {
+        "en": "Gemelli group photo harpsichord",
+        "de": "Gemelli mit Cembalo im Ensemble",
+        "zh-Hant": "Gemelli in Harmonia 與羽管鍵琴合奏"
+      }
+    },
+    {
+      "id": "m4",
+      "kind": "image",
+      "title": {
+        "en": "Ensemble Finale",
+        "de": "Ensemble-Finale",
+        "zh-Hant": "合奏終章"
+      },
+      "caption": {
+        "en": "Ensemble performance moment during Baroque recital program.",
+        "de": "Momentaufnahme aus einem Barockprogramm mit Ensemble.",
+        "zh-Hant": "巴洛克音樂會中合奏演出的精彩片刻。"
+      },
+      "thumbnailSrc": "/image/gemili-group-ending.png",
+      "imageAlt": {
+        "en": "Gemelli ensemble finale",
+        "de": "Ensemble-Finale",
+        "zh-Hant": "Gemelli in Harmonia 合奏終章"
+      }
+    },
+    {
+      "id": "m5",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Church Performance",
+        "de": "Yi Liu - Kirchenkonzert",
+        "zh-Hant": "劉一：教堂演出"
+      },
+      "caption": {
+        "en": "Yi Liu during a church performance with ensemble.",
+        "de": "Yi Liu während eines Kirchenkonzerts mit Ensemble.",
+        "zh-Hant": "劉一於教堂音樂會中與團隊合作演出。"
+      },
+      "thumbnailSrc": "/image/liuyi-performance-church-portrait.JPG",
+      "imageAlt": {
+        "en": "Yi Liu church performance",
+        "de": "Yi Liu im Kirchenkonzert",
+        "zh-Hant": "劉一教堂演出"
+      }
+    },
+    {
+      "id": "m6",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Red Stage",
+        "de": "Yi Liu - Rote Bühne",
+        "zh-Hant": "劉一：紅色舞台"
+      },
+      "caption": {
+        "en": "Yi Liu in atmospheric red stage lighting during performance.",
+        "de": "Yi Liu in atmosphärischem rotem Bühnenlicht.",
+        "zh-Hant": "劉一於演出中置身紅色舞台燈光之下。"
+      },
+      "thumbnailSrc": "/image/liuyi-performance-red-stage.JPG",
+      "imageAlt": {
+        "en": "Yi Liu red stage performance",
+        "de": "Yi Liu auf roter Bühne",
+        "zh-Hant": "劉一紅色舞台演出"
+      }
+    },
+    {
+      "id": "m7",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Golden Light",
+        "de": "Yi Liu - Goldenes Licht",
+        "zh-Hant": "劉一：金色光影"
+      },
+      "caption": {
+        "en": "Yi Liu in golden light during a Baroque performance.",
+        "de": "Yi Liu im goldenen Licht einer Barockaufführung.",
+        "zh-Hant": "劉一於巴洛克演出中沐浴在金色光影之中。"
+      },
+      "thumbnailSrc": "/image/liuyi-performance-golden-light.JPG",
+      "imageAlt": {
+        "en": "Yi Liu golden light",
+        "de": "Yi Liu im goldenen Licht",
+        "zh-Hant": "劉一金色光影演出"
+      }
+    },
+    {
+      "id": "m8",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Side Profile",
+        "de": "Yi Liu - Profilansicht",
+        "zh-Hant": "劉一：側面肖像"
+      },
+      "caption": {
+        "en": "Yi Liu in focused side profile during intimate recital performance.",
+        "de": "Yi Liu in konzentrierter Profilansicht während eines intimen Recitals.",
+        "zh-Hant": "劉一於親密獨奏會中專注投入的側面肖像。"
+      },
+      "thumbnailSrc": "/image/liuyi-performance-side-profile.JPG",
+      "imageAlt": {
+        "en": "Yi Liu side profile",
+        "de": "Yi Liu Profilansicht",
+        "zh-Hant": "劉一側面肖像"
+      }
+    },
+    {
+      "id": "m9",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Opera Costume",
+        "de": "Yi Liu - Opernkostüm",
+        "zh-Hant": "劉一：歌劇扮相"
+      },
+      "caption": {
+        "en": "Yi Liu in opera costume as Orfeo during performance.",
+        "de": "Yi Liu in Opernkostüm als Orfeo während der Aufführung.",
+        "zh-Hant": "劉一於演出中以 Orfeo 角色造型登台。"
+      },
+      "thumbnailSrc": "/image/liuyi-opera-lyre-costume.JPG",
+      "imageAlt": {
+        "en": "Yi Liu opera costume",
+        "de": "Yi Liu im Opernkostüm",
+        "zh-Hant": "劉一歌劇扮相"
+      }
+    },
+    {
+      "id": "m10",
+      "kind": "image",
+      "title": {
+        "en": "Yi Liu - Recital Ensemble",
+        "de": "Yi Liu - Recital mit Ensemble",
+        "zh-Hant": "劉一：與團隊同場獨奏會"
+      },
+      "caption": {
+        "en": "Yi Liu performing in an ensemble recital setting with instruments.",
+        "de": "Yi Liu in einem Recital mit Instrumentalensemble.",
+        "zh-Hant": "劉一於帶有器樂團隊配置的獨奏會中演出。"
+      },
+      "thumbnailSrc": "/image/liuyi-recital-with-ensemble.jpg",
+      "imageAlt": {
+        "en": "Yi Liu recital ensemble",
+        "de": "Yi Liu im Ensemble-Recital",
+        "zh-Hant": "劉一與團隊同場獨奏會"
+      }
+    },
+    {
+      "id": "m11",
+      "kind": "image",
+      "title": {
+        "en": "Kelvin Tsui - Harpsichord Church Performance",
+        "de": "Kelvin Tsui - Cembalo im Kirchenkonzert",
+        "zh-Hant": "徐錦輝：教堂羽管鍵琴演出"
+      },
+      "caption": {
+        "en": "Kelvin Tsui at the harpsichord during a church performance.",
+        "de": "Kelvin Tsui am Cembalo während eines Kirchenkonzerts.",
+        "zh-Hant": "徐錦輝於教堂演出中擔任羽管鍵琴演奏。"
+      },
+      "thumbnailSrc": "/image/kelvin-harpsichord-church-performance.jpg",
+      "imageAlt": {
+        "en": "Kelvin harpsichord church performance",
+        "de": "Kelvin Tsui am Cembalo im Kirchenkonzert",
+        "zh-Hant": "徐錦輝教堂羽管鍵琴演出"
+      }
+    },
+    {
+      "id": "m12",
+      "kind": "image",
+      "title": {
+        "en": "Kelvin Tsui - Harpsichord Recital",
+        "de": "Kelvin Tsui - Cembalorecital",
+        "zh-Hant": "徐錦輝：羽管鍵琴獨奏會"
+      },
+      "caption": {
+        "en": "Kelvin Tsui performing a harpsichord recital in concert setting.",
+        "de": "Kelvin Tsui in einem Cembalorecital.",
+        "zh-Hant": "徐錦輝於音樂會中演出羽管鍵琴獨奏。"
+      },
+      "thumbnailSrc": "/image/kelvin-harpsichord-recital.jpg",
+      "imageAlt": {
+        "en": "Kelvin harpsichord recital",
+        "de": "Kelvin Tsui im Cembalorecital",
+        "zh-Hant": "徐錦輝羽管鍵琴獨奏會"
+      }
+    },
+    {
+      "id": "m13",
+      "kind": "image",
+      "title": {
+        "en": "Kelvin Tsui - Harpsichord with Violin",
+        "de": "Kelvin Tsui - Cembalo mit Violine",
+        "zh-Hant": "徐錦輝：羽管鍵琴與小提琴"
+      },
+      "caption": {
+        "en": "Kelvin Tsui on harpsichord in collaboration with violin.",
+        "de": "Kelvin Tsui am Cembalo in Zusammenarbeit mit Violine.",
+        "zh-Hant": "徐錦輝以羽管鍵琴與小提琴合作演出。"
+      },
+      "thumbnailSrc": "/image/kelvin-harpsichord-with-violin.jpg",
+      "imageAlt": {
+        "en": "Kelvin harpsichord with violin",
+        "de": "Kelvin Tsui mit Violine und Cembalo",
+        "zh-Hant": "徐錦輝羽管鍵琴與小提琴合作"
+      }
+    },
+    {
+      "id": "m14",
+      "kind": "image",
+      "title": {
+        "en": "Kelvin Tsui - Recorder & Harpsichord Duo",
+        "de": "Kelvin Tsui - Blockflöte und Cembalo",
+        "zh-Hant": "徐錦輝：木笛與羽管鍵琴二重奏"
+      },
+      "caption": {
+        "en": "Kelvin Tsui in recorder and harpsichord duo performance.",
+        "de": "Kelvin Tsui in einer Aufführung für Blockflöte und Cembalo.",
+        "zh-Hant": "徐錦輝於木笛與羽管鍵琴二重奏中演出。"
+      },
+      "thumbnailSrc": "/image/kelvin-recorder-harpsichord-duo.jpg",
+      "imageAlt": {
+        "en": "Kelvin recorder and harpsichord duo",
+        "de": "Kelvin Tsui in Blockflöte-Cembalo-Duo",
+        "zh-Hant": "徐錦輝木笛與羽管鍵琴二重奏"
+      }
+    },
+    {
+      "id": "m15",
+      "kind": "image",
+      "title": {
+        "en": "Kelvin Tsui - Conducting Rehearsal",
+        "de": "Kelvin Tsui - Probenleitung",
+        "zh-Hant": "徐錦輝：排練指揮"
+      },
+      "caption": {
+        "en": "Kelvin Tsui conducting and leading an early music rehearsal session.",
+        "de": "Kelvin Tsui dirigiert und leitet eine Probe für Alte Musik.",
+        "zh-Hant": "徐錦輝指揮並帶領早期音樂排練。"
+      },
+      "thumbnailSrc": "/image/kelvin-conducting-rehearsal.jpg",
+      "imageAlt": {
+        "en": "Kelvin conducting rehearsal",
+        "de": "Kelvin Tsui bei der Probenleitung",
+        "zh-Hant": "徐錦輝排練指揮"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-1",
+      "embedUrl": "https://www.youtube.com/embed/7DJ2GffPxqg",
+      "title": {
+        "en": "Gemelli in Harmonia video 1",
+        "de": "Gemelli in Harmonia Video 1",
+        "zh-Hant": "Gemelli in Harmonia ?? 1"
+      }
+    },
+    {
+      "id": "video-2",
+      "embedUrl": "https://www.youtube.com/embed/bND6pxeTcUo",
+      "title": {
+        "en": "Gemelli in Harmonia video 2",
+        "de": "Gemelli in Harmonia Video 2",
+        "zh-Hant": "Gemelli in Harmonia ?? 2"
+      }
+    },
+    {
+      "id": "video-3",
+      "embedUrl": "https://www.youtube.com/embed/ShBayvwUTF0",
+      "title": {
+        "en": "Gemelli in Harmonia video 3",
+        "de": "Gemelli in Harmonia Video 3",
+        "zh-Hant": "Gemelli in Harmonia ?? 3"
+      }
+    },
+    {
+      "id": "video-4",
+      "embedUrl": "https://www.youtube.com/embed/Jmrc8ny5ci0",
+      "title": {
+        "en": "Gemelli in Harmonia video 4",
+        "de": "Gemelli in Harmonia Video 4",
+        "zh-Hant": "Gemelli in Harmonia ?? 4"
+      }
+    }
+  ],
+  "photosHeading": {
+    "en": "Curated images",
+    "de": "Bildauswahl",
+    "zh-Hant": "????"
+  },
+  "videosHeading": {
+    "en": "Videos",
+    "de": "Videos",
+    "zh-Hant": "??"
+  },
+  "videosIntro": {
+    "en": "Selected video materials are embedded directly on the website for uninterrupted viewing.",
+    "de": "Ausgew?hlte Videoeinblicke, direkt auf der Website eingebettet und ohne Medienbruch abspielbar.",
+    "zh-Hant": "??????????????????????????????"
+  },
+  "creditsNote": {
+    "en": "For photo, video, source, or copyright inquiries, please contact: musical_kelvin@yahoo.com.hk",
+    "de": "Bei Fragen zu Fotos, Videos, Quellenangaben oder Urheberrechten kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
+    "zh-Hant": "????????????????????????musical_kelvin@yahoo.com.hk"
+  }
+}

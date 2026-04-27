@@ -1,0 +1,96 @@
+{
+  "intro": {
+    "en": "A curated overview of current season highlights and presenter-relevant projects.",
+    "de": "Eine kuratierte Übersicht über aktuelle Saisonhöhepunkte und für Veranstalter relevante Projekte.",
+    "zh-Hant": "精選呈現本樂季重點節目與適合主辦單位參考的合作企劃。"
+  },
+  "highlights": [
+    {
+      "id": "s1",
+      "monthLabel": {
+        "en": "May 2025",
+        "de": "Mai 2025",
+        "zh-Hant": "2025 年 5 月"
+      },
+      "title": {
+        "en": "Vivaldi: Nisi Dominus",
+        "de": "Vivaldi: Nisi Dominus",
+        "zh-Hant": "韋瓦第：《Nisi Dominus》"
+      },
+      "location": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "zh-Hant": "德國"
+      },
+      "descriptor": {
+        "en": "Sacred Baroque program highlight",
+        "de": "Höhepunkt eines geistlichen Barockprogramms",
+        "zh-Hant": "宗教巴洛克專題節目亮點"
+      },
+      "kind": {
+        "en": "Featured recital",
+        "de": "Ausgewähltes Konzert",
+        "zh-Hant": "重點音樂會"
+      },
+      "dateISO": "2025-05-10"
+    },
+    {
+      "id": "s2",
+      "monthLabel": {
+        "en": "July 2025",
+        "de": "Juli 2025",
+        "zh-Hant": "2025 年 7 月"
+      },
+      "title": {
+        "en": "Baroque Concert Series",
+        "de": "Barockkonzertreihe",
+        "zh-Hant": "巴洛克音樂會系列"
+      },
+      "location": {
+        "en": "Hong Kong & Guangzhou",
+        "de": "Hongkong & Guangzhou",
+        "zh-Hant": "香港與廣州"
+      },
+      "descriptor": {
+        "en": "Touring concerts across two cities",
+        "de": "Gastspielkonzerte in zwei Städten",
+        "zh-Hant": "跨越兩座城市的巡演計畫"
+      },
+      "kind": {
+        "en": "Season tour",
+        "de": "Saisontournee",
+        "zh-Hant": "樂季巡演"
+      },
+      "dateISO": "2025-07-12"
+    },
+    {
+      "id": "s3",
+      "monthLabel": {
+        "en": "December 2025",
+        "de": "Dezember 2025",
+        "zh-Hant": "2025 年 12 月"
+      },
+      "title": {
+        "en": "Early Italian Baroque Recital",
+        "de": "Frühitalienisches Barockrecital",
+        "zh-Hant": "義大利早期巴洛克獨奏會"
+      },
+      "location": {
+        "en": "Taiwan",
+        "de": "Taiwan",
+        "zh-Hant": "台灣"
+      },
+      "descriptor": {
+        "en": "Program centered on early Italian affective style",
+        "de": "Programm mit Fokus auf den frühitalienischen Affektstil",
+        "zh-Hant": "聚焦義大利早期巴洛克情感風格的節目"
+      },
+      "kind": {
+        "en": "Special program",
+        "de": "Sonderprogramm",
+        "zh-Hant": "專題節目"
+      },
+      "dateISO": "2025-12-08"
+    }
+  ]
+}

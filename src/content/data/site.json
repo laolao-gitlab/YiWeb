@@ -1,0 +1,148 @@
+{
+  "brand": {
+    "name": "Gemelli in Harmonia",
+    "subtitle": {
+      "en": "Countertenor & Harpsichord Duo",
+      "de": "Duo für Countertenor und Cembalo",
+      "zh-Hant": "假聲男高音與羽管鍵琴二重奏"
+    },
+    "shortIntro": {
+      "en": "Gemelli in Harmonia, founded in 2023 by countertenor Yi Liu and harpsichordist Kelvin Tsui, is a Germany-based duo devoted to Baroque music and early music. Performing across Germany, Italy, China, South Korea, Japan, Finland, Austria, and France, the ensemble brings a poised, historically informed, and emotionally immediate voice to international concert life.",
+      "de": "Gemelli in Harmonia, 2023 von Countertenor Yi Liu und dem Cembalisten Kelvin Tsui gegründet, ist ein in Deutschland beheimatetes Duo für Barockmusik und Alte Musik. Mit Auftritten in Deutschland, Italien, China, Südkorea, Japan, Finnland, Österreich und Frankreich bringt das Ensemble eine historisch informierte, stilistisch feine und unmittelbar berührende Stimme in das internationale Konzertleben ein.",
+      "zh-Hant": "Gemelli in Harmonia 由假聲男高音劉一與羽管鍵琴家徐錦輝於 2023 年創立，是一個立足德國、專注於巴洛克音樂與早期音樂的二重奏組合。組合曾於德國、義大利、中國、韓國、日本、芬蘭、奧地利與法國演出，以兼具歷史風格意識、細膩格調與情感感染力的音樂語言活躍於國際樂壇。"
+    },
+    "portraitAlt": {
+      "en": "Gemelli in Harmonia artistic portrait",
+      "de": "Künstlerisches Porträt von Gemelli in Harmonia",
+      "zh-Hant": "Gemelli in Harmonia 藝術形象照"
+    },
+    "base": {
+      "en": "Hong Kong roots, Germany based",
+      "de": "In Hongkong verwurzelt, in Deutschland beheimatet",
+      "zh-Hant": "根植香港，立足德國"
+    }
+  },
+  "duo": {
+    "meaningTitle": {
+      "en": "Twin Stars in Harmony",
+      "de": "Zwillingssterne in Harmonie",
+      "zh-Hant": "和聲中的雙星"
+    },
+    "meaningBody": {
+      "en": "The name Gemelli in Harmonia evokes two musical lights shaping one shared voice through dialogue, breath, and mutual inspiration.",
+      "de": "Der Name Gemelli in Harmonia beschwört zwei musikalische Lichter, die durch Dialog, Atem und gegenseitige Inspiration eine gemeinsame Stimme formen.",
+      "zh-Hant": "Gemelli in Harmonia 之名寓意兩道音樂之光，透過對話、呼吸與彼此啟發，共同塑造出一種相契的聲音。"
+    },
+    "founded": "2023",
+    "geographies": {
+      "en": [
+        "Germany",
+        "Italy",
+        "China",
+        "South Korea",
+        "Japan",
+        "Finland",
+        "Austria",
+        "France"
+      ],
+      "de": [
+        "Deutschland",
+        "Italien",
+        "China",
+        "Südkorea",
+        "Japan",
+        "Finnland",
+        "Österreich",
+        "Frankreich"
+      ],
+      "zh-Hant": [
+        "德國",
+        "義大利",
+        "中國",
+        "韓國",
+        "日本",
+        "芬蘭",
+        "奧地利",
+        "法國"
+      ]
+    },
+    "longIntro": {
+      "en": [
+        "Gemelli in Harmonia, founded in 2023 by countertenor Yi Liu and harpsichordist, early music conductor, and vocal coach Kelvin Tsui, is a Hong Kong-rooted and Germany-based duo devoted to historically informed performance and expressive storytelling through Baroque music and early music.",
+        "Since its formation, the duo has appeared across Europe and Asia, presenting recital programs and collaborative projects in Germany, Italy, China, South Korea, Japan, Finland, Austria, and France.",
+        "Its programs explore the expressive breadth of the seventeenth and eighteenth centuries, from the affective intensity of early Italian Baroque monody to the cultivated eloquence of French and German high Baroque repertoire.",
+        "Whether in intimate voice-and-harpsichord recitals or in collaborations with orchestras and early music ensembles, Gemelli in Harmonia is defined by musical dialogue, stylistic refinement, and a shared commitment to reaching contemporary audiences with clarity and emotional truth."
+      ],
+      "de": [
+        "Gemelli in Harmonia wurde 2023 von Countertenor Yi Liu sowie dem Cembalisten, Dirigenten für Alte Musik und Gesangscoach Kelvin Tsui gegründet. Das in Hongkong verwurzelte und in Deutschland beheimatete Duo widmet sich der historisch informierten Aufführungspraxis und dem ausdrucksstarken Erzählen durch Barockmusik und Alte Musik.",
+        "Seit seiner Gründung ist das Duo in Europa und Asien zu erleben und präsentiert Recitalprogramme und kooperative Projekte in Deutschland, Italien, China, Südkorea, Japan, Finnland, Österreich und Frankreich.",
+        "Die Programme erkunden die Ausdrucksvielfalt des 17. und 18. Jahrhunderts, von der affektgeladenen Monodie des frühen italienischen Barock bis zur kultivierten Eloquenz des französischen und deutschen Hochbarock.",
+        "Ob im intimen Duo mit Stimme und Cembalo oder in Zusammenarbeit mit Orchestern und Ensembles für Alte Musik: Gemelli in Harmonia steht für musikalischen Dialog, stilistische Feinheit und den gemeinsamen Anspruch, heutige Zuhörerinnen und Zuhörer mit Klarheit und emotionaler Wahrhaftigkeit zu erreichen."
+      ],
+      "zh-Hant": [
+        "Gemelli in Harmonia 由假聲男高音劉一，以及身兼羽管鍵琴家、古樂指揮與聲樂指導的徐錦輝於 2023 年創立。這個根植香港、立足德國的二重奏，致力於以歷史風格意識與富於表現力的敘事方式，呈現巴洛克音樂與早期音樂。",
+        "自成立以來，組合活躍於歐洲與亞洲，在德國、義大利、中國、韓國、日本、芬蘭、奧地利與法國等地推出獨奏會節目與合作企劃。",
+        "其節目著眼於十七、十八世紀豐富多樣的表現語彙，從義大利早期巴洛克獨唱作品的情感張力，到法德高巴洛克作品的精緻修辭與風格光彩。",
+        "無論是親密細膩的聲樂與羽管鍵琴二重奏，抑或與管弦樂團及早期音樂團體的合作演出，Gemelli in Harmonia 始終以音樂對話、風格修養與面向當代觀眾的真誠傳達為核心。"
+      ]
+    },
+    "mission": {
+      "en": "Historically informed, eloquent, and chamber-intimate Baroque performance for international presenters and audiences.",
+      "de": "Historisch informiertes, beredtes und kammermusikalisch intimes Barockmusizieren für internationales Konzertpublikum und Veranstalter.",
+      "zh-Hant": "以歷史風格意識、音樂修辭與室內樂般的親密感，面向國際觀眾與主辦單位呈現巴洛克音樂。"
+    },
+    "formats": {
+      "en": [
+        "Voice and harpsichord recitals",
+        "Curated Baroque evening programs",
+        "Collaborations with orchestras and early music ensembles"
+      ],
+      "de": [
+        "Recitals für Stimme und Cembalo",
+        "Kuratiert gestaltete Barockprogramme",
+        "Kooperationen mit Orchestern und Ensembles für Alte Musik"
+      ],
+      "zh-Hant": [
+        "聲樂與羽管鍵琴二重奏音樂會",
+        "策劃式巴洛克專題節目",
+        "與管弦樂團及早期音樂團體合作演出"
+      ]
+    }
+  },
+  "repertoire": {
+    "intro": {
+      "en": "The repertoire of Gemelli in Harmonia centers on the expressive worlds of seventeenth- and eighteenth-century Baroque music, approached with historical awareness, rhetorical clarity, and a chamber-like sense of intimacy.",
+      "de": "Das Repertoire von Gemelli in Harmonia konzentriert sich auf die Ausdruckswelten der Barockmusik des 17. und 18. Jahrhunderts und wird mit historischem Bewusstsein, rhetorischer Klarheit und kammermusikalischer Intimität gestaltet.",
+      "zh-Hant": "Gemelli in Harmonia 的曲目聚焦於十七、十八世紀巴洛克音樂的多重表現世界，並以歷史風格意識、修辭清晰度與室內樂般的親密感加以呈現。"
+    },
+    "themes": {
+      "en": [
+        "Seventeenth- and eighteenth-century repertoire",
+        "Early Italian Baroque monody and sacred music",
+        "French and German high Baroque eloquence",
+        "Intimate voice-and-harpsichord recital formats",
+        "Collaborative projects with orchestras and early music ensembles",
+        "Historically informed and emotionally immediate interpretation",
+        "Musical dialogue, mutual inspiration, and nuanced storytelling"
+      ],
+      "de": [
+        "Repertoire des 17. und 18. Jahrhunderts",
+        "Früher italienischer Barock, Monodie und geistliche Musik",
+        "Französische und deutsche Hochbarock-Rhetorik",
+        "Intime Recitalformate für Stimme und Cembalo",
+        "Kooperative Projekte mit Orchestern und Ensembles für Alte Musik",
+        "Historisch informierte und emotional unmittelbare Interpretation",
+        "Musikalischer Dialog, gegenseitige Inspiration und differenziertes Erzählen"
+      ],
+      "zh-Hant": [
+        "十七與十八世紀曲目",
+        "義大利早期巴洛克獨唱作品與宗教音樂",
+        "法國與德國高巴洛克的音樂修辭",
+        "親密細膩的聲樂與羽管鍵琴獨奏會形式",
+        "與管弦樂團及早期音樂團體的合作企劃",
+        "兼具歷史風格意識與情感感染力的詮釋",
+        "以音樂對話、彼此啟發與細緻敘事為核心"
+      ]
+    }
+  }
+}

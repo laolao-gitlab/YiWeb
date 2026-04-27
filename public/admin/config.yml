@@ -1,0 +1,552 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Local testing:
+# 1. Run `npm run dev:admin`
+# 2. In a second terminal run `npm run cms:proxy`
+# 3. Open /admin
+local_backend:
+  url: http://localhost:8081/api/v1
+media_folder: public/image
+public_folder: /image
+publish_mode: simple
+
+# Set these two values after deployment if you want the CMS login screen
+# to show the final public URL instead of a local-relative path.
+# site_url: https://your-live-domain.example
+# display_url: https://your-live-domain.example
+
+collections:
+  - name: site
+    label: Site Content
+    format: json
+    delete: false
+    files:
+      - name: site_content
+        label: Homepage, Duo, Repertoire
+        file: src/content/data/site.json
+        fields:
+          - label: Brand
+            name: brand
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - label: Subtitle
+                name: subtitle
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Homepage Short Introduction
+                name: shortIntro
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Hero Image Alt Text
+                name: portraitAlt
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Base Label
+                name: base
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+          - label: Duo
+            name: duo
+            widget: object
+            fields:
+              - label: Meaning Title
+                name: meaningTitle
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Meaning Body
+                name: meaningBody
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - { label: Founded Year, name: founded, widget: string }
+              - label: Concert Countries
+                name: geographies
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: list, field: { label: Item, name: item, widget: string } }
+                  - { label: German, name: de, widget: list, field: { label: Item, name: item, widget: string } }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Item, name: item, widget: string } }
+              - label: Long Introduction
+                name: longIntro
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+                  - { label: German, name: de, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+              - label: Mission
+                name: mission
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Performance Formats
+                name: formats
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: list, field: { label: Item, name: item, widget: string } }
+                  - { label: German, name: de, widget: list, field: { label: Item, name: item, widget: string } }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Item, name: item, widget: string } }
+          - label: Repertoire
+            name: repertoire
+            widget: object
+            fields:
+              - label: Intro
+                name: intro
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Themes
+                name: themes
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: list, field: { label: Theme, name: theme, widget: string } }
+                  - { label: German, name: de, widget: list, field: { label: Theme, name: theme, widget: string } }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Theme, name: theme, widget: string } }
+
+  - name: artists
+    label: Artists
+    format: json
+    delete: false
+    files:
+      - name: artists_content
+        label: Artist Biographies
+        file: src/content/data/artists.json
+        fields:
+          - label: Artists
+            name: artists
+            widget: list
+            summary: "{{fields.name}}"
+            field:
+              label: Artist
+              name: artist
+              widget: object
+              fields:
+                - { label: ID, name: id, widget: string }
+                - { label: Slug, name: slug, widget: string }
+                - { label: Name, name: name, widget: string }
+                - label: Display Name
+                  name: displayName
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Role
+                  name: role
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Intro
+                  name: intro
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: text }
+                    - { label: German, name: de, widget: text }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: text }
+                - label: Homepage Button Label
+                  name: previewLabel
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - { label: Portrait Image Path, name: portraitSrc, widget: string, hint: "Keep the assigned portrait path unchanged unless you intentionally replace the portrait file." }
+                - label: Portrait Alt Text
+                  name: portraitAlt
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Biography Sections
+                  name: sections
+                  widget: list
+                  field:
+                    label: Section
+                    name: section
+                    widget: object
+                    fields:
+                      - { label: Section ID, name: id, widget: string }
+                      - label: Heading
+                        name: heading
+                        widget: object
+                        fields:
+                          - { label: English, name: en, widget: string }
+                          - { label: German, name: de, widget: string }
+                          - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                      - label: Paragraphs
+                        name: paragraphs
+                        widget: object
+                        fields:
+                          - { label: English, name: en, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+                          - { label: German, name: de, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+                          - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Paragraph, name: paragraph, widget: text } }
+
+  - name: events
+    label: Season Events
+    format: json
+    delete: false
+    files:
+      - name: events_content
+        label: Season Highlights
+        file: src/content/data/events.json
+        fields:
+          - label: Intro
+            name: intro
+            widget: object
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: German, name: de, widget: text }
+              - { label: Traditional Chinese, name: zh-Hant, widget: text }
+          - label: Highlights
+            name: highlights
+            widget: list
+            field:
+              label: Event
+              name: event
+              widget: object
+              fields:
+                - { label: Event ID, name: id, widget: string }
+                - { label: Date ISO, name: dateISO, widget: string, hint: "Use YYYY-MM-DD." }
+                - label: Month Label
+                  name: monthLabel
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Title
+                  name: title
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Location
+                  name: location
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Descriptor
+                  name: descriptor
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Kind
+                  name: kind
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+
+  - name: media
+    label: Media
+    format: json
+    delete: false
+    files:
+      - name: media_content
+        label: Media Gallery and Videos
+        file: src/content/data/media.json
+        fields:
+          - label: Intro
+            name: intro
+            widget: object
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: German, name: de, widget: text }
+              - { label: Traditional Chinese, name: zh-Hant, widget: text }
+          - label: Photos Heading
+            name: photosHeading
+            widget: object
+            fields:
+              - { label: English, name: en, widget: string }
+              - { label: German, name: de, widget: string }
+              - { label: Traditional Chinese, name: zh-Hant, widget: string }
+          - label: Videos Heading
+            name: videosHeading
+            widget: object
+            fields:
+              - { label: English, name: en, widget: string }
+              - { label: German, name: de, widget: string }
+              - { label: Traditional Chinese, name: zh-Hant, widget: string }
+          - label: Videos Intro
+            name: videosIntro
+            widget: object
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: German, name: de, widget: text }
+              - { label: Traditional Chinese, name: zh-Hant, widget: text }
+          - label: Media Credits Note
+            name: creditsNote
+            widget: object
+            fields:
+              - { label: English, name: en, widget: text }
+              - { label: German, name: de, widget: text }
+              - { label: Traditional Chinese, name: zh-Hant, widget: text }
+          - label: Media Images
+            name: items
+            widget: list
+            field:
+              label: Media Image
+              name: item
+              widget: object
+              fields:
+                - { label: ID, name: id, widget: string }
+                - { label: Kind, name: kind, widget: hidden, default: image }
+                - { label: Image Path, name: thumbnailSrc, widget: image, hint: "Upload the image here or choose an existing file from public/image." }
+                - label: Title
+                  name: title
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                - label: Caption
+                  name: caption
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: text }
+                    - { label: German, name: de, widget: text }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: text }
+                - label: Alt Text
+                  name: imageAlt
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+          - label: YouTube Videos
+            name: videos
+            widget: list
+            field:
+              label: Video
+              name: video
+              widget: object
+              fields:
+                - { label: ID, name: id, widget: string }
+                - { label: Embed URL, name: embedUrl, widget: string, hint: "Use the https://www.youtube.com/embed/... format." }
+                - label: Title
+                  name: title
+                  widget: object
+                  fields:
+                    - { label: English, name: en, widget: string }
+                    - { label: German, name: de, widget: string }
+                    - { label: Traditional Chinese, name: zh-Hant, widget: string }
+
+  - name: contact
+    label: Contact and Legal
+    format: json
+    delete: false
+    files:
+      - name: contact_content
+        label: Contact, Footer, Imprint, Privacy
+        file: src/content/data/contact.json
+        fields:
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - label: Heading
+                name: heading
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Intro
+                name: intro
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Invitation Text
+                name: invitation
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - { label: Email, name: email, widget: string }
+              - { label: Instagram Handle, name: instagram, widget: string }
+              - { label: Instagram URL, name: instagramUrl, widget: string }
+              - label: Form Labels
+                name: form
+                widget: object
+                fields:
+                  - label: Name Label
+                    name: name
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Email Label
+                    name: email
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Subject Label
+                    name: subject
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Topic Label
+                    name: topic
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Message Label
+                    name: message
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Send Button Label
+                    name: send
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Sending Label
+                    name: sending
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Success Title
+                    name: successTitle
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Success Body
+                    name: successBody
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: text }
+                      - { label: German, name: de, widget: text }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: text }
+                  - label: Error Title
+                    name: errorTitle
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Error Body
+                    name: errorBody
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: text }
+                      - { label: German, name: de, widget: text }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: text }
+                  - label: Required Fields Hint
+                    name: requiredHint
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Honeypot Label
+                    name: honeypotLabel
+                    widget: object
+                    fields:
+                      - { label: English, name: en, widget: string }
+                      - { label: German, name: de, widget: string }
+                      - { label: Traditional Chinese, name: zh-Hant, widget: string }
+                  - label: Contact Topics
+                    name: topics
+                    widget: list
+                    field:
+                      label: Topic
+                      name: topicItem
+                      widget: object
+                      fields:
+                        - { label: ID, name: id, widget: string }
+                        - label: Label
+                          name: label
+                          widget: object
+                          fields:
+                            - { label: English, name: en, widget: string }
+                            - { label: German, name: de, widget: string }
+                            - { label: Traditional Chinese, name: zh-Hant, widget: string }
+          - label: Legal
+            name: legal
+            widget: object
+            fields:
+              - label: Imprint Label
+                name: imprint
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Privacy Label
+                name: privacy
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }
+              - label: Imprint Body
+                name: imprintBody
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Privacy Body
+                name: privacyBody
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: text }
+                  - { label: German, name: de, widget: text }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
+              - label: Footer Line
+                name: footerLine
+                widget: object
+                fields:
+                  - { label: English, name: en, widget: string }
+                  - { label: German, name: de, widget: string }
+                  - { label: Traditional Chinese, name: zh-Hant, widget: string }

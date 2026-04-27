@@ -1,0 +1,86 @@
+{
+  "home": {
+    "title": {
+      "en": "Gemelli in Harmonia | Official Website",
+      "de": "Gemelli in Harmonia | Offizielle Website",
+      "zh-Hant": "Gemelli in Harmonia | 官方網站"
+    },
+    "description": {
+      "en": "Official website of the early music duo Gemelli in Harmonia: countertenor Yi Liu and harpsichordist Kelvin Tsui.",
+      "de": "Offizielle Website des Alte-Musik-Duos Gemelli in Harmonia: Countertenor Yi Liu und Cembalist Kelvin Tsui.",
+      "zh-Hant": "Gemelli in Harmonia 官方網站：由假聲男高音劉一與羽管鍵琴家徐錦輝組成的早期音樂二重奏。"
+    }
+  },
+  "duo": {
+    "title": {
+      "en": "Duo | Gemelli in Harmonia",
+      "de": "Duo | Gemelli in Harmonia",
+      "zh-Hant": "二重奏 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Artistic identity, mission, and international profile of Gemelli in Harmonia.",
+      "de": "Künstlerische Identität, Mission und internationales Profil von Gemelli in Harmonia.",
+      "zh-Hant": "Gemelli in Harmonia 的藝術定位、使命與國際演出概況。"
+    }
+  },
+  "artists": {
+    "title": {
+      "en": "Artists | Gemelli in Harmonia",
+      "de": "Künstler | Gemelli in Harmonia",
+      "zh-Hant": "藝術家 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Biographies of Yi Liu and Kelvin Tsui.",
+      "de": "Biografien von Yi Liu und Kelvin Tsui.",
+      "zh-Hant": "劉一與徐錦輝的藝術家簡介。"
+    }
+  },
+  "repertoire": {
+    "title": {
+      "en": "Repertoire | Gemelli in Harmonia",
+      "de": "Repertoire | Gemelli in Harmonia",
+      "zh-Hant": "曲目 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Program focus across seventeenth- and eighteenth-century Baroque repertoire.",
+      "de": "Programmschwerpunkte im Barockrepertoire des 17. und 18. Jahrhunderts.",
+      "zh-Hant": "聚焦十七與十八世紀巴洛克音樂的節目方向。"
+    }
+  },
+  "season": {
+    "title": {
+      "en": "Season | Gemelli in Harmonia",
+      "de": "Saison | Gemelli in Harmonia",
+      "zh-Hant": "樂季 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Featured season highlights and concert projects.",
+      "de": "Ausgewählte Saisonhöhepunkte und Konzertprojekte.",
+      "zh-Hant": "本樂季重點節目與演出企劃。"
+    }
+  },
+  "media": {
+    "title": {
+      "en": "Media | Gemelli in Harmonia",
+      "de": "Medien | Gemelli in Harmonia",
+      "zh-Hant": "媒體 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Curated photo and video material for artistic presentation.",
+      "de": "Kuratierte Foto- und Videomaterialien für die künstlerische Präsentation.",
+      "zh-Hant": "用於藝術呈現的精選照片與影音素材。"
+    }
+  },
+  "contact": {
+    "title": {
+      "en": "Contact | Gemelli in Harmonia",
+      "de": "Kontakt | Gemelli in Harmonia",
+      "zh-Hant": "聯絡 | Gemelli in Harmonia"
+    },
+    "description": {
+      "en": "Booking, collaboration, and presenter inquiries.",
+      "de": "Anfragen zu Buchungen, Kooperationen und Veranstaltungsprojekten.",
+      "zh-Hant": "演出邀約、合作提案與主辦相關洽詢。"
+    }
+  }
+}
