@@ -2,9 +2,8 @@ backend:
   name: github
   repo: laolao-gitlab/YiWeb
   branch: develop
-  base_url: https://gemelli-cms-oauth.vercel.app
-  auth_endpoint: auth
-
+  base_url: https://yi-web-taupe.vercel.app
+  auth_endpoint: api/auth
 # Local testing:
 # 1. Run `npm run dev:admin`
 # 2. In a second terminal run `npm run cms:proxy`
