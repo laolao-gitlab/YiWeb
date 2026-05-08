@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: laolao-gitlab/YiWeb
+  branch: develop
+  base_url: https://gemelli-cms-oauth.vercel.app
+  auth_endpoint: auth
 
 # Local testing:
 # 1. Run `npm run dev:admin`
