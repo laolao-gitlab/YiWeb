@@ -1,9 +1,7 @@
 backend:
-  name: github
-  repo: laolao-gitlab/YiWeb
-  branch: develop
-  base_url: https://yi-web-taupe.vercel.app
-  auth_endpoint: api/auth
+  name: git-gateway
+  branch: main
+
 # Local testing:
 # 1. Run `npm run dev:admin`
 # 2. In a second terminal run `npm run cms:proxy`
@@ -325,7 +323,7 @@ collections:
               fields:
                 - { label: ID, name: id, widget: string }
                 - { label: Kind, name: kind, widget: hidden, default: image }
-                - { label: Image Path, name: thumbnailSrc, widget: image, hint: "Upload the image here or choose an existing file from public/image." }
+                - { label: Image Path, name: thumbnailSrc, widget: image, media_folder: "/public/image", public_folder: "/image", hint: "Upload the image here or choose an existing file from public/image." }
                 - label: Title
                   name: title
                   widget: object
