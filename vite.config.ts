@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import type { Plugin } from 'vite'
 import { existsSync, readFileSync } from 'node:fs'
 import path from 'node:path'
+import { getClientIpFromRequest, processContactSubmission, readJsonBody } from './server/contact-handler.js'
 
 function decapAdminMiddleware(): Plugin {
   return {
@@ -40,41 +41,26 @@ function contactApiMiddleware(): Plugin {
   return {
     name: 'contact-api-middleware',
     configureServer(server) {
-      server.middlewares.use('/api/contact', (req, res, next) => {
+      server.middlewares.use('/api/contact', async (req, res, next) => {
         if (req.method !== 'POST') return next()
 
-        let raw = ''
-        req.on('data', (chunk) => {
-          raw += chunk
-        })
+        try {
+          const body = await readJsonBody(req)
+          const result = await processContactSubmission({
+            body,
+            env: process.env,
+            clientIp: getClientIpFromRequest(req)
+          })
 
-        req.on('end', () => {
-          try {
-            const json = raw ? JSON.parse(raw) : {}
-            const botField = String(json.botField ?? '')
-            const createdAt = Number(json.createdAt ?? 0)
-
-            // Basic anti-spam gate: honeypot must be empty and submission must not be instantaneous.
-            const timeOnPageMs = createdAt ? Date.now() - createdAt : 0
-            const isSpam = botField.trim().length > 0 || timeOnPageMs < 1200
-
-            if (isSpam) {
-              res.statusCode = 400
-              res.setHeader('Content-Type', 'application/json')
-              res.end(JSON.stringify({ ok: false, error: 'spam' }))
-              return
-            }
-
-            // Prototype response: in production, connect your email/contact backend here.
-            res.statusCode = 200
-            res.setHeader('Content-Type', 'application/json')
-            res.end(JSON.stringify({ ok: true }))
-          } catch {
-            res.statusCode = 400
-            res.setHeader('Content-Type', 'application/json')
-            res.end(JSON.stringify({ ok: false, error: 'invalid-json' }))
-          }
-        })
+          res.statusCode = result.status
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify(result.body))
+        } catch (error) {
+          console.error('Local contact API error', error)
+          res.statusCode = 500
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ ok: false, error: 'Internal server error.' }))
+        }
       })
     }
   }
