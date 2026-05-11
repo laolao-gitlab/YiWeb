@@ -215,7 +215,7 @@ export async function readJsonBody(req) {
 
 export async function processContactSubmission({ body, env, clientIp }) {
   const apiKey = String(env.RESEND_API_KEY ?? '').trim();
-  const contactEmail = String(env.CONTACT_EMAIL ?? 'musical_kelvin@yahoo.com.hk').trim();
+  const contactEmail = String(env.CONTACT_EMAIL ?? '').trim();
   const fromEmail = String(env.FROM_EMAIL ?? '').trim();
 
   const name = clampAndClean(body?.name, LIMITS.name);

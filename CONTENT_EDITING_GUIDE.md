@@ -126,6 +126,26 @@ These are the real details now used on the website:
 
 LinkedIn is intentionally not used on this website.
 
+## Contact Form Test Recipient
+
+The public website contact email remains:
+
+- `musical_kelvin@yahoo.com.hk`
+
+For temporary contact form testing, the backend recipient is controlled by the environment variable `CONTACT_EMAIL`.
+
+Current testing value:
+
+```env
+CONTACT_EMAIL=Li.Minghao@campus.lmu.de
+```
+
+Before final production launch, change it back to:
+
+```env
+CONTACT_EMAIL=musical_kelvin@yahoo.com.hk
+```
+
 ## Very Important Image Rules
 
 Do not change these special image assignments unless you intentionally replace the same official portrait file:
