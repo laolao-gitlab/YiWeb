@@ -1212,8 +1212,12 @@
           "en": "Season | Gemelli in Harmonia",
           "de": "Saison | Gemelli in Harmonia",
           "zh-Hant": "演出日程 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Featured season highlights and concert projects.",
+          "de": "Ausgewählte Saisonhöhepunkte und Konzertprojekte.",
+          "zh-Hant": "本樂季重點節目與演出企劃。"
         }
-      
       },
       "media": {
         "title": {
