@@ -91,6 +91,151 @@
         "zh-Hant": "專題節目"
       },
       "dateISO": "2025-12-08"
+    },
+    {
+      "id": "s4",
+      "monthLabel": {
+        "en": "14 August 2026",
+        "de": "14. August 2026",
+        "zh-Hant": "2026 年 8 月 14 日"
+      },
+      "title": {
+        "en": "Liu Yi Recital with Guangzhou Gamut Baroque Ensemble",
+        "de": "Liu Yi Recital mit dem Guangzhou Gamut Baroque Ensemble",
+        "zh-Hant": "劉一獨唱音樂會·佳慕巴洛克古樂團"
+      },
+      "location": {
+        "en": "Guangzhou Church of Our Saviour",
+        "de": "Erlöserkirche Guangzhou",
+        "zh-Hant": "廣州救主堂"
+      },
+      "descriptor": {
+        "en": "Recital with Guangzhou Gamut Baroque Ensemble",
+        "de": "Recital mit dem Guangzhou Gamut Baroque Ensemble",
+        "zh-Hant": "與廣州佳慕巴洛克古樂團合作演出"
+      },
+      "kind": {
+        "en": "Recital",
+        "de": "Recital",
+        "zh-Hant": "獨唱音樂會"
+      },
+      "dateISO": "2026-08-14"
+    },
+    {
+      "id": "s5",
+      "monthLabel": {
+        "en": "15 August 2026",
+        "de": "15. August 2026",
+        "zh-Hant": "2026 年 8 月 15 日"
+      },
+      "title": {
+        "en": "Viva Baroque — The Beauty of the Countertenor Voice",
+        "de": "Viva Barock — Die Schönheit der Countertenor-Stimme",
+        "zh-Hant": "非凡巴洛克 — 探索假聲男高音的純粹之美"
+      },
+      "location": {
+        "en": "Guangzhou Liangsheng Concert Hall",
+        "de": "Guangzhou Liangsheng Concert Hall",
+        "zh-Hant": "廣州亮聲音樂廳"
+      },
+      "descriptor": {
+        "en": "A Baroque program exploring the pure beauty of the countertenor voice",
+        "de": "Ein Barockprogramm über die reine Schönheit der Countertenor-Stimme",
+        "zh-Hant": "探索假聲男高音純粹之美的巴洛克專場"
+      },
+      "kind": {
+        "en": "Countertenor recital",
+        "de": "Countertenor-Recital",
+        "zh-Hant": "假聲男高音音樂會"
+      },
+      "dateISO": "2026-08-15"
+    },
+    {
+      "id": "s6",
+      "monthLabel": {
+        "en": "11-12 September 2026",
+        "de": "11.-12. September 2026",
+        "zh-Hant": "2026 年 9 月 11 至 12 日"
+      },
+      "title": {
+        "en": "Mozart's Opera Lucio Silla",
+        "de": "Mozarts Oper Lucio Silla",
+        "zh-Hant": "莫札特歌劇《獨裁君主斯拉》"
+      },
+      "location": {
+        "en": "Hong Kong City Hall",
+        "de": "Hong Kong City Hall",
+        "zh-Hant": "香港大會堂"
+      },
+      "descriptor": {
+        "en": "Hong Kong City Hall performances on 11 and 12 September 2026",
+        "de": "Aufführungen in der Hong Kong City Hall am 11. und 12. September 2026",
+        "zh-Hant": "2026 年 9 月 11 至 12 日於香港大會堂演出"
+      },
+      "kind": {
+        "en": "Opera",
+        "de": "Oper",
+        "zh-Hant": "歌劇"
+      },
+      "dateISO": "2026-09-11"
+    },
+    {
+      "id": "s7",
+      "monthLabel": {
+        "en": "12-17 September 2026",
+        "de": "12.-17. September 2026",
+        "zh-Hant": "2026 年 9 月 12 至 17 日"
+      },
+      "title": {
+        "en": "7th International Opera Workshop Waiblingen",
+        "de": "7. Internationale Opernwerkstatt Waiblingen",
+        "zh-Hant": "第七屆德國偉伯靈根歌劇節"
+      },
+      "location": {
+        "en": "Waiblingen, Germany",
+        "de": "Waiblingen, Deutschland",
+        "zh-Hant": "德國偉伯靈根"
+      },
+      "descriptor": {
+        "en": "International opera workshop and festival program",
+        "de": "Internationales Opernwerkstatt- und Festivalprogramm",
+        "zh-Hant": "國際歌劇工作坊與歌劇節節目"
+      },
+      "kind": {
+        "en": "Opera workshop",
+        "de": "Opernwerkstatt",
+        "zh-Hant": "歌劇工作坊"
+      },
+      "dateISO": "2026-09-12"
+    },
+    {
+      "id": "s8",
+      "monthLabel": {
+        "en": "11 October 2026",
+        "de": "11. Oktober 2026",
+        "zh-Hant": "2026 年 10 月 11 日"
+      },
+      "title": {
+        "en": "Mozart: \"Spatzenmesse\"",
+        "de": "Mozart: \"Spatzenmesse\"",
+        "zh-Hant": "莫札特《麻雀彌撒曲》"
+      },
+      "location": {
+        "en": "Trossingen, Germany",
+        "de": "Trossingen, Deutschland",
+        "zh-Hant": "德國特羅辛根"
+      },
+      "descriptor": {
+        "en": "Church concert with Kirchenmusik Seelsorgeeinheit Trossingen",
+        "de": "Kirchenkonzert mit Kirchenmusik Seelsorgeeinheit Trossingen",
+        "zh-Hant": "德國特羅辛根教堂音樂會"
+      },
+      "kind": {
+        "en": "Church concert",
+        "de": "Kirchenkonzert",
+        "zh-Hant": "教堂音樂會"
+      },
+      "dateISO": "2026-10-11"
     }
   ]
 }
