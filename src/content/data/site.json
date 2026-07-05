@@ -111,5 +111,1137 @@
         "與管弦樂團及早期音樂團體合作演出"
       ]
     }
+    },
+    "nav": [
+      {
+        "id": "home",
+        "label": {
+          "en": "Home",
+          "de": "Start",
+          "zh-Hant": "首頁"
+        }
+      },
+      {
+        "id": "duo",
+        "label": {
+          "en": "Duo",
+          "de": "Duo",
+          "zh-Hant": "二重奏"
+        }
+      },
+      {
+        "id": "artists",
+        "label": {
+          "en": "Artists",
+          "de": "Künstler",
+          "zh-Hant": "藝術家"
+        }
+      },
+      {
+        "id": "season",
+        "label": {
+          "en": "Season",
+          "de": "Saison",
+          "zh-Hant": "樂季"
+        }
+      },
+      {
+        "id": "media",
+        "label": {
+          "en": "Media",
+          "de": "Medien",
+          "zh-Hant": "媒體"
+        }
+      },
+      {
+        "id": "contact",
+        "label": {
+          "en": "Contact",
+          "de": "Kontakt",
+          "zh-Hant": "聯絡"
+        }
+      }
+    ],
+    "pages": {
+      "header": {
+        "menuLabel": {
+          "en": "Open menu",
+          "de": "Menü öffnen",
+          "zh-Hant": "開啟選單"
+        },
+        "primaryNavAria": {
+          "en": "Primary",
+          "de": "Hauptnavigation",
+          "zh-Hant": "主選單"
+        }
+      },
+      "home": {
+        "discoverDuoLabel": {
+          "en": "Discover the duo",
+          "de": "Zum Duo",
+          "zh-Hant": "認識二重奏"
+        },
+        "seasonLabel": {
+          "en": "View season",
+          "de": "Saison ansehen",
+          "zh-Hant": "查看樂季"
+        },
+        "contactLabel": {
+          "en": "Contact",
+          "de": "Kontakt",
+          "zh-Hant": "聯絡"
+        },
+        "seasonKicker": {
+          "en": "Season 2025",
+          "de": "Saison 2025",
+          "zh-Hant": "2025 樂季"
+        },
+        "featuredHeading": {
+          "en": "Featured highlights",
+          "de": "Ausgewählte Höhepunkte",
+          "zh-Hant": "精選亮點"
+        },
+        "fullSeasonLabel": {
+          "en": "Full season",
+          "de": "Alle Termine",
+          "zh-Hant": "完整樂季"
+        },
+        "biographiesLabel": {
+          "en": "Artist biographies",
+          "de": "Künstlerbiografien",
+          "zh-Hant": "藝術家簡介"
+        },
+        "artistProfilesHeading": {
+          "en": "Individual artist profiles",
+          "de": "Persönliche Künstlerprofile",
+          "zh-Hant": "藝術家個人檔案"
+        },
+        "mediaLabel": {
+          "en": "Media",
+          "de": "Medien",
+          "zh-Hant": "媒體"
+        }
+      },
+      "duo": {
+        "kicker": {
+          "en": "Duo",
+          "de": "Duo",
+          "zh-Hant": "二重奏"
+        },
+        "foundedPrefix": {
+          "en": "Founded",
+          "de": "Gegründet",
+          "zh-Hant": "創立於"
+        },
+        "footprintLabel": {
+          "en": "Concert footprint",
+          "de": "Konzertorte",
+          "zh-Hant": "演出足跡"
+        },
+        "formatsLabel": {
+          "en": "Performance formats",
+          "de": "Aufführungsformate",
+          "zh-Hant": "演出形式"
+        },
+        "artistsLabel": {
+          "en": "Artists",
+          "de": "Künstler",
+          "zh-Hant": "藝術家"
+        }
+      },
+      "artists": {
+        "pageKicker": {
+          "en": "Artists",
+          "de": "Künstler",
+          "zh-Hant": "藝術家"
+        },
+        "pageTitle": {
+          "en": "Artist profiles",
+          "de": "Künstlerische Profile",
+          "zh-Hant": "藝術家檔案"
+        },
+        "pageIntro": {
+          "en": "Extended biographies of Liu Yi and Kelvin Tsui for presenters, institutions, and artistic partners.",
+          "de": "Ausführliche Biografien von Liu Yi und Kelvin Tsui für Veranstalter, Institutionen und künstlerische Partner.",
+          "zh-Hant": "為主辦單位、機構與藝術合作夥伴整理的劉一與徐錦輝完整藝術家簡介。"
+        }
+      },
+      "artist": {
+        "overviewLabel": {
+          "en": "Artists overview",
+          "de": "Künstlerübersicht",
+          "zh-Hant": "藝術家總覽"
+        },
+        "contactLabel": {
+          "en": "Make contact",
+          "de": "Kontakt aufnehmen",
+          "zh-Hant": "聯絡邀約"
+        },
+        "dossierLabel": {
+          "en": "Artist dossier",
+          "de": "Künstlerdossier",
+          "zh-Hant": "藝術家檔案"
+        }
+      },
+      "season": {
+        "pageKicker": {
+          "en": "Season",
+          "de": "Saison",
+          "zh-Hant": "樂季"
+        },
+        "pageTitle": {
+          "en": "Season highlights",
+          "de": "Saisonhöhepunkte",
+          "zh-Hant": "樂季重點"
+        }
+      },
+      "media": {
+        "pageKicker": {
+          "en": "Media",
+          "de": "Medien",
+          "zh-Hant": "媒體"
+        },
+        "pageTitle": {
+          "en": "Curated media",
+          "de": "Kuratiertes Material",
+          "zh-Hant": "精選媒體素材"
+        },
+        "imagesKicker": {
+          "en": "Images",
+          "de": "Bilder",
+          "zh-Hant": "圖片"
+        },
+        "imageKind": {
+          "en": "Image",
+          "de": "Bild",
+          "zh-Hant": "影像"
+        },
+        "videoKind": {
+          "en": "Video",
+          "de": "Video",
+          "zh-Hant": "影音"
+        }
+      },
+      "contact": {
+        "pageKicker": {
+          "en": "Contact",
+          "de": "Kontakt",
+          "zh-Hant": "聯絡"
+        },
+        "generalLabel": {
+          "en": "General inquiries",
+          "de": "Allgemeine Anfragen",
+          "zh-Hant": "一般洽詢"
+        },
+        "emailButtonLabel": {
+          "en": "Send Email",
+          "de": "E-Mail senden",
+          "zh-Hant": "發送電郵"
+        },
+        "phoneButtonLabel": {
+          "en": "Call",
+          "de": "Anrufen",
+          "zh-Hant": "電話聯絡"
+        },
+        "whatsappLabel": {
+          "en": "WhatsApp",
+          "de": "WhatsApp",
+          "zh-Hant": "WhatsApp"
+        },
+        "socialLabel": {
+          "en": "Social",
+          "de": "Social Media",
+          "zh-Hant": "社群"
+        },
+        "directContactLabel": {
+          "en": "Direct contact",
+          "de": "Direkter Kontakt",
+          "zh-Hant": "直接聯絡"
+        }
+      },
+      "footer": {
+        "inquiriesLabel": {
+          "en": "Inquiries",
+          "de": "Anfragen",
+          "zh-Hant": "洽詢"
+        },
+        "contactLabel": {
+          "en": "Contact",
+          "de": "Kontakt",
+          "zh-Hant": "聯絡"
+        }
+      },
+      "legalModal": {
+        "legalLabel": {
+          "en": "Legal",
+          "de": "Rechtliches",
+          "zh-Hant": "法律資訊"
+        },
+        "closeLabel": {
+          "en": "Close",
+          "de": "Schließen",
+          "zh-Hant": "關閉"
+        }
+      }
+    },
+    "artists": [
+      {
+        "id": "liu-yi",
+        "slug": "yi-liu",
+        "name": "Liu Yi",
+        "displayName": {
+          "en": "Liu Yi",
+          "de": "Liu Yi",
+          "zh-Hant": "劉一"
+        },
+        "role": {
+          "en": "Countertenor",
+          "de": "Countertenor",
+          "zh-Hant": "假聲男高音"
+        },
+        "intro": {
+          "en": "Liu Yi is a countertenor from China, currently residing and working in Trossingen, Germany.",
+          "de": "Liu Yi ist ein Countertenor aus China und lebt und arbeitet derzeit in Trossingen, Deutschland.",
+          "zh-Hant": "劉一，一位來自中國的假聲男高音，目前居住並工作於德國特羅辛根。"
+        },
+        "previewLabel": {
+          "en": "View Liu Yi",
+          "de": "Liu Yi ansehen",
+          "zh-Hant": "查看劉一"
+        },
+        "portraitSrc": "/image/artists/liuyi/liuyi-portrait-studio.jpg",
+        "portraitAlt": {
+          "en": "Studio portrait of Liu Yi",
+          "de": "Studioporträt von Liu Yi",
+          "zh-Hant": "劉一錄音室肖像照"
+        },
+        "sections": [
+          {
+            "id": "education",
+            "heading": {
+              "en": "Education and Artistic Development",
+              "de": "Ausbildung und künstlerische Entwicklung",
+              "zh-Hant": "學習歷程與藝術養成"
+            },
+            "paragraphs": {
+              "en": [
+                "His musical journey began at the Xinghai Conservatory of Music in China, where he completed his Bachelor's and Master's degrees in Vocal Performance and Opera from 2016 to 2023. He then pursued further studies at the State University of Music Trossingen in Germany, earning a Master's degree in Early Music from 2023 to 2025. Since 2026, he has been admitted to the Konzertexamen program, focusing on the research and interpretation of early vocal repertoire."
+              ],
+              "de": [
+                "Sein musikalischer Weg begann am Xinghai Konservatorium für Musik in China, wo er von 2016 bis 2023 seinen Bachelor- und Masterabschluss in Gesang und Oper absolvierte. Anschließend setzte er sein Studium an der Staatlichen Hochschule für Musik Trossingen in Deutschland fort und schloss dort von 2023 bis 2025 das Masterstudium der Alten Musik ab. Seit 2026 wurde er in das Konzertexamen-Studium aufgenommen, in dem er sich auf die Erforschung und Interpretation des frühen Gesangsrepertoires konzentriert."
+              ],
+              "zh-Hant": [
+                "他的音樂之路始於中國星海音樂學院，於 2016 至 2023 年間完成聲樂表演與歌劇的學士及碩士學位。其後他赴德國特羅辛根國立音樂大學深造，於 2023 至 2025 年間以滿分 1.0 的成績取得早期音樂聲樂碩士學位。自 2026 年起，他又以 24 分滿分的優異成績獲錄取進入 Konzertexamen 課程，專注於早期聲樂曲目的研究與詮釋。"
+              ]
+            }
+          },
+          {
+            "id": "masterclasses",
+            "heading": {
+              "en": "Masterclasses",
+              "de": "Meisterkurse",
+              "zh-Hant": "大師班"
+            },
+            "paragraphs": {
+              "en": [
+                "He has had the privilege of participating in masterclasses with numerous distinguished artists, including Antonio Giovanni in Guangzhou in 2019, Liang Ning in Shandong in 2021, Dame Emma Kirkby in Venice in 2024, and renowned baritone Thomas Hampson and Wagnerian soprano Melanie Diener in Waiblingen, Germany, in 2026. These experiences have greatly broadened his artistic horizons."
+              ],
+              "de": [
+                "Er hatte das Privileg, an Meisterkursen bei zahlreichen herausragenden Künstlern teilzunehmen, darunter 2019 in Guangzhou bei Antonio Giovanni, 2021 in Shandong bei Liang Ning, 2024 in Venedig bei Dame Emma Kirkby sowie 2026 in Waiblingen (Deutschland) bei dem berühmten Bariton Thomas Hampson und der Wagner-Sopranistin Melanie Diener. Diese Erfahrungen haben seinen künstlerischen Horizont erheblich erweitert."
+              ],
+              "zh-Hant": [
+                "他曾有幸參與多位傑出藝術家的大師班，包括 2019 年於廣州隨 Antonio Giovanni 學習、2021 年於山東隨梁寧學習、2024 年於威尼斯隨 Dame Emma Kirkby 學習，以及 2026 年於德國 Waiblingen 隨著名男中音 Thomas Hampson 及華格納女高音 Melanie Diener 學習。這些經歷大大拓展了他的藝術視野。"
+              ]
+            }
+          },
+          {
+            "id": "awards",
+            "heading": {
+              "en": "Awards and Honors",
+              "de": "Auszeichnungen und Preise",
+              "zh-Hant": "獎項與殊榮"
+            },
+            "paragraphs": {
+              "en": [
+                "He actively participates in international music competitions and has received numerous accolades. In 2019, he won the First Prize at the Hong Kong International Vocal Open Competition and the Gold Award at the Macau International Art Open Competition; in 2022, he received the Silver Peacock Award at the China Vocal Peacock Awards; in 2023, he won the Platinum Award at the Canadian International Music Competition and the Gold Award at the Ordinary Chamber International Music Festival in Hong Kong; in 2024, he was a finalist at the 4th Franco Ghitti International Vocal Competition in Italy, where he was awarded a Special Prize; in 2026, he also received the Special Prize for Best Lied Interpretation at the 35th Ionel Perlea International Vocal Competition in Romania."
+              ],
+              "de": [
+                "Er nimmt aktiv an internationalen Gesangswettbewerben teil und wurde vielfach ausgezeichnet. 2019 erhielt er den Ersten Preis beim Hong Kong International Vocal Open Competition sowie den Goldpreis beim Macau International Art Open Competition; 2022 wurde ihm der Silberne Pfauenpreis des Chinesischen Gesangswettbewerbs „Gesangspfau“ verliehen; 2023 gewann er den Platinpreis beim Canadian International Music Competition sowie den Goldpreis beim Ordinary Chamber International Music Festival in Hongkong; 2024 erreichte er das Finale des 4. Internationalen Gesangswettbewerbs Franco Ghitti in Italien und erhielt dort einen Sonderpreis; 2026 wurde ihm außerdem der Sonderpreis für die beste Liedinterpretation beim 35. Internationalen Gesangswettbewerb Ionel Perlea in Rumänien verliehen."
+              ],
+              "zh-Hant": [
+                "他亦積極參與國際音樂比賽，並獲得多項肯定。2019 年，他獲得香港國際聲樂公開賽一等獎及澳門國際藝術公開賽金獎；2022 年獲得中國聲樂孔雀獎銀孔雀獎；2023 年獲得加拿大國際音樂比賽白金獎，以及香港 Ordinary Chamber 國際音樂節金獎；2024 年，他於義大利第四屆 Franco Ghitti 國際聲樂比賽入圍決賽並獲頒特別獎；2026 年，他獲得第35屆羅馬尼亞 Ionel Perlea 國際聲樂比賽最佳藝術歌曲演繹特別獎。"
+              ]
+            }
+          },
+          {
+            "id": "philosophy",
+            "heading": {
+              "en": "Artistic Philosophy",
+              "de": "Künstlerische Überzeugung",
+              "zh-Hant": "藝術理念"
+            },
+            "paragraphs": {
+              "en": [
+                "Music is his way of expressing himself and connecting with the world. As a countertenor, he aspires to build a bridge between early music and contemporary audiences, telling stories through his voice and touching hearts through emotion.",
+                "You are welcome to contact him through this website."
+              ],
+              "de": [
+                "Musik ist für ihn eine Möglichkeit, sich selbst auszudrücken und eine Verbindung zur Welt herzustellen. Als Countertenor möchte er eine Brücke zwischen Alter Musik und dem zeitgenössischen Publikum schlagen, Geschichten mit seiner Stimme erzählen und die Menschen durch Emotionen berühren.",
+                "Kontaktieren Sie ihn gerne über diese Website."
+              ],
+              "zh-Hant": [
+                "音樂是他表達自我、也與世界建立聯繫的方式。作為一名假聲男高音，他希望能在早期音樂與當代觀眾之間搭起橋樑，以聲音敘述故事，並以情感觸動人心。",
+                "歡迎透過本網站與他聯絡"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "kelvin-tsui",
+        "slug": "kelvin-tsui",
+        "name": "Kelvin Tsui",
+        "displayName": {
+          "en": "Kelvin Tsui",
+          "de": "Kelvin Tsui",
+          "zh-Hant": "徐錦輝"
+        },
+        "role": {
+          "en": "Harpsichordist, conductor of early music, and vocal coach",
+          "de": "Cembalist, Dirigent für Alte Musik und Gesangspädagoge",
+          "zh-Hant": "古鍵琴家、古樂指揮與聲樂指導"
+        },
+        "intro": {
+          "en": "Kelvin Tsui is a harpsichordist, conductor of early music, and vocal coach from Hong Kong. He currently resides in Germany and is dedicated to the research and performance of early music, with a special focus on source studies.",
+          "de": "Kelvin Tsui ist ein Cembalist, Dirigent für Alte Musik und Gesangspädagoge aus Hongkong. Er lebt derzeit in Deutschland und widmet sich der Erforschung und Aufführung Alter Musik, mit besonderem Schwerpunkt auf Quellenstudien.",
+          "zh-Hant": "徐錦輝，一位來自香港的古鍵琴家、古樂指揮與聲樂指導，目前居於德國，專注於早期音樂的文獻研究及演出。"
+        },
+        "previewLabel": {
+          "en": "View Kelvin Tsui",
+          "de": "Kelvin Tsui ansehen",
+          "zh-Hant": "查看徐錦輝"
+        },
+        "portraitSrc": "/image/artists/kelvin/kelvin-portrait-studio.jpg",
+        "portraitAlt": {
+          "en": "Studio portrait of Kelvin Tsui",
+          "de": "Studioporträt von Kelvin Tsui",
+          "zh-Hant": "徐錦輝錄音室肖像照"
+        },
+        "sections": [
+          {
+            "id": "education",
+            "heading": {
+              "en": "Education and Artistic Development",
+              "de": "Ausbildung und künstlerische Entwicklung",
+              "zh-Hant": "學習歷程與藝術養成"
+            },
+            "paragraphs": {
+              "en": [
+                "His musical journey began in Germany. In 2011, he entered the Hochschule für Musik Franz Liszt Weimar, where he studied harpsichord with Bernhard Klapprott and simultaneously served as a teaching assistant to Jörn Arnecke, the head of the music theory department. In 2014, he received a scholarship from the German Academic Exchange Service (DAAD) and continued his studies at the Conservatoire National Supérieur de Musique et de Danse de Lyon in France, studying with Jean-Marc Aymes, Yves Rechsteiner, and Dirk Börner. From 2017, he studied Early Music Conducting at the State University of Music Trossingen, completing his Master's degree in 2020 under the guidance of harpsichordist Marieke Spaans and conductor Michael Alber. He subsequently completed his studies in vocal pedagogy at the same institution with soprano Gundula Anders."
+              ],
+              "de": [
+                "Sein musikalischer Weg begann in Deutschland. 2011 nahm er sein Studium an der Hochschule für Musik Franz Liszt Weimar auf, wo er bei Bernhard Klapprott Cembalo studierte und gleichzeitig als Lehrassistent von Jörn Arnecke, dem Leiter der Musiktheorie-Abteilung, tätig war. 2014 erhielt er ein Stipendium des Deutschen Akademischen Austauschdienstes (DAAD) und setzte sein Studium am Conservatoire National Supérieur de Musique et de Danse de Lyon in Frankreich fort, wo er bei Jean-Marc Aymes, Yves Rechsteiner und Dirk Börner studierte. Seit 2017 studierte er Alte-Musik-Ensembleleitung an der Staatlichen Hochschule für Musik Trossingen und schloss sein Masterstudium 2020 unter der Leitung der Cembalistin Marieke Spaans und des Dirigenten Michael Alber ab. Anschließend absolvierte er an derselben Hochschule sein Gesangspädagogik-Studium bei der Sopranistin Gundula Anders."
+              ],
+              "zh-Hant": [
+                "他的音樂之路始於德國。2011 年，他進入威瑪李斯特音樂學院，師從 Bernhard Klapprott 學習古鍵琴，同時擔任音樂理論系主任 Jörn Arnecke 的教學助理。2014 年，他獲得德國學術交流總署（DAAD）獎學金，赴法國里昂國立高等音樂與舞蹈學院深造，師從 Jean-Marc Aymes、Yves Rechsteiner 與 Dirk Börner。自 2017 年起，他於特羅辛根國立音樂大學修讀古樂指揮，並於 2020 年在古鍵琴家 Marieke Spaans 與指揮家 Michael Alber 指導下，以優異成績完成碩士學位。其後，他於同校修畢聲樂教育學位，師從女高音 Gundula Anders。"
+              ]
+            }
+          },
+          {
+            "id": "masterclasses",
+            "heading": {
+              "en": "Masterclasses and Artistic Exchange",
+              "de": "Meisterkurse und künstlerischer Austausch",
+              "zh-Hant": "大師班與藝術交流"
+            },
+            "paragraphs": {
+              "en": [
+                "During his studies in Europe, he had the opportunity to participate in numerous masterclasses: in harpsichord with Jörg-Andreas Bötticher and Barbara Maria Willi, in conducting with Nicole Corti and Florian Helgath, and in voice with Emma Kirkby, Lisandro Abadie, Dominik Wortig, and Lisa Wedekind. In 2013, he received a scholarship from the Neue Liszt Stiftung to travel to England to work with the renowned Renaissance vocal ensemble The Tallis Scholars, performing under the guidance of their artistic director Peter Phillips. These experiences have greatly broadened his artistic horizons."
+              ],
+              "de": [
+                "Während seines Studiums in Europa hatte er die Gelegenheit, an zahlreichen Meisterkursen teilzunehmen: im Cembalospiel bei Jörg-Andreas Bötticher und Barbara Maria Willi, im Dirigieren bei Nicole Corti und Florian Helgath sowie im Gesang bei Emma Kirkby, Lisandro Abadie, Dominik Wortig und Lisa Wedekind. 2013 erhielt er ein Stipendium der Neuen Liszt Stiftung, um nach England zu reisen und mit dem renommierten Renaissance-Vokalensemble The Tallis Scholars zu arbeiten, wobei er unter der Anleitung von dessen künstlerischem Leiter Peter Phillips auftrat. Diese Erfahrungen haben seinen künstlerischen Horizont erheblich erweitert."
+              ],
+              "zh-Hant": [
+                "在歐洲求學期間，他有幸參與多場大師班，在古鍵琴方面受教於 Jörg-Andreas Bötticher 與 Barbara Maria Willi，在指揮方面受教於 Nicole Corti 與 Florian Helgath，並在聲樂領域向 Emma Kirkby、Lisandro Abadie、Dominik Wortig 與 Lisa Wedekind 學習。2013 年，他獲得 Neue Liszt Stiftung 獎學金，赴英國隨知名文藝復興聲樂團 The Tallis Scholars 學習，並於其藝術總監 Peter Phillips 指導下演出。這些經歷極大拓展了他的藝術視野。"
+              ]
+            }
+          },
+          {
+            "id": "performances",
+            "heading": {
+              "en": "Performances and Productions",
+              "de": "Aufführungen und Produktionen",
+              "zh-Hant": "演出與製作"
+            },
+            "paragraphs": {
+              "en": [
+                "He is actively involved in various performances and productions. In 2014, he served as artistic director, leading the ensemble and choir of the Hochschule für Musik Franz Liszt Weimar in a performance of Marc-Antoine Charpentier's Missa Assumpta est Maria; in the same year, he traveled with the same ensemble to Jerusalem, Israel, to perform Bach's Mass in B Minor. In 2016, he participated in the world premiere of the modern opera Die Marmorpuppe by the Brazilian composer Giordano Bruno do Nascimento. That same year, he was invited to Tokyo, Japan, to serve as Guest Artistic Director of the Asia Collegium Musicum for six months, performing in several Japanese cities. In 2019, he conducted the ensemble and choir of the State University of Music Trossingen in Haydn's oratorio The Seasons; in 2020, he led the Trossingen Ensemble for Early Music and choir in a French Baroque concert entitled De la fin du temps à l'éternité. In 2022, he performed as a tenor soloist in Mendelssohn's symphonic cantata Lobgesang; from 2025 to 2026, he was invited by Musica Viva Hong Kong to serve as vocal coach and continuo player for Mozart's operas Mitridate, re di Ponto and Lucio Silla. In 2026, he was invited to participate in the Isny Opera Festival as a tenor soloist."
+              ],
+              "de": [
+                "Er ist aktiv an verschiedenen Aufführungen und Produktionen beteiligt. 2014 war er künstlerischer Leiter und leitete das Ensemble und den Chor der Hochschule für Musik Franz Liszt Weimar in einer Aufführung von Marc-Antoine Charpentiers Missa Assumpta est Maria; im selben Jahr reiste er mit demselben Ensemble nach Jerusalem, Israel, um Bachs h-Moll-Messe aufzuführen. 2016 wirkte er an der Uraufführung der modernen Oper Die Marmorpuppe des brasilianischen Komponisten Giordano Bruno do Nascimento mit. Im selben Jahr wurde er nach Tokio, Japan, eingeladen, um für sechs Monate als Gastkünstlerischer Leiter des Asia Collegium Musicum zu wirken und in mehreren japanischen Städten aufzutreten. 2019 dirigierte er das Ensemble und den Chor der Hochschule für Musik Trossingen in Haydns Oratorium Die Jahreszeiten; 2020 leitete er das Trossinger Ensemble für Alte Musik und den Chor in einem französischen Barockkonzert mit dem Titel De la fin du temps à l'éternité. 2022 trat er als Tenorsolist in Mendelssohns sinfonischer Kantate Lobgesang auf; von 2025 bis 2026 wurde er von Musica Viva Hong Kong eingeladen, als Gesangscoach und Continuo-Spieler für Mozarts Opern Mitridate, re di Ponto und Lucio Silla zu wirken. Im Jahr 2026 wurde er als Tenorsolist zum Isny Opernfestival eingeladen."
+              ],
+              "zh-Hant": [
+                "他亦積極參與各類演出與製作。2014 年，他擔任藝術總監，帶領威瑪音樂學院古樂團與合唱團演出 Marc-Antoine Charpentier 的《Missa Assumpta est Maria》；同年亦與同一團隊前往以色列耶路撒冷演出巴赫《b 小調彌撒》。2016 年，他參與巴西作曲家 Giordano Bruno do Nascimento 現代歌劇《Die Marmorpuppe》的世界首演。同年，他受邀前往日本東京，擔任 Asia Collegium Musicum 客席藝術總監六個月，並於日本多個城市舉行演出。2019 年，他指揮特羅辛根音樂學院古樂團與合唱團演出海頓神劇《四季》；2020 年，他指揮特羅辛根古樂合奏團與合唱團演出法國巴洛克音樂會《De la fin du temps à l’éternité》。2022 年，他以男高音獨唱身分演出孟德爾頌交響清唱劇《Lobgesang》；2025 至 2026 年，他受 Musica Viva Hong Kong 邀請，擔任莫札特歌劇《本都大王》與《獨裁君主斯拉》的聲樂指導與數字低音演奏，2026 年他受邀參加伊斯尼歌劇音樂節（Isny Opernfestival），擔任男高音獨唱。"
+              ]
+            }
+          },
+          {
+            "id": "teaching",
+            "heading": {
+              "en": "Teaching and Research",
+              "de": "Lehre und Forschung",
+              "zh-Hant": "教學與研究"
+            },
+            "paragraphs": {
+              "en": [
+                "In the realm of teaching and scholarship, he currently serves as harpsichordist of the Hong Kong Early Music Society, vocal coach and harpsichordist at Musica Viva Hong Kong, and Guest Artistic Director of the Klang Baroque Ensemble in Taiwan. He has been invited multiple times as a guest lecturer for workshops in historical performance practice at National Sun Yat-sen University and National Tsing Hua University in Taiwan. In 2024 and 2025, he served as one of the main lecturers of the Tsing Hua Baroque Music Week, where he taught masterclasses in historical voice and chamber music and performed in faculty concerts. In addition, he continues to conduct research in early music and has published several academic papers in Taiwan and Hong Kong."
+              ],
+              "de": [
+                "Im Bereich Lehre und Wissenschaft ist er derzeit Cembalist der Hong Kong Early Music Society, Gesangscoach und Cembalist bei Musica Viva Hong Kong sowie Gastkünstlerischer Leiter des Klang Baroque Ensemble in Taiwan. Er wurde mehrfach als Gastdozent für Workshops zur historischen Aufführungspraxis an die National Sun Yat-sen University und die National Tsing Hua University in Taiwan eingeladen. 2024 und 2025 war er einer der Hauptdozenten der Tsing Hua Barockmusikwoche, wo er Meisterkurse in historischem Gesang und Kammermusik unterrichtete und an Dozentenkonzerten mitwirkte. Darüber hinaus forscht er kontinuierlich auf dem Gebiet der Alten Musik und hat bereits mehrere Fachaufsätze in Taiwan und Hongkong veröffentlicht."
+              ],
+              "zh-Hant": [
+                "在教學與學術方面，他目前擔任香港早期音樂協會古鍵琴家、Musica Viva Hong Kong 的聲樂指導與古鍵琴家，以及台灣響韵巴洛克樂團客席藝術總監。他亦曾多次受邀，於台灣國立中山大學與國立清華大學擔任早期音樂演奏實踐工作坊客席講師。2024 與 2025 年，他擔任清華巴洛克音樂週其中一位主講藝術家，教授早期聲樂與室內樂大師班，並參與導師音樂會演出。此外，他亦持續投入早期音樂研究，並已於台灣與香港發表多篇論文。"
+              ]
+            }
+          },
+          {
+            "id": "international",
+            "heading": {
+              "en": "International Collaborations",
+              "de": "Internationale Zusammenarbeit",
+              "zh-Hant": "國際合作"
+            },
+            "paragraphs": {
+              "en": [
+                "He has collaborated with distinguished musicians including Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck, and Chen Meng-Heng. His performances have taken him to numerous countries, including the United Kingdom, France, Germany, Switzerland, Italy, San Marino, Austria, the United States, Japan, Israel, Ukraine, and Slovakia."
+              ],
+              "de": [
+                "Er hat mit namhaften Musikern wie Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck und Chen Meng-Heng zusammengearbeitet. Seine Auftritte führten ihn in zahlreiche Länder, darunter Großbritannien, Frankreich, Deutschland, die Schweiz, Italien, San Marino, Österreich, die USA, Japan, Israel, die Ukraine und die Slowakei."
+              ],
+              "zh-Hant": [
+                "他曾與 Jan van Elsacker、Nils Wanderer、Wim Becu、Gottfried von der Goltz、Huub Claessens、Drora Bruck 與陳孟亨等知名音樂家合作演出。他的演出足跡遍及多個國家，包括英國、法國、德國、瑞士、義大利、聖馬利諾、奧地利、美國、日本、以色列、烏克蘭與斯洛伐克。"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "season": {
+      "intro": {
+        "en": "A curated overview of current season highlights and presenter-relevant projects.",
+        "de": "Eine kuratierte Übersicht über aktuelle Saisonhöhepunkte und für Veranstalter relevante Projekte.",
+        "zh-Hant": "精選呈現本樂季重點節目與適合主辦單位參考的合作企劃。"
+      },
+      "highlights": [
+        {
+          "id": "s1",
+          "monthLabel": {
+            "en": "May 2025",
+            "de": "Mai 2025",
+            "zh-Hant": "2025 年 5 月"
+          },
+          "title": {
+            "en": "Vivaldi: Nisi Dominus",
+            "de": "Vivaldi: Nisi Dominus",
+            "zh-Hant": "韋瓦第：《Nisi Dominus》"
+          },
+          "location": {
+            "en": "Germany",
+            "de": "Deutschland",
+            "zh-Hant": "德國"
+          },
+          "descriptor": {
+            "en": "Sacred Baroque program highlight",
+            "de": "Höhepunkt eines geistlichen Barockprogramms",
+            "zh-Hant": "宗教巴洛克專題節目亮點"
+          },
+          "kind": {
+            "en": "Featured recital",
+            "de": "Ausgewähltes Konzert",
+            "zh-Hant": "重點音樂會"
+          },
+          "dateISO": "2025-05-10"
+        },
+        {
+          "id": "s2",
+          "monthLabel": {
+            "en": "July 2025",
+            "de": "Juli 2025",
+            "zh-Hant": "2025 年 7 月"
+          },
+          "title": {
+            "en": "Baroque Concert Series",
+            "de": "Barockkonzertreihe",
+            "zh-Hant": "巴洛克音樂會系列"
+          },
+          "location": {
+            "en": "Hong Kong & Guangzhou",
+            "de": "Hongkong & Guangzhou",
+            "zh-Hant": "香港與廣州"
+          },
+          "descriptor": {
+            "en": "Touring concerts across two cities",
+            "de": "Gastspielkonzerte in zwei Städten",
+            "zh-Hant": "跨越兩座城市的巡演計畫"
+          },
+          "kind": {
+            "en": "Season tour",
+            "de": "Saisontournee",
+            "zh-Hant": "樂季巡演"
+          },
+          "dateISO": "2025-07-12"
+        },
+        {
+          "id": "s3",
+          "monthLabel": {
+            "en": "December 2025",
+            "de": "Dezember 2025",
+            "zh-Hant": "2025 年 12 月"
+          },
+          "title": {
+            "en": "Early Italian Baroque Recital",
+            "de": "Frühitalienisches Barockrecital",
+            "zh-Hant": "義大利早期巴洛克獨奏會"
+          },
+          "location": {
+            "en": "Taiwan",
+            "de": "Taiwan",
+            "zh-Hant": "台灣"
+          },
+          "descriptor": {
+            "en": "Program centered on early Italian affective style",
+            "de": "Programm mit Fokus auf den frühitalienischen Affektstil",
+            "zh-Hant": "聚焦義大利早期巴洛克情感風格的節目"
+          },
+          "kind": {
+            "en": "Special program",
+            "de": "Sonderprogramm",
+            "zh-Hant": "專題節目"
+          },
+          "dateISO": "2025-12-08"
+        }
+      ]
+    },
+    "media": {
+      "intro": {
+        "en": "Selected media materials for presenters, collaborators, and audiences.",
+        "de": "Ausgewählte Medienmaterialien für Veranstalter, Partner und Publikum.",
+        "zh-Hant": "為主辦單位、合作夥伴與觀眾精選整理的媒體素材。"
+      },
+      "items": [
+        {
+          "id": "m1",
+          "kind": "image",
+          "title": {
+            "en": "Live Performance with Ensemble",
+            "de": "Live-Auftritt mit Ensemble",
+            "zh-Hant": "與團隊同台演出"
+          },
+          "caption": {
+            "en": "Gemelli in Harmonia performing with vocal and instrumental ensemble.",
+            "de": "Gemelli in Harmonia im Konzert mit vokalem und instrumentalem Ensemble.",
+            "zh-Hant": "Gemelli in Harmonia 與聲樂及器樂團隊同台演出。"
+          },
+          "thumbnailSrc": "/image/gemelli-duo-live-with-ensemble.JPG",
+          "imageAlt": {
+            "en": "Gemelli duo live performance with ensemble",
+            "de": "Gemelli im Live-Auftritt mit Ensemble",
+            "zh-Hant": "Gemelli in Harmonia 與團隊現場演出"
+          }
+        },
+        {
+          "id": "m2",
+          "kind": "image",
+          "title": {
+            "en": "Concert Group Photo",
+            "de": "Konzert-Gruppenfoto",
+            "zh-Hant": "音樂會合照"
+          },
+          "caption": {
+            "en": "Gemelli in Harmonia and ensemble after concert performance.",
+            "de": "Gemelli in Harmonia und Ensemble nach dem Konzert.",
+            "zh-Hant": "Gemelli in Harmonia 與合作團隊於演出後合影。"
+          },
+          "thumbnailSrc": "/image/gemelli-group-photo-concert.JPG",
+          "imageAlt": {
+            "en": "Gemelli group photo concert",
+            "de": "Gruppenfoto nach dem Konzert",
+            "zh-Hant": "Gemelli in Harmonia 音樂會合照"
+          }
+        },
+        {
+          "id": "m3",
+          "kind": "image",
+          "title": {
+            "en": "Harpsichord Ensemble Setting",
+            "de": "Cembalo im Ensemblekontext",
+            "zh-Hant": "羽管鍵琴與合奏配置"
+          },
+          "caption": {
+            "en": "Gemelli in Harmonia with harpsichord and ensemble collaboration.",
+            "de": "Gemelli in Harmonia in Zusammenarbeit mit Cembalo und Ensemble.",
+            "zh-Hant": "Gemelli in Harmonia 與羽管鍵琴及合奏團隊合作演出。"
+          },
+          "thumbnailSrc": "/image/gemelli-group-photo-harpsichord.JPG",
+          "imageAlt": {
+            "en": "Gemelli group photo harpsichord",
+            "de": "Gemelli mit Cembalo im Ensemble",
+            "zh-Hant": "Gemelli in Harmonia 與羽管鍵琴合奏"
+          }
+        },
+        {
+          "id": "m4",
+          "kind": "image",
+          "title": {
+            "en": "Ensemble Finale",
+            "de": "Ensemble-Finale",
+            "zh-Hant": "合奏終章"
+          },
+          "caption": {
+            "en": "Ensemble performance moment during Baroque recital program.",
+            "de": "Momentaufnahme aus einem Barockprogramm mit Ensemble.",
+            "zh-Hant": "巴洛克音樂會中合奏演出的精彩片刻。"
+          },
+          "thumbnailSrc": "/image/gemili-group-ending.png",
+          "imageAlt": {
+            "en": "Gemelli ensemble finale",
+            "de": "Ensemble-Finale",
+            "zh-Hant": "Gemelli in Harmonia 合奏終章"
+          }
+        },
+        {
+          "id": "m5",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Church Performance",
+            "de": "Yi Liu - Kirchenkonzert",
+            "zh-Hant": "劉一：教堂演出"
+          },
+          "caption": {
+            "en": "Yi Liu during a church performance with ensemble.",
+            "de": "Yi Liu während eines Kirchenkonzerts mit Ensemble.",
+            "zh-Hant": "劉一於教堂音樂會中與團隊合作演出。"
+          },
+          "thumbnailSrc": "/image/liuyi-performance-church-portrait.JPG",
+          "imageAlt": {
+            "en": "Yi Liu church performance",
+            "de": "Yi Liu im Kirchenkonzert",
+            "zh-Hant": "劉一教堂演出"
+          }
+        },
+        {
+          "id": "m6",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Red Stage",
+            "de": "Yi Liu - Rote Bühne",
+            "zh-Hant": "劉一：紅色舞台"
+          },
+          "caption": {
+            "en": "Yi Liu in atmospheric red stage lighting during performance.",
+            "de": "Yi Liu in atmosphärischem rotem Bühnenlicht.",
+            "zh-Hant": "劉一於演出中置身紅色舞台燈光之下。"
+          },
+          "thumbnailSrc": "/image/liuyi-performance-red-stage.JPG",
+          "imageAlt": {
+            "en": "Yi Liu red stage performance",
+            "de": "Yi Liu auf roter Bühne",
+            "zh-Hant": "劉一紅色舞台演出"
+          }
+        },
+        {
+          "id": "m7",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Golden Light",
+            "de": "Yi Liu - Goldenes Licht",
+            "zh-Hant": "劉一：金色光影"
+          },
+          "caption": {
+            "en": "Yi Liu in golden light during a Baroque performance.",
+            "de": "Yi Liu im goldenen Licht einer Barockaufführung.",
+            "zh-Hant": "劉一於巴洛克演出中沐浴在金色光影之中。"
+          },
+          "thumbnailSrc": "/image/liuyi-performance-golden-light.JPG",
+          "imageAlt": {
+            "en": "Yi Liu golden light",
+            "de": "Yi Liu im goldenen Licht",
+            "zh-Hant": "劉一金色光影演出"
+          }
+        },
+        {
+          "id": "m8",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Side Profile",
+            "de": "Yi Liu - Profilansicht",
+            "zh-Hant": "劉一：側面肖像"
+          },
+          "caption": {
+            "en": "Yi Liu in focused side profile during intimate recital performance.",
+            "de": "Yi Liu in konzentrierter Profilansicht während eines intimen Recitals.",
+            "zh-Hant": "劉一於親密獨奏會中專注投入的側面肖像。"
+          },
+          "thumbnailSrc": "/image/liuyi-performance-side-profile.JPG",
+          "imageAlt": {
+            "en": "Yi Liu side profile",
+            "de": "Yi Liu Profilansicht",
+            "zh-Hant": "劉一側面肖像"
+          }
+        },
+        {
+          "id": "m9",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Opera Costume",
+            "de": "Yi Liu - Opernkostüm",
+            "zh-Hant": "劉一：歌劇扮相"
+          },
+          "caption": {
+            "en": "Yi Liu in opera costume as Orfeo during performance.",
+            "de": "Yi Liu in Opernkostüm als Orfeo während der Aufführung.",
+            "zh-Hant": "劉一於演出中以 Orfeo 角色造型登台。"
+          },
+          "thumbnailSrc": "/image/liuyi-opera-lyre-costume.JPG",
+          "imageAlt": {
+            "en": "Yi Liu opera costume",
+            "de": "Yi Liu im Opernkostüm",
+            "zh-Hant": "劉一歌劇扮相"
+          }
+        },
+        {
+          "id": "m10",
+          "kind": "image",
+          "title": {
+            "en": "Yi Liu - Recital Ensemble",
+            "de": "Yi Liu - Recital mit Ensemble",
+            "zh-Hant": "劉一：與團隊同場獨奏會"
+          },
+          "caption": {
+            "en": "Yi Liu performing in an ensemble recital setting with instruments.",
+            "de": "Yi Liu in einem Recital mit Instrumentalensemble.",
+            "zh-Hant": "劉一於帶有器樂團隊配置的獨奏會中演出。"
+          },
+          "thumbnailSrc": "/image/liuyi-recital-with-ensemble.jpg",
+          "imageAlt": {
+            "en": "Yi Liu recital ensemble",
+            "de": "Yi Liu im Ensemble-Recital",
+            "zh-Hant": "劉一與團隊同場獨奏會"
+          }
+        },
+        {
+          "id": "m11",
+          "kind": "image",
+          "title": {
+            "en": "Kelvin Tsui - Harpsichord Church Performance",
+            "de": "Kelvin Tsui - Cembalo im Kirchenkonzert",
+            "zh-Hant": "徐錦輝：教堂羽管鍵琴演出"
+          },
+          "caption": {
+            "en": "Kelvin Tsui at the harpsichord during a church performance.",
+            "de": "Kelvin Tsui am Cembalo während eines Kirchenkonzerts.",
+            "zh-Hant": "徐錦輝於教堂演出中擔任羽管鍵琴演奏。"
+          },
+          "thumbnailSrc": "/image/kelvin-harpsichord-church-performance.jpg",
+          "imageAlt": {
+            "en": "Kelvin harpsichord church performance",
+            "de": "Kelvin Tsui am Cembalo im Kirchenkonzert",
+            "zh-Hant": "徐錦輝教堂羽管鍵琴演出"
+          }
+        },
+        {
+          "id": "m12",
+          "kind": "image",
+          "title": {
+            "en": "Kelvin Tsui - Harpsichord Recital",
+            "de": "Kelvin Tsui - Cembalorecital",
+            "zh-Hant": "徐錦輝：羽管鍵琴獨奏會"
+          },
+          "caption": {
+            "en": "Kelvin Tsui performing a harpsichord recital in concert setting.",
+            "de": "Kelvin Tsui in einem Cembalorecital.",
+            "zh-Hant": "徐錦輝於音樂會中演出羽管鍵琴獨奏。"
+          },
+          "thumbnailSrc": "/image/kelvin-harpsichord-recital.jpg",
+          "imageAlt": {
+            "en": "Kelvin harpsichord recital",
+            "de": "Kelvin Tsui im Cembalorecital",
+            "zh-Hant": "徐錦輝羽管鍵琴獨奏會"
+          }
+        },
+        {
+          "id": "m13",
+          "kind": "image",
+          "title": {
+            "en": "Kelvin Tsui - Harpsichord with Violin",
+            "de": "Kelvin Tsui - Cembalo mit Violine",
+            "zh-Hant": "徐錦輝：羽管鍵琴與小提琴"
+          },
+          "caption": {
+            "en": "Kelvin Tsui on harpsichord in collaboration with violin.",
+            "de": "Kelvin Tsui am Cembalo in Zusammenarbeit mit Violine.",
+            "zh-Hant": "徐錦輝以羽管鍵琴與小提琴合作演出。"
+          },
+          "thumbnailSrc": "/image/kelvin-harpsichord-with-violin.jpg",
+          "imageAlt": {
+            "en": "Kelvin harpsichord with violin",
+            "de": "Kelvin Tsui mit Violine und Cembalo",
+            "zh-Hant": "徐錦輝羽管鍵琴與小提琴合作"
+          }
+        },
+        {
+          "id": "m14",
+          "kind": "image",
+          "title": {
+            "en": "Kelvin Tsui - Recorder & Harpsichord Duo",
+            "de": "Kelvin Tsui - Blockflöte und Cembalo",
+            "zh-Hant": "徐錦輝：木笛與羽管鍵琴二重奏"
+          },
+          "caption": {
+            "en": "Kelvin Tsui in recorder and harpsichord duo performance.",
+            "de": "Kelvin Tsui in einer Aufführung für Blockflöte und Cembalo.",
+            "zh-Hant": "徐錦輝於木笛與羽管鍵琴二重奏中演出。"
+          },
+          "thumbnailSrc": "/image/kelvin-recorder-harpsichord-duo.jpg",
+          "imageAlt": {
+            "en": "Kelvin recorder and harpsichord duo",
+            "de": "Kelvin Tsui in Blockflöte-Cembalo-Duo",
+            "zh-Hant": "徐錦輝木笛與羽管鍵琴二重奏"
+          }
+        },
+        {
+          "id": "m15",
+          "kind": "image",
+          "title": {
+            "en": "Kelvin Tsui - Conducting Rehearsal",
+            "de": "Kelvin Tsui - Probenleitung",
+            "zh-Hant": "徐錦輝：排練指揮"
+          },
+          "caption": {
+            "en": "Kelvin Tsui conducting and leading an early music rehearsal session.",
+            "de": "Kelvin Tsui dirigiert und leitet eine Probe für Alte Musik.",
+            "zh-Hant": "徐錦輝指揮並帶領早期音樂排練。"
+          },
+          "thumbnailSrc": "/image/kelvin-conducting-rehearsal.jpg",
+          "imageAlt": {
+            "en": "Kelvin conducting rehearsal",
+            "de": "Kelvin Tsui bei der Probenleitung",
+            "zh-Hant": "徐錦輝排練指揮"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "video-1",
+          "embedUrl": "https://www.youtube.com/embed/7DJ2GffPxqg",
+          "title": {
+            "en": "Gemelli in Harmonia video 1",
+            "de": "Gemelli in Harmonia Video 1",
+            "zh-Hant": "Gemelli in Harmonia 影音 1"
+          }
+        },
+        {
+          "id": "video-2",
+          "embedUrl": "https://www.youtube.com/embed/bND6pxeTcUo",
+          "title": {
+            "en": "Gemelli in Harmonia video 2",
+            "de": "Gemelli in Harmonia Video 2",
+            "zh-Hant": "Gemelli in Harmonia 影音 2"
+          }
+        },
+        {
+          "id": "video-3",
+          "embedUrl": "https://www.youtube.com/embed/ShBayvwUTF0",
+          "title": {
+            "en": "Gemelli in Harmonia video 3",
+            "de": "Gemelli in Harmonia Video 3",
+            "zh-Hant": "Gemelli in Harmonia 影音 3"
+          }
+        },
+        {
+          "id": "video-4",
+          "embedUrl": "https://www.youtube.com/embed/Jmrc8ny5ci0",
+          "title": {
+            "en": "Gemelli in Harmonia video 4",
+            "de": "Gemelli in Harmonia Video 4",
+            "zh-Hant": "Gemelli in Harmonia 影音 4"
+          }
+        }
+      ],
+      "photosHeading": {
+        "en": "Curated images",
+        "de": "Bildauswahl",
+        "zh-Hant": "精選圖像"
+      },
+      "videosHeading": {
+        "en": "Videos",
+        "de": "Videos",
+        "zh-Hant": "影音"
+      },
+      "videosIntro": {
+        "en": "Selected video materials are embedded directly on the website for uninterrupted viewing.",
+        "de": "Ausgewählte Videoeinblicke, direkt auf der Website eingebettet und ohne Medienbruch abspielbar.",
+        "zh-Hant": "精選影音素材已直接嵌入網站，方便不中斷地觀看。"
+      },
+      "creditsNote": {
+        "en": "For photo, video, source, or copyright inquiries, please contact: musical_kelvin@yahoo.com.hk",
+        "de": "Bei Fragen zu Fotos, Videos, Quellenangaben oder Urheberrechten kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
+        "zh-Hant": "如有照片、影片、來源或版權相關洽詢，請聯絡：musical_kelvin@yahoo.com.hk"
+      }
+    },
+    "contact": {
+      "heading": {
+        "en": "Contact",
+        "de": "Kontakt",
+        "zh-Hant": "聯絡"
+      },
+      "intro": {
+        "en": "For concert invitations, collaborations, artistic inquiries, and media-related questions, please contact us directly.",
+        "de": "Für Konzerteinladungen, Kooperationen, künstlerische Anfragen und medienbezogene Anliegen kontaktieren Sie uns bitte direkt.",
+        "zh-Hant": "如有演出邀約、合作洽詢、藝術相關事宜或媒體聯絡，歡迎直接與我們聯繫。"
+      },
+      "invitation": {
+        "en": "Direct contact details for Gemelli in Harmonia are listed below.",
+        "de": "Die direkten Kontaktdaten von Gemelli in Harmonia finden Sie unten.",
+        "zh-Hant": "Gemelli in Harmonia 的直接聯絡方式如下。"
+      },
+      "email": "musical_kelvin@yahoo.com.hk",
+      "instagram": "yi.earlymusic",
+      "instagramUrl": "https://www.instagram.com/yi.earlymusic/",
+      "directContacts": [
+        {
+          "id": "liu-yi",
+          "name": {
+            "en": "Liu Yi",
+            "de": "Liu Yi",
+            "zh-Hant": "劉一"
+          },
+          "role": {
+            "en": "Countertenor",
+            "de": "Countertenor",
+            "zh-Hant": "假聲男高音"
+          },
+          "phone": "+49 176 32866265",
+          "phoneHref": "tel:+4917632866265",
+          "whatsappHref": "https://wa.me/4917632866265"
+        },
+        {
+          "id": "kelvin-tsui",
+          "name": {
+            "en": "Kelvin Tsui",
+            "de": "Kelvin Tsui",
+            "zh-Hant": "徐錦輝"
+          },
+          "role": {
+            "en": "Harpsichordist / Early Music Conductor / Vocal Coach",
+            "de": "Cembalist / Dirigent für Alte Musik / Gesangspädagoge",
+            "zh-Hant": "古鍵琴家／古樂指揮／聲樂指導"
+          },
+          "phone": "+49 176 65534751",
+          "phoneHref": "tel:+4917665534751",
+          "whatsappHref": "https://wa.me/4917665534751"
+        }
+      ]
+    },
+    "legal": {
+      "imprint": {
+        "en": "Imprint",
+        "de": "Impressum",
+        "zh-Hant": "網站資訊"
+      },
+      "privacy": {
+        "en": "Privacy",
+        "de": "Datenschutz",
+        "zh-Hant": "隱私政策"
+      },
+      "imprintBody": {
+        "en": "Gemelli in Harmonia\n\nContact for legal and editorial inquiries: musical_kelvin@yahoo.com.hk",
+        "de": "Gemelli in Harmonia\n\nKontakt für rechtliche und redaktionelle Anfragen: musical_kelvin@yahoo.com.hk",
+        "zh-Hant": "Gemelli in Harmonia\n\n法律及編輯相關洽詢請聯絡：musical_kelvin@yahoo.com.hk"
+      },
+      "privacyBody": {
+        "en": "Inquiry data is handled with professional discretion and used exclusively for artistic communication and booking-related responses. For questions regarding privacy, media credits, photo/video sources, or copyright matters, please contact: musical_kelvin@yahoo.com.hk",
+        "de": "Anfragedaten werden mit professioneller Diskretion behandelt und ausschließlich für künstlerische Kommunikation sowie buchungsbezogene Rückmeldungen verwendet. Bei Fragen zum Datenschutz, zu Mediennachweisen, Foto-/Videoquellen oder urheberrechtlichen Anliegen kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
+        "zh-Hant": "洽詢資料將以專業審慎方式處理，並僅用於藝術溝通及演出邀約相關回覆。如有隱私、媒體標註、照片／影片來源或版權相關問題，請聯絡：musical_kelvin@yahoo.com.hk"
+      },
+      "footerLine": {
+        "en": "For legal, privacy, and media-related inquiries, please write to musical_kelvin@yahoo.com.hk.",
+        "de": "Für rechtliche, datenschutzbezogene und medienbezogene Anfragen schreiben Sie bitte an musical_kelvin@yahoo.com.hk.",
+        "zh-Hant": "如有法律、隱私或媒體相關洽詢，請來信至 musical_kelvin@yahoo.com.hk。"
+      }
+    },
+    "seo": {
+      "home": {
+        "title": {
+          "en": "Gemelli in Harmonia | Official Website",
+          "de": "Gemelli in Harmonia | Offizielle Website",
+          "zh-Hant": "Gemelli in Harmonia | 官方網站"
+        },
+        "description": {
+          "en": "Official website of the early music duo Gemelli in Harmonia: countertenor Yi Liu and harpsichordist Kelvin Tsui.",
+          "de": "Offizielle Website des Alte-Musik-Duos Gemelli in Harmonia: Countertenor Yi Liu und Cembalist Kelvin Tsui.",
+          "zh-Hant": "Gemelli in Harmonia 官方網站：由假聲男高音劉一與羽管鍵琴家徐錦輝組成的早期音樂二重奏。"
+        }
+      },
+      "duo": {
+        "title": {
+          "en": "Duo | Gemelli in Harmonia",
+          "de": "Duo | Gemelli in Harmonia",
+          "zh-Hant": "二重奏 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Artistic identity, mission, and international profile of Gemelli in Harmonia.",
+          "de": "Künstlerische Identität, Mission und internationales Profil von Gemelli in Harmonia.",
+          "zh-Hant": "Gemelli in Harmonia 的藝術定位、使命與國際演出概況。"
+        }
+      },
+      "artists": {
+        "title": {
+          "en": "Artists | Gemelli in Harmonia",
+          "de": "Künstler | Gemelli in Harmonia",
+          "zh-Hant": "藝術家 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Biographies of Yi Liu and Kelvin Tsui.",
+          "de": "Biografien von Yi Liu und Kelvin Tsui.",
+          "zh-Hant": "劉一與徐錦輝的藝術家簡介。"
+        }
+      },
+      "season": {
+        "title": {
+          "en": "Season | Gemelli in Harmonia",
+          "de": "Saison | Gemelli in Harmonia",
+          "zh-Hant": "樂季 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Featured season highlights and concert projects.",
+          "de": "Ausgewählte Saisonhöhepunkte und Konzertprojekte.",
+          "zh-Hant": "本樂季重點節目與演出企劃。"
+        }
+      },
+      "media": {
+        "title": {
+          "en": "Media | Gemelli in Harmonia",
+          "de": "Medien | Gemelli in Harmonia",
+          "zh-Hant": "媒體 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Curated photo and video material for artistic presentation.",
+          "de": "Kuratierte Foto- und Videomaterialien für die künstlerische Präsentation.",
+          "zh-Hant": "用於藝術呈現的精選照片與影音素材。"
+        }
+      },
+      "contact": {
+        "title": {
+          "en": "Contact | Gemelli in Harmonia",
+          "de": "Kontakt | Gemelli in Harmonia",
+          "zh-Hant": "聯絡 | Gemelli in Harmonia"
+        },
+        "description": {
+          "en": "Booking, collaboration, and presenter inquiries.",
+          "de": "Anfragen zu Buchungen, Kooperationen und Veranstaltungsprojekten.",
+          "zh-Hant": "演出邀約、合作提案與主辦相關洽詢。"
+        }
+      }
   }
 }
