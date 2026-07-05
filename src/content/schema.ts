@@ -87,22 +87,6 @@ export type ContactContent = {
   email: string
   instagram: string
   instagramUrl?: string
-  form: {
-    name: LocalizedText
-    email: LocalizedText
-    subject: LocalizedText
-    topic: LocalizedText
-    message: LocalizedText
-    send: LocalizedText
-    sending: LocalizedText
-    successTitle: LocalizedText
-    successBody: LocalizedText
-    errorTitle: LocalizedText
-    errorBody: LocalizedText
-    requiredHint: LocalizedText
-    honeypotLabel: LocalizedText
-    topics: Array<{ id: string; label: LocalizedText }>
-  }
 }
 
 export type LegalContent = {

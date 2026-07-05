@@ -126,25 +126,14 @@ These are the real details now used on the website:
 
 LinkedIn is intentionally not used on this website.
 
-## Contact Form Test Recipient
+## Direct Contact Details
 
-The public website contact email remains:
+The public contact page now shows direct contact options instead of a website form:
 
-- `musical_kelvin@yahoo.com.hk`
-
-For temporary contact form testing, the backend recipient is controlled by the environment variable `CONTACT_EMAIL`.
-
-Current testing value:
-
-```env
-CONTACT_EMAIL=Li.Minghao@campus.lmu.de
-```
-
-Before final production launch, change it back to:
-
-```env
-CONTACT_EMAIL=musical_kelvin@yahoo.com.hk
-```
+- General email: `musical_kelvin@yahoo.com.hk`
+- Liu Yi phone / WhatsApp: `+49 176 32866265`
+- Kelvin Tsui phone / WhatsApp: `+49 176 65534751`
+- Instagram: `https://www.instagram.com/yi.earlymusic/`
 
 ## Very Important Image Rules
 

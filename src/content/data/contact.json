@@ -1,123 +1,22 @@
 {
   "contact": {
     "heading": {
-      "en": "Contact and Booking",
-      "de": "Kontakt und Buchung",
-      "zh-Hant": "聯絡與演出邀約"
+      "en": "Contact",
+      "de": "Kontakt",
+      "zh-Hant": "聯絡"
     },
     "intro": {
-      "en": "For concert invitations, collaborations, and artistic inquiries, please contact us via the form below or by direct email.",
-      "de": "Für Konzerteinladungen, Kooperationen und künstlerische Anfragen freuen wir uns über Ihre Nachricht über das untenstehende Formular oder per direkter E-Mail.",
-      "zh-Hant": "如有音樂會邀約、合作提案或藝術相關洽詢，歡迎透過下列表單或電子郵件與我們聯絡。"
+      "en": "For concert invitations, collaborations, artistic inquiries, and media-related questions, please contact us directly.",
+      "de": "Für Konzerteinladungen, Kooperationen, künstlerische Anfragen und medienbezogene Anliegen kontaktieren Sie uns bitte direkt.",
+      "zh-Hant": "如有演出邀約、合作洽詢、藝術相關事宜或媒體聯絡，歡迎直接與我們聯繫。"
     },
     "invitation": {
-      "en": "Suitable for concert organizers, festivals, institutions, and artistic partners.",
-      "de": "Geeignet für Konzertveranstalter, Festivals, Institutionen und künstlerische Partner.",
-      "zh-Hant": "適用於音樂會主辦單位、藝術節、文化機構與合作夥伴。"
+      "en": "Direct contact details for Gemelli in Harmonia are listed below.",
+      "de": "Die direkten Kontaktdaten von Gemelli in Harmonia finden Sie unten.",
+      "zh-Hant": "Gemelli in Harmonia 的直接聯絡方式如下。"
     },
     "email": "musical_kelvin@yahoo.com.hk",
     "instagram": "yi.earlymusic",
-    "form": {
-      "name": {
-        "en": "Name",
-        "de": "Name",
-        "zh-Hant": "姓名"
-      },
-      "email": {
-        "en": "Email",
-        "de": "E-Mail",
-        "zh-Hant": "電子郵件"
-      },
-      "subject": {
-        "en": "Subject",
-        "de": "Betreff",
-        "zh-Hant": "主旨"
-      },
-      "topic": {
-        "en": "Inquiry Type",
-        "de": "Anfrageart",
-        "zh-Hant": "洽詢類別"
-      },
-      "message": {
-        "en": "Message",
-        "de": "Nachricht",
-        "zh-Hant": "訊息內容"
-      },
-      "send": {
-        "en": "Send inquiry",
-        "de": "Anfrage senden",
-        "zh-Hant": "送出洽詢"
-      },
-      "sending": {
-        "en": "Sending...",
-        "de": "Wird gesendet...",
-        "zh-Hant": "傳送中..."
-      },
-      "successTitle": {
-        "en": "Message received",
-        "de": "Nachricht eingegangen",
-        "zh-Hant": "已收到訊息"
-      },
-      "successBody": {
-        "en": "Thank you for your inquiry. We will respond with care and clarity.",
-        "de": "Vielen Dank für Ihre Anfrage. Wir melden uns mit Sorgfalt und Klarheit zurück.",
-        "zh-Hant": "感謝您的來信。我們將以審慎而清晰的方式回覆。"
-      },
-      "errorTitle": {
-        "en": "Could not send automatically",
-        "de": "Automatischer Versand nicht möglich",
-        "zh-Hant": "無法自動送出"
-      },
-      "errorBody": {
-        "en": "Please use direct email as a fallback.",
-        "de": "Bitte nutzen Sie alternativ die direkte E-Mail.",
-        "zh-Hant": "請改以直接電子郵件聯絡。"
-      },
-      "requiredHint": {
-        "en": "Please complete all required fields.",
-        "de": "Bitte füllen Sie alle Pflichtfelder vollständig aus.",
-        "zh-Hant": "請完整填寫所有必填欄位。"
-      },
-      "honeypotLabel": {
-        "en": "Leave this field empty",
-        "de": "Bitte dieses Feld leer lassen",
-        "zh-Hant": "請將此欄位留空"
-      },
-      "topics": [
-        {
-          "id": "booking",
-          "label": {
-            "en": "Concert booking",
-            "de": "Konzertbuchung",
-            "zh-Hant": "演出邀約"
-          }
-        },
-        {
-          "id": "festival",
-          "label": {
-            "en": "Festival inquiry",
-            "de": "Festivalanfrage",
-            "zh-Hant": "藝術節洽詢"
-          }
-        },
-        {
-          "id": "collaboration",
-          "label": {
-            "en": "Artistic collaboration",
-            "de": "Künstlerische Kooperation",
-            "zh-Hant": "藝術合作"
-          }
-        },
-        {
-          "id": "media",
-          "label": {
-            "en": "Press / media",
-            "de": "Presse / Medien",
-            "zh-Hant": "媒體 / 新聞"
-          }
-        }
-      ]
-    },
     "instagramUrl": "https://www.instagram.com/yi.earlymusic/"
   },
   "legal": {

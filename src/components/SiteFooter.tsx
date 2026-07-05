@@ -12,7 +12,7 @@ export function SiteFooter({
   onOpenPrivacy: () => void
 }) {
   const inquiriesLabel = lang === 'de' ? 'Anfragen' : lang === 'zh-Hant' ? '洽詢' : 'Inquiries'
-  const contactFormLabel = lang === 'de' ? 'Kontaktformular' : lang === 'zh-Hant' ? '聯絡表單' : 'Contact form'
+  const contactLabel = lang === 'de' ? 'Kontakt' : lang === 'zh-Hant' ? '聯絡' : 'Contact'
   const instagramUrl = ELINA_COPY.contact.instagramUrl ?? `https://www.instagram.com/${ELINA_COPY.contact.instagram.replace('@', '')}/`
 
   return (
@@ -33,7 +33,7 @@ export function SiteFooter({
               Instagram
             </a>
             <Link className="underline" to={`/${lang}/contact`}>
-              {contactFormLabel}
+              {contactLabel}
             </Link>
           </div>
         </div>

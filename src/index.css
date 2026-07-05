@@ -267,7 +267,7 @@ p {
 .artistPortraitPanel,
 .artistIntroPanel,
 .artistBioPanel,
-.formPanel,
+.contactDirectPanel,
 .contactAside,
 .editorialCard,
 .artistOverviewEntry,
@@ -283,7 +283,7 @@ p {
   .artistPortraitPanel,
   .artistIntroPanel,
   .artistBioPanel,
-  .formPanel,
+  .contactDirectPanel,
   .contactAside,
   .editorialCard,
   .artistOverviewEntry,
@@ -311,7 +311,7 @@ p {
 
 .artistIntroPanel,
 .artistBioPanel,
-.formPanel,
+.contactDirectPanel,
 .contactAside,
 .editorialCard,
 .artistOverviewEntry,
@@ -322,7 +322,7 @@ p {
 
 .artistIntroPanel,
 .artistBioPanel,
-.formPanel,
+.contactDirectPanel,
 .contactAside,
 .editorialCard,
 .artistOverviewEntry {
@@ -379,7 +379,9 @@ p {
 .artistOverviewBody,
 .artistOverviewExcerptList,
 .prosePanel,
-.contactFormGrid,
+.contactDirectPanel,
+.contactEmailBlock,
+.contactArtistCard,
 .footerContactBlock {
   display: grid;
   gap: 14px;
@@ -412,7 +414,7 @@ p {
 .editorialCard::before,
 .artistOverviewEntry::before,
 .artistBioPanel::before,
-.formPanel::before,
+.contactDirectPanel::before,
 .contactAside::before,
 .videoCard::before,
 .mediaGalleryButton::before {
@@ -570,7 +572,6 @@ p {
   display: block;
 }
 
-.formMessage,
 .caption {
   padding: 14px 16px;
   border: 1px solid var(--border);
@@ -578,13 +579,34 @@ p {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.fieldWrap {
-  display: grid;
-  gap: 8px;
-}
-
 .contactLayout {
   align-items: start;
+}
+
+.contactDirectPanel {
+  position: relative;
+  gap: 22px;
+}
+
+.contactEmailBlock {
+  padding-bottom: 8px;
+}
+
+.contactEmailLink,
+.contactPhoneText {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.contactPhoneText {
+  font-size: 1.2rem;
+}
+
+.contactArtistCard {
+  gap: 18px;
 }
 
 .contactAside {

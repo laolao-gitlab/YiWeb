@@ -285,7 +285,7 @@ export async function processContactSubmission({ body, env, clientIp }) {
       }
     };
   } catch (error) {
-    console.error('Contact form email send failed', error);
+    console.error('Contact email send failed', error);
     return validationError('Could not send emails.', 502);
   }
 }
