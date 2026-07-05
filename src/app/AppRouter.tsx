@@ -6,7 +6,6 @@ import { HomePage } from '../pages/HomePage'
 import { DuoPage } from '../pages/ProfilePage'
 import { ArtistsPage } from '../pages/ArtistsPage'
 import { ArtistBiographyPage } from '../pages/ArtistBiographyPage'
-import { RepertoirePage } from '../pages/WorkPage'
 import { SeasonPage } from '../pages/EventsPage'
 import { MediaPage } from '../pages/MediaPage'
 import { ContactPage } from '../pages/ContactPage'
@@ -30,7 +29,6 @@ function LangOutlet({ lang }: { lang: Lang }) {
         <Route path="artists" element={<ArtistsPage lang={lang} />} />
         <Route path="artists/yi-liu" element={<ArtistBiographyPage lang={lang} artistId="liu-yi" />} />
         <Route path="artists/kelvin-tsui" element={<ArtistBiographyPage lang={lang} artistId="kelvin-tsui" />} />
-        <Route path="repertoire" element={<RepertoirePage lang={lang} />} />
         <Route path="season" element={<SeasonPage lang={lang} />} />
         <Route path="media" element={<MediaPage lang={lang} />} />
         <Route path="contact" element={<ContactPage lang={lang} />} />

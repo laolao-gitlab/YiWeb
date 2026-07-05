@@ -108,41 +108,5 @@
         "與管弦樂團及早期音樂團體合作演出"
       ]
     }
-  },
-  "repertoire": {
-    "intro": {
-      "en": "The repertoire of Gemelli in Harmonia centers on the expressive worlds of seventeenth- and eighteenth-century Baroque music, approached with historical awareness, rhetorical clarity, and a chamber-like sense of intimacy.",
-      "de": "Das Repertoire von Gemelli in Harmonia konzentriert sich auf die Ausdruckswelten der Barockmusik des 17. und 18. Jahrhunderts und wird mit historischem Bewusstsein, rhetorischer Klarheit und kammermusikalischer Intimität gestaltet.",
-      "zh-Hant": "Gemelli in Harmonia 的曲目聚焦於十七、十八世紀巴洛克音樂的多重表現世界，並以歷史風格意識、修辭清晰度與室內樂般的親密感加以呈現。"
-    },
-    "themes": {
-      "en": [
-        "Seventeenth- and eighteenth-century repertoire",
-        "Early Italian Baroque monody and sacred music",
-        "French and German high Baroque eloquence",
-        "Intimate voice-and-harpsichord recital formats",
-        "Collaborative projects with orchestras and early music ensembles",
-        "Historically informed and emotionally immediate interpretation",
-        "Musical dialogue, mutual inspiration, and nuanced storytelling"
-      ],
-      "de": [
-        "Repertoire des 17. und 18. Jahrhunderts",
-        "Früher italienischer Barock, Monodie und geistliche Musik",
-        "Französische und deutsche Hochbarock-Rhetorik",
-        "Intime Recitalformate für Stimme und Cembalo",
-        "Kooperative Projekte mit Orchestern und Ensembles für Alte Musik",
-        "Historisch informierte und emotional unmittelbare Interpretation",
-        "Musikalischer Dialog, gegenseitige Inspiration und differenziertes Erzählen"
-      ],
-      "zh-Hant": [
-        "十七與十八世紀曲目",
-        "義大利早期巴洛克獨唱作品與宗教音樂",
-        "法國與德國高巴洛克的音樂修辭",
-        "親密細膩的聲樂與羽管鍵琴獨奏會形式",
-        "與管弦樂團及早期音樂團體的合作企劃",
-        "兼具歷史風格意識與情感感染力的詮釋",
-        "以音樂對話、彼此啟發與細緻敘事為核心"
-      ]
-    }
   }
 }

@@ -24,7 +24,7 @@ collections:
     delete: false
     files:
       - name: site_content
-        label: Homepage, Duo, Repertoire
+        label: Homepage and Duo
         file: src/content/data/site.json
         fields:
           - label: Brand
@@ -107,25 +107,6 @@ collections:
                   - { label: English, name: en, widget: list, field: { label: Item, name: item, widget: string } }
                   - { label: German, name: de, widget: list, field: { label: Item, name: item, widget: string } }
                   - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Item, name: item, widget: string } }
-          - label: Repertoire
-            name: repertoire
-            widget: object
-            fields:
-              - label: Intro
-                name: intro
-                widget: object
-                fields:
-                  - { label: English, name: en, widget: text }
-                  - { label: German, name: de, widget: text }
-                  - { label: Traditional Chinese, name: zh-Hant, widget: text }
-              - label: Themes
-                name: themes
-                widget: object
-                fields:
-                  - { label: English, name: en, widget: list, field: { label: Theme, name: theme, widget: string } }
-                  - { label: German, name: de, widget: list, field: { label: Theme, name: theme, widget: string } }
-                  - { label: Traditional Chinese, name: zh-Hant, widget: list, field: { label: Theme, name: theme, widget: string } }
-
   - name: artists
     label: Artists
     format: json

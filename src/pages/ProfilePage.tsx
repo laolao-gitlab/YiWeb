@@ -57,7 +57,6 @@ export function DuoPage({ lang }: { lang: Lang }) {
 
         <div className="homeLinkRow">
           <Link className="btn btn-primary" to={`/${lang}/artists`}>{artistsLabel}</Link>
-          <Link className="btn" to={`/${lang}/repertoire`}>Repertoire</Link>
         </div>
       </section>
     </main>

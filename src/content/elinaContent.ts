@@ -4,7 +4,7 @@ import { contactContent, legalContent } from './contact'
 import { seasonContent } from './events'
 import { mediaContent } from './media'
 import { seoContent } from './seo'
-import { siteBrand, siteNavigation, duoContent, repertoireContent } from './site'
+import { siteBrand, siteNavigation, duoContent } from './site'
 
 export type { SiteContent } from './schema'
 
@@ -13,7 +13,6 @@ export const ELINA_COPY: SiteContent = {
   nav: siteNavigation,
   duo: duoContent,
   artists: artistsContent,
-  repertoire: repertoireContent,
   season: seasonContent,
   media: mediaContent,
   contact: contactContent,

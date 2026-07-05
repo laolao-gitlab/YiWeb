@@ -9,7 +9,7 @@ export type Localized<T> = {
 export type LocalizedText = Localized<string>
 
 export type NavigationItem = {
-  id: 'home' | 'duo' | 'artists' | 'repertoire' | 'season' | 'media' | 'contact'
+  id: 'home' | 'duo' | 'artists' | 'season' | 'media' | 'contact'
   href: (lang: Lang) => string
   label: LocalizedText
 }

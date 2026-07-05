@@ -91,7 +91,6 @@ export function HomePage({ lang }: { lang: Lang }) {
 
         <div className="homeLinkRow">
           <Link className="btn btn-primary" to={`/${lang}/artists`}>{biographiesLabel}</Link>
-          <Link className="btn" to={`/${lang}/repertoire`}>Repertoire</Link>
           <Link className="btn btn-ghost" to={`/${lang}/media`}>{mediaLabel}</Link>
         </div>
       </section>

@@ -39,11 +39,6 @@ export type DuoContent = {
   formats: LocalizedArray
 }
 
-export type RepertoireContent = {
-  intro: LocalizedText
-  themes: LocalizedArray
-}
-
 export type SeasonHighlight = {
   id: string
   monthLabel: LocalizedText
@@ -122,7 +117,6 @@ export type SeoContent = {
   home: { title: LocalizedText; description: LocalizedText }
   duo: { title: LocalizedText; description: LocalizedText }
   artists: { title: LocalizedText; description: LocalizedText }
-  repertoire: { title: LocalizedText; description: LocalizedText }
   season: { title: LocalizedText; description: LocalizedText }
   media: { title: LocalizedText; description: LocalizedText }
   contact: { title: LocalizedText; description: LocalizedText }
@@ -133,7 +127,6 @@ export type SiteContent = {
   nav: NavigationItem[]
   duo: DuoContent
   artists: ArtistContentEntry[]
-  repertoire: RepertoireContent
   season: SeasonContent
   media: MediaContent
   contact: ContactContent

@@ -16,7 +16,6 @@ function activeFromPathname(pathname: string) {
   const last = clean.split('/').pop()
   if (last === 'duo') return 'duo'
   if (last === 'artists') return 'artists'
-  if (last === 'repertoire') return 'repertoire'
   if (last === 'season') return 'season'
   if (last === 'media') return 'media'
   if (last === 'contact') return 'contact'
