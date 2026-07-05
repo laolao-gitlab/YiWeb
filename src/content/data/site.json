@@ -142,7 +142,7 @@
         "label": {
           "en": "Season",
           "de": "Saison",
-          "zh-Hant": "樂季"
+          "zh-Hant": "演出日程"
         }
       },
       {
@@ -150,7 +150,7 @@
         "label": {
           "en": "Media",
           "de": "Medien",
-          "zh-Hant": "媒體"
+          "zh-Hant": "影音"
         }
       },
       {
@@ -194,7 +194,7 @@
         "seasonKicker": {
           "en": "Season 2025",
           "de": "Saison 2025",
-          "zh-Hant": "2025 樂季"
+          "zh-Hant": "2025 演出日程"
         },
         "featuredHeading": {
           "en": "Featured highlights",
@@ -287,24 +287,24 @@
         "pageKicker": {
           "en": "Season",
           "de": "Saison",
-          "zh-Hant": "樂季"
+          "zh-Hant": "演出日程"
         },
         "pageTitle": {
           "en": "Season highlights",
           "de": "Saisonhöhepunkte",
-          "zh-Hant": "樂季重點"
+          "zh-Hant": "演出日程重點"
         }
       },
       "media": {
         "pageKicker": {
           "en": "Media",
           "de": "Medien",
-          "zh-Hant": "媒體"
+          "zh-Hant": "影音"
         },
         "pageTitle": {
           "en": "Curated media",
           "de": "Kuratiertes Material",
-          "zh-Hant": "精選媒體素材"
+          "zh-Hant": "精選影音素材"
         },
         "imagesKicker": {
           "en": "Images",

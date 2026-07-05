@@ -55,6 +55,8 @@ export default function AppRouter() {
       <Route path="/admin" element={<AdminRedirect />} />
       <Route path="/admin/*" element={<AdminRedirect />} />
       <Route path="/" element={<Navigate to={`/${preferred}`} replace />} />
+      <Route path="/season" element={<Navigate to={`/${preferred}/season`} replace />} />
+      <Route path="/media" element={<Navigate to={`/${preferred}/media`} replace />} />
       <Route path="/en/*" element={<LangOutlet lang="en" />} />
       <Route path="/de/*" element={<LangOutlet lang="de" />} />
       <Route path="/zh-Hant/*" element={<LangOutlet lang="zh-Hant" />} />
