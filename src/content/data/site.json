@@ -184,7 +184,7 @@
         "seasonLabel": {
           "en": "View season",
           "de": "Saison ansehen",
-          "zh-Hant": "查看樂季"
+          "zh-Hant": "演出日程"
         },
         "contactLabel": {
           "en": "Contact",
@@ -204,7 +204,7 @@
         "fullSeasonLabel": {
           "en": "Full season",
           "de": "Alle Termine",
-          "zh-Hant": "完整樂季"
+          "zh-Hant": "演出日程"
         },
         "biographiesLabel": {
           "en": "Artist biographies",
@@ -219,7 +219,7 @@
         "mediaLabel": {
           "en": "Media",
           "de": "Medien",
-          "zh-Hant": "媒體"
+          "zh-Hant": "影音"
         }
       },
       "duo": {
