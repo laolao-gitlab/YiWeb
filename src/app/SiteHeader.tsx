@@ -28,7 +28,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const activeId = useMemo(() => activeFromPathname(location.pathname), [location.pathname])
-  const menuLabel = lang === 'de' ? 'Menü öffnen' : lang === 'zh-Hant' ? '開啟選單' : 'Open menu'
+  const headerCopy = ELINA_COPY.pages.header
 
   useEffect(() => {
     const onScroll = () => {
@@ -58,7 +58,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
             <span className="brandSubline">IN HARMONIA</span>
           </Link>
 
-          <nav aria-label="Primary" className="navLinksDesktop">
+          <nav aria-label={headerCopy.primaryNavAria[lang]} className="navLinksDesktop">
             {ELINA_COPY.nav.map((item) => {
               const active = item.id === activeId
               return (
@@ -80,7 +80,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           <button
             type="button"
             className="mobileMenuButton"
-            aria-label={menuLabel}
+            aria-label={headerCopy.menuLabel[lang]}
             aria-expanded={mobileMenuOpen}
             onClick={() => setMobileMenuOpen((value) => !value)}
           >
@@ -92,7 +92,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           </button>
 
           {mobileMenuOpen ? (
-            <div className="mobileMenu" role="navigation" aria-label="Primary">
+            <div className="mobileMenu" role="navigation" aria-label={headerCopy.primaryNavAria[lang]}>
               {ELINA_COPY.nav.map((item) => {
                 const active = item.id === activeId
                 return (

@@ -3,10 +3,10 @@
     {
       "id": "liu-yi",
       "slug": "yi-liu",
-      "name": "Yi Liu",
+      "name": "Liu Yi",
       "displayName": {
-        "en": "Yi Liu",
-        "de": "Yi Liu",
+        "en": "Liu Yi",
+        "de": "Liu Yi",
         "zh-Hant": "劉一"
       },
       "role": {
@@ -15,63 +15,38 @@
         "zh-Hant": "假聲男高音"
       },
       "intro": {
-        "en": "Yi Liu is a countertenor from China, currently living and working in Trossingen, Germany.",
-        "de": "Yi Liu ist ein Countertenor aus China und lebt und arbeitet derzeit in Trossingen, Deutschland.",
-        "zh-Hant": "劉一為來自中國的假聲男高音，現居並工作於德國特羅辛根。"
+        "en": "Liu Yi is a countertenor from China, currently residing and working in Trossingen, Germany.",
+        "de": "Liu Yi ist ein Countertenor aus China und lebt und arbeitet derzeit in Trossingen, Deutschland.",
+        "zh-Hant": "劉一，一位來自中國的假聲男高音，目前居住並工作於德國特羅辛根。"
       },
       "previewLabel": {
-        "en": "View Yi Liu",
-        "de": "Yi Liu ansehen",
+        "en": "View Liu Yi",
+        "de": "Liu Yi ansehen",
         "zh-Hant": "查看劉一"
       },
       "portraitSrc": "/image/artists/liuyi/liuyi-portrait-studio.jpg",
       "portraitAlt": {
-        "en": "Studio portrait of Yi Liu",
-        "de": "Studioportät von Yi Liu",
+        "en": "Studio portrait of Liu Yi",
+        "de": "Studioporträt von Liu Yi",
         "zh-Hant": "劉一錄音室肖像照"
       },
       "sections": [
         {
-          "id": "profile",
+          "id": "education",
           "heading": {
-            "en": "Profile",
-            "de": "Profil",
-            "zh-Hant": "簡介"
-          },
-          "paragraphs": {
-            "en": [
-              "I am Yi Liu, a countertenor from China, currently living and working in Trossingen, Germany."
-            ],
-            "de": [
-              "Ich bin Yi Liu, ein Countertenor aus China, der derzeit in Trossingen, Deutschland, lebt und arbeitet."
-            ],
-            "zh-Hant": [
-              "劉一，一位來自中國的假聲男高音，目前居住並工作於德國特羅辛根。"
-            ]
-          }
-        },
-        {
-          "id": "studies",
-          "heading": {
-            "en": "Studies and Artistic Formation",
-            "de": "Studien und künstlerische Ausbildung",
+            "en": "Education and Artistic Development",
+            "de": "Ausbildung und künstlerische Entwicklung",
             "zh-Hant": "學習歷程與藝術養成"
           },
           "paragraphs": {
             "en": [
-              "My musical journey began at the Xinghai Conservatory of Music in China, where I completed my Bachelor’s and Master’s degrees in Vocal Performance and Opera from 2016 to 2023.",
-              "I then continued my studies in Germany at the State University of Music Trossingen, where I earned my Master’s degree in Early Music Vocal with a perfect score of 1.0 from 2023 to 2025.",
-              "Subsequently, I was admitted to the Konzertexamen program with an outstanding score of 24 out of 24 from 2026 onward, focusing on the research and interpretation of early vocal repertoire."
+              "His musical journey began at the Xinghai Conservatory of Music in China, where he completed his Bachelor's and Master's degrees in Vocal Performance and Opera from 2016 to 2023. He then pursued further studies at the State University of Music Trossingen in Germany, earning a Master's degree in Early Music from 2023 to 2025. Since 2026, he has been admitted to the Konzertexamen program, focusing on the research and interpretation of early vocal repertoire."
             ],
             "de": [
-              "Meine musikalische Laufbahn begann am Xinghai Conservatory of Music in China, wo ich von 2016 bis 2023 meine Bachelor- und Masterabschlüsse in Gesang und Oper erwarb.",
-              "Anschließend setzte ich mein Studium an der Staatlichen Hochschule für Musik Trossingen fort und schloss dort von 2023 bis 2025 den Masterstudiengang Early Music Vocal mit der Bestnote 1,0 ab.",
-              "Seit 2026 bin ich zudem mit der Höchstwertung von 24 von 24 Punkten in das Konzertexamen aufgenommen und widme mich dort der Erforschung und Interpretation des frühen Vokalrepertoires."
+              "Sein musikalischer Weg begann am Xinghai Konservatorium für Musik in China, wo er von 2016 bis 2023 seinen Bachelor- und Masterabschluss in Gesang und Oper absolvierte. Anschließend setzte er sein Studium an der Staatlichen Hochschule für Musik Trossingen in Deutschland fort und schloss dort von 2023 bis 2025 das Masterstudium der Alten Musik ab. Seit 2026 wurde er in das Konzertexamen-Studium aufgenommen, in dem er sich auf die Erforschung und Interpretation des frühen Gesangsrepertoires konzentriert."
             ],
             "zh-Hant": [
-              "他的音樂之路始於中國星海音樂學院，於 2016 至 2023 年間完成聲樂表演與歌劇的學士及碩士學位。",
-              "其後我赴德國特羅辛根國立音樂大學深造，於 2023 至 2025 年間以滿分 1.0 的成績取得早期音樂聲樂碩士學位。",
-              "自 2026 年起，我又以 24 分滿分的優異成績獲錄取進入 Konzertexamen 課程，專注於早期聲樂曲目的研究與詮釋。"
+              "他的音樂之路始於中國星海音樂學院，於 2016 至 2023 年間完成聲樂表演與歌劇的學士及碩士學位。其後他赴德國特羅辛根國立音樂大學深造，於 2023 至 2025 年間以滿分 1.0 的成績取得早期音樂聲樂碩士學位。自 2026 年起，他又以 24 分滿分的優異成績獲錄取進入 Konzertexamen 課程，專注於早期聲樂曲目的研究與詮釋。"
             ]
           }
         },
@@ -84,85 +59,54 @@
           },
           "paragraphs": {
             "en": [
-              "I have had the privilege of participating in masterclasses with distinguished artists, including Dame Emma Kirkby in Venice in 2024, Ning Liang in Shandong in 2021, and Antonio Giovanni in Guangzhou in 2019.",
-              "These experiences have greatly broadened my artistic perspective."
+              "He has had the privilege of participating in masterclasses with numerous distinguished artists, including Antonio Giovanni in Guangzhou in 2019, Liang Ning in Shandong in 2021, Dame Emma Kirkby in Venice in 2024, and renowned baritone Thomas Hampson and Wagnerian soprano Melanie Diener in Waiblingen, Germany, in 2026. These experiences have greatly broadened his artistic horizons."
             ],
             "de": [
-              "Ich hatte das Privileg, an Meisterkursen mit bedeutenden Künstlerpersönlichkeiten teilzunehmen, darunter Dame Emma Kirkby in Venedig im Jahr 2024, Ning Liang in Shandong im Jahr 2021 sowie Antonio Giovanni in Guangzhou im Jahr 2019.",
-              "Diese Begegnungen haben meinen künstlerischen Horizont in besonderem Maße erweitert."
+              "Er hatte das Privileg, an Meisterkursen bei zahlreichen herausragenden Künstlern teilzunehmen, darunter 2019 in Guangzhou bei Antonio Giovanni, 2021 in Shandong bei Liang Ning, 2024 in Venedig bei Dame Emma Kirkby sowie 2026 in Waiblingen (Deutschland) bei dem berühmten Bariton Thomas Hampson und der Wagner-Sopranistin Melanie Diener. Diese Erfahrungen haben seinen künstlerischen Horizont erheblich erweitert."
             ],
             "zh-Hant": [
-              "我曾有幸參與多位傑出藝術家的大師班，包括 2024 年於威尼斯隨 Dame Emma Kirkby 學習、2021 年於山東隨梁寧學習，以及 2019 年於廣州隨 Antonio Giovanni 學習。",
-              "這些經歷大大拓展了我的藝術視野。"
+              "他曾有幸參與多位傑出藝術家的大師班，包括 2019 年於廣州隨 Antonio Giovanni 學習、2021 年於山東隨梁寧學習、2024 年於威尼斯隨 Dame Emma Kirkby 學習，以及 2026 年於德國 Waiblingen 隨著名男中音 Thomas Hampson 及華格納女高音 Melanie Diener 學習。這些經歷大大拓展了他的藝術視野。"
             ]
           }
         },
         {
           "id": "awards",
           "heading": {
-            "en": "Awards and Distinctions",
+            "en": "Awards and Honors",
             "de": "Auszeichnungen und Preise",
             "zh-Hant": "獎項與殊榮"
           },
           "paragraphs": {
             "en": [
-              "I have also actively taken part in international competitions and received several recognitions. In 2024, I was a finalist and received a special prize at the 4th International Franco Ghitti Singing Competition in Italy.",
-              "In 2023, I won the Platinum Prize at the Canadian International Music Competition and the Gold Prize at the Ordinary Chamber International Music Festival in Hong Kong.",
-              "In addition, I received the Silver Peacock Award at the Chinese Vocal Peafowl Award in 2022, as well as the First Prize at the Hong Kong International Vocal Open Competition and the Gold Prize at the Macau International Art Open Competition in 2019."
+              "He actively participates in international music competitions and has received numerous accolades. In 2019, he won the First Prize at the Hong Kong International Vocal Open Competition and the Gold Award at the Macau International Art Open Competition; in 2022, he received the Silver Peacock Award at the China Vocal Peacock Awards; in 2023, he won the Platinum Award at the Canadian International Music Competition and the Gold Award at the Ordinary Chamber International Music Festival in Hong Kong; in 2024, he was a finalist at the 4th Franco Ghitti International Vocal Competition in Italy, where he was awarded a Special Prize; in 2026, he also received the Special Prize for Best Lied Interpretation at the 35th Ionel Perlea International Vocal Competition in Romania."
             ],
             "de": [
-              "Darüber hinaus habe ich mich aktiv an internationalen Wettbewerben beteiligt und mehrfach Auszeichnungen erhalten. Im Jahr 2024 war ich Finalist und wurde beim 4. Internationalen Franco-Ghitti-Gesangswettbewerb in Italien mit einem Sonderpreis ausgezeichnet.",
-              "2023 erhielt ich den Platinum Prize beim Canadian International Music Competition sowie den Gold Prize beim Ordinary Chamber International Music Festival in Hongkong.",
-              "Zudem wurde ich 2022 mit dem Silver Peacock Award des Chinese Vocal Peafowl Award ausgezeichnet; 2019 kamen der First Prize des Hong Kong International Vocal Open Competition sowie der Gold Prize des Macau International Art Open Competition hinzu."
+              "Er nimmt aktiv an internationalen Gesangswettbewerben teil und wurde vielfach ausgezeichnet. 2019 erhielt er den Ersten Preis beim Hong Kong International Vocal Open Competition sowie den Goldpreis beim Macau International Art Open Competition; 2022 wurde ihm der Silberne Pfauenpreis des Chinesischen Gesangswettbewerbs „Gesangspfau“ verliehen; 2023 gewann er den Platinpreis beim Canadian International Music Competition sowie den Goldpreis beim Ordinary Chamber International Music Festival in Hongkong; 2024 erreichte er das Finale des 4. Internationalen Gesangswettbewerbs Franco Ghitti in Italien und erhielt dort einen Sonderpreis; 2026 wurde ihm außerdem der Sonderpreis für die beste Liedinterpretation beim 35. Internationalen Gesangswettbewerb Ionel Perlea in Rumänien verliehen."
             ],
             "zh-Hant": [
-              "我亦積極參與國際音樂比賽，並獲得多項肯定。2024 年，我於義大利第四屆 Franco Ghitti 國際聲樂比賽入圍決賽，並獲頒特別獎。",
-              "2023 年，我獲得加拿大國際音樂比賽白金獎，以及香港 Ordinary Chamber 國際音樂節金獎。",
-              "此外，我於 2022 年獲得中國聲樂孔雀獎銀孔雀獎，並於 2019 年獲得香港國際聲樂公開賽一等獎及澳門國際藝術公開賽金獎。"
+              "他亦積極參與國際音樂比賽，並獲得多項肯定。2019 年，他獲得香港國際聲樂公開賽一等獎及澳門國際藝術公開賽金獎；2022 年獲得中國聲樂孔雀獎銀孔雀獎；2023 年獲得加拿大國際音樂比賽白金獎，以及香港 Ordinary Chamber 國際音樂節金獎；2024 年，他於義大利第四屆 Franco Ghitti 國際聲樂比賽入圍決賽並獲頒特別獎；2026 年，他獲得第35屆羅馬尼亞 Ionel Perlea 國際聲樂比賽最佳藝術歌曲演繹特別獎。"
             ]
           }
         },
         {
-          "id": "repertoire",
+          "id": "philosophy",
           "heading": {
-            "en": "Concert and Opera Repertoire",
-            "de": "Konzert- und Opernrepertoire",
-            "zh-Hant": "音樂會與歌劇曲目"
-          },
-          "paragraphs": {
-            "en": [
-              "On the concert stage, my repertoire includes Pergolesi’s Stabat Mater, Fauré’s Requiem, Handel’s Messiah and St. John Passion, and Monteverdi’s Vespro della Beata Vergine.",
-              "In opera, I have performed the roles of Orfeo in Gluck’s Orfeo ed Euridice, the Sorceress in Purcell’s Dido and Aeneas, and Farnace in Mozart’s Mitridate, re di Ponto."
-            ],
-            "de": [
-              "Auf dem Konzertpodium umfasst mein Repertoire unter anderem Pergolesis Stabat Mater, Faurés Requiem, Händels Messiah und Johannes-Passion sowie Monteverdis Vespro della Beata Vergine.",
-              "Im Opernfach habe ich die Rollen des Orfeo in Glucks Orfeo ed Euridice, der Sorceress in Purcells Dido and Aeneas sowie des Farnace in Mozarts Mitridate, re di Ponto verkörpert."
-            ],
-            "zh-Hant": [
-              "在音樂會舞台上，我的曲目包括佩爾戈萊西《聖母悼歌》、佛瑞《安魂曲》、韓德爾《彌賽亞》與《聖約翰受難曲》，以及蒙台威爾第《聖母晚禱》。",
-              "在歌劇方面，我曾演出格魯克《奧菲歐與尤麗狄茜》中的 Orfeo、浦賽爾《黛朵與阿尼阿斯》中的 Sorceress，以及莫札特《米特里達泰，龐都國王》中的 Farnace。"
-            ]
-          }
-        },
-        {
-          "id": "statement",
-          "heading": {
-            "en": "Artistic Statement",
-            "de": "Künstlerisches Selbstverständnis",
+            "en": "Artistic Philosophy",
+            "de": "Künstlerische Überzeugung",
             "zh-Hant": "藝術理念"
           },
           "paragraphs": {
             "en": [
-              "Music is my way of expressing myself and connecting with the world. As a countertenor, I hope to build a bridge between early music and contemporary audiences — telling stories through my voice and touching hearts with emotion.",
-              "Please feel free to contact me through the website."
+              "Music is his way of expressing himself and connecting with the world. As a countertenor, he aspires to build a bridge between early music and contemporary audiences, telling stories through his voice and touching hearts through emotion.",
+              "You are welcome to contact him through this website."
             ],
             "de": [
-              "Musik ist meine Weise, mich auszudrücken und mit der Welt in Verbindung zu treten. Als Countertenor möchte ich eine Brücke zwischen Alter Musik und dem heutigen Publikum schlagen, Geschichten mit meiner Stimme erzählen und Herzen durch Emotion berühren.",
-              "Bitte nehmen Sie gern über die Website Kontakt mit mir auf."
+              "Musik ist für ihn eine Möglichkeit, sich selbst auszudrücken und eine Verbindung zur Welt herzustellen. Als Countertenor möchte er eine Brücke zwischen Alter Musik und dem zeitgenössischen Publikum schlagen, Geschichten mit seiner Stimme erzählen und die Menschen durch Emotionen berühren.",
+              "Kontaktieren Sie ihn gerne über diese Website."
             ],
             "zh-Hant": [
-              "音樂是我表達自我、也與世界建立聯繫的方式。作為一名假聲男高音，我希望在早期音樂與當代觀眾之間搭起橋樑，以聲音敘述故事，並以情感觸動人心。",
-              "歡迎透過本網站與我聯絡。"
+              "音樂是他表達自我、也與世界建立聯繫的方式。作為一名假聲男高音，他希望能在早期音樂與當代觀眾之間搭起橋樑，以聲音敘述故事，並以情感觸動人心。",
+              "歡迎透過本網站與他聯絡"
             ]
           }
         }
@@ -178,14 +122,14 @@
         "zh-Hant": "徐錦輝"
       },
       "role": {
-        "en": "Harpsichordist / Early Music Conductor / Vocal Coach",
-        "de": "Cembalist / Dirigent für Alte Musik / Gesangscoach",
-        "zh-Hant": "羽管鍵琴家 / 古樂指揮 / 聲樂指導"
+        "en": "Harpsichordist, conductor of early music, and vocal coach",
+        "de": "Cembalist, Dirigent für Alte Musik und Gesangspädagoge",
+        "zh-Hant": "古鍵琴家、古樂指揮與聲樂指導"
       },
       "intro": {
-        "en": "Kelvin Tsui is a harpsichordist, early music conductor, and vocal coach from Hong Kong, currently living in Europe and focusing on the research and performance of early music.",
-        "de": "Kelvin Tsui ist Cembalist, Dirigent für Alte Musik und Gesangscoach aus Hongkong, lebt derzeit in Europa und konzentriert sich auf Forschung und Aufführung im Bereich Alter Musik.",
-        "zh-Hant": "徐錦輝為來自香港的羽管鍵琴家、古樂指揮與聲樂指導，現居歐洲，專注於早期音樂的研究與演出。"
+        "en": "Kelvin Tsui is a harpsichordist, conductor of early music, and vocal coach from Hong Kong. He currently resides in Germany and is dedicated to the research and performance of early music, with a special focus on source studies.",
+        "de": "Kelvin Tsui ist ein Cembalist, Dirigent für Alte Musik und Gesangspädagoge aus Hongkong. Er lebt derzeit in Deutschland und widmet sich der Erforschung und Aufführung Alter Musik, mit besonderem Schwerpunkt auf Quellenstudien.",
+        "zh-Hant": "徐錦輝，一位來自香港的古鍵琴家、古樂指揮與聲樂指導，目前居於德國，專注於早期音樂的文獻研究及演出。"
       },
       "previewLabel": {
         "en": "View Kelvin Tsui",
@@ -195,79 +139,45 @@
       "portraitSrc": "/image/artists/kelvin/kelvin-portrait-studio.jpg",
       "portraitAlt": {
         "en": "Studio portrait of Kelvin Tsui",
-        "de": "Studioportät von Kelvin Tsui",
+        "de": "Studioporträt von Kelvin Tsui",
         "zh-Hant": "徐錦輝錄音室肖像照"
       },
       "sections": [
         {
-          "id": "profile",
+          "id": "education",
           "heading": {
-            "en": "Profile",
-            "de": "Profil",
-            "zh-Hant": "簡介"
-          },
-          "paragraphs": {
-            "en": [
-              "I am Kelvin Tsui, a harpsichordist, early music conductor, and vocal coach from Hong Kong, currently living in Europe and focusing on the research and performance of early music."
-            ],
-            "de": [
-              "Ich bin Kelvin Tsui, Cembalist, Dirigent für Alte Musik und Gesangscoach aus Hongkong. Derzeit lebe ich in Europa und widme mich der Forschung und Aufführung Alter Musik."
-            ],
-            "zh-Hant": [
-              "我是徐錦輝，一位來自香港的羽管鍵琴家、古樂指揮與聲樂指導，目前居於歐洲，專注於早期音樂的研究與演出。"
-            ]
-          }
-        },
-        {
-          "id": "studies",
-          "heading": {
-            "en": "Studies and Artistic Formation",
-            "de": "Studien und künstlerische Ausbildung",
+            "en": "Education and Artistic Development",
+            "de": "Ausbildung und künstlerische Entwicklung",
             "zh-Hant": "學習歷程與藝術養成"
           },
           "paragraphs": {
             "en": [
-              "My musical journey began in Germany. In 2011, I entered the Liszt School of Music Weimar, studying harpsichord with Bernhard Klapprott, and also served as a teaching assistant to Jörn Arnecke, head of the Music Theory Department.",
-              "In 2014, I received a DAAD scholarship to study at the Conservatoire National Supérieur de Musique et de Danse de Lyon, working with Jean-Marc Aymes, Yves Rechsteiner, and Dirk Börner.",
-              "From 2017, I studied early music conducting at the State University of Music Trossingen, where I completed my Master’s degree with distinction in 2020 under harpsichordist Marieke Spaans and conductor Michael Alber.",
-              "I then continued my studies in vocal education at the same institution, studying with soprano Gundula Anders."
+              "His musical journey began in Germany. In 2011, he entered the Hochschule für Musik Franz Liszt Weimar, where he studied harpsichord with Bernhard Klapprott and simultaneously served as a teaching assistant to Jörn Arnecke, the head of the music theory department. In 2014, he received a scholarship from the German Academic Exchange Service (DAAD) and continued his studies at the Conservatoire National Supérieur de Musique et de Danse de Lyon in France, studying with Jean-Marc Aymes, Yves Rechsteiner, and Dirk Börner. From 2017, he studied Early Music Conducting at the State University of Music Trossingen, completing his Master's degree in 2020 under the guidance of harpsichordist Marieke Spaans and conductor Michael Alber. He subsequently completed his studies in vocal pedagogy at the same institution with soprano Gundula Anders."
             ],
             "de": [
-              "Meine musikalische Laufbahn begann in Deutschland. 2011 trat ich in die Hochschule für Musik Franz Liszt Weimar ein und studierte Cembalo bei Bernhard Klapprott; zugleich war ich Lehrassistent von Jörn Arnecke, dem Leiter der Abteilung Musiktheorie.",
-              "2014 erhielt ich ein DAAD-Stipendium für ein Studium am Conservatoire National Supérieur de Musique et de Danse de Lyon, wo ich mit Jean-Marc Aymes, Yves Rechsteiner und Dirk Börner arbeitete.",
-              "Ab 2017 studierte ich Dirigieren Alter Musik an der Staatlichen Hochschule für Musik Trossingen und schloss dort 2020 meinen Master bei der Cembalistin Marieke Spaans und dem Dirigenten Michael Alber mit Auszeichnung ab.",
-              "Anschließend setzte ich an derselben Hochschule mein Studium im Bereich Gesangspädagogik fort und arbeitete dort mit der Sopranistin Gundula Anders."
+              "Sein musikalischer Weg begann in Deutschland. 2011 nahm er sein Studium an der Hochschule für Musik Franz Liszt Weimar auf, wo er bei Bernhard Klapprott Cembalo studierte und gleichzeitig als Lehrassistent von Jörn Arnecke, dem Leiter der Musiktheorie-Abteilung, tätig war. 2014 erhielt er ein Stipendium des Deutschen Akademischen Austauschdienstes (DAAD) und setzte sein Studium am Conservatoire National Supérieur de Musique et de Danse de Lyon in Frankreich fort, wo er bei Jean-Marc Aymes, Yves Rechsteiner und Dirk Börner studierte. Seit 2017 studierte er Alte-Musik-Ensembleleitung an der Staatlichen Hochschule für Musik Trossingen und schloss sein Masterstudium 2020 unter der Leitung der Cembalistin Marieke Spaans und des Dirigenten Michael Alber ab. Anschließend absolvierte er an derselben Hochschule sein Gesangspädagogik-Studium bei der Sopranistin Gundula Anders."
             ],
             "zh-Hant": [
-              "我的音樂之路始於德國。2011 年，我進入威瑪李斯特音樂學院，師從 Bernhard Klapprott 學習羽管鍵琴，同時擔任音樂理論系主任 Jörn Arnecke 的教學助理。",
-              "2014 年，我獲得德國學術交流總署（DAAD）獎學金，赴里昂國立高等音樂與舞蹈學院深造，師從 Jean-Marc Aymes、Yves Rechsteiner 與 Dirk Börner。",
-              "自 2017 年起，我於特羅辛根國立音樂大學修讀古樂指揮，並於 2020 年在羽管鍵琴家 Marieke Spaans 與指揮家 Michael Alber 指導下，以優異成績完成碩士學位。",
-              "其後，我於同校繼續進修聲樂教育，師從女高音 Gundula Anders。"
+              "他的音樂之路始於德國。2011 年，他進入威瑪李斯特音樂學院，師從 Bernhard Klapprott 學習古鍵琴，同時擔任音樂理論系主任 Jörn Arnecke 的教學助理。2014 年，他獲得德國學術交流總署（DAAD）獎學金，赴法國里昂國立高等音樂與舞蹈學院深造，師從 Jean-Marc Aymes、Yves Rechsteiner 與 Dirk Börner。自 2017 年起，他於特羅辛根國立音樂大學修讀古樂指揮，並於 2020 年在古鍵琴家 Marieke Spaans 與指揮家 Michael Alber 指導下，以優異成績完成碩士學位。其後，他於同校修畢聲樂教育學位，師從女高音 Gundula Anders。"
             ]
           }
         },
         {
           "id": "masterclasses",
           "heading": {
-            "en": "Masterclasses and Artistic Encounters",
-            "de": "Meisterkurse und künstlerische Begegnungen",
+            "en": "Masterclasses and Artistic Exchange",
+            "de": "Meisterkurse und künstlerischer Austausch",
             "zh-Hant": "大師班與藝術交流"
           },
           "paragraphs": {
             "en": [
-              "During my studies in Europe, I had the privilege of participating in masterclasses with Jörg-Andreas Bötticher and Barbara Maria Willi in harpsichord, Nicole Corti and Florian Helgath in conducting, as well as Emma Kirkby, Lisandro Abadie, Dominik Wortig, and Lisa Wedekind in vocal studies.",
-              "In 2013, I received a scholarship from the Neue Liszt Stiftung to study with the renowned Renaissance vocal ensemble The Tallis Scholars in the United Kingdom and performed under their artistic director Peter Phillips.",
-              "These experiences greatly broadened my artistic perspective."
+              "During his studies in Europe, he had the opportunity to participate in numerous masterclasses: in harpsichord with Jörg-Andreas Bötticher and Barbara Maria Willi, in conducting with Nicole Corti and Florian Helgath, and in voice with Emma Kirkby, Lisandro Abadie, Dominik Wortig, and Lisa Wedekind. In 2013, he received a scholarship from the Neue Liszt Stiftung to travel to England to work with the renowned Renaissance vocal ensemble The Tallis Scholars, performing under the guidance of their artistic director Peter Phillips. These experiences have greatly broadened his artistic horizons."
             ],
             "de": [
-              "Während meiner Studienzeit in Europa hatte ich das Privileg, an Meisterkursen mit Jörg-Andreas Bötticher und Barbara Maria Willi im Fach Cembalo, mit Nicole Corti und Florian Helgath im Dirigieren sowie mit Emma Kirkby, Lisandro Abadie, Dominik Wortig und Lisa Wedekind im Bereich Gesang teilzunehmen.",
-              "2013 erhielt ich ein Stipendium der Neuen Liszt Stiftung, um im Vereinigten Königreich mit dem renommierten Renaissance-Vokalensemble The Tallis Scholars zu arbeiten und unter dessen künstlerischem Leiter Peter Phillips aufzutreten.",
-              "Diese Erfahrungen haben meinen künstlerischen Blick nachhaltig erweitert."
+              "Während seines Studiums in Europa hatte er die Gelegenheit, an zahlreichen Meisterkursen teilzunehmen: im Cembalospiel bei Jörg-Andreas Bötticher und Barbara Maria Willi, im Dirigieren bei Nicole Corti und Florian Helgath sowie im Gesang bei Emma Kirkby, Lisandro Abadie, Dominik Wortig und Lisa Wedekind. 2013 erhielt er ein Stipendium der Neuen Liszt Stiftung, um nach England zu reisen und mit dem renommierten Renaissance-Vokalensemble The Tallis Scholars zu arbeiten, wobei er unter der Anleitung von dessen künstlerischem Leiter Peter Phillips auftrat. Diese Erfahrungen haben seinen künstlerischen Horizont erheblich erweitert."
             ],
             "zh-Hant": [
-              "在歐洲求學期間，我有幸參與多場大師班，在羽管鍵琴方面受教於 Jörg-Andreas Bötticher 與 Barbara Maria Willi，在指揮方面受教於 Nicole Corti 與 Florian Helgath，並在聲樂領域向 Emma Kirkby、Lisandro Abadie、Dominik Wortig 與 Lisa Wedekind 學習。",
-              "2013 年，我獲得 Neue Liszt Stiftung 獎學金，赴英國隨知名文藝復興聲樂團 The Tallis Scholars 學習，並於其藝術總監 Peter Phillips 指導下演出。",
-              "這些經歷極大拓展了我的藝術視野。"
+              "在歐洲求學期間，他有幸參與多場大師班，在古鍵琴方面受教於 Jörg-Andreas Bötticher 與 Barbara Maria Willi，在指揮方面受教於 Nicole Corti 與 Florian Helgath，並在聲樂領域向 Emma Kirkby、Lisandro Abadie、Dominik Wortig 與 Lisa Wedekind 學習。2013 年，他獲得 Neue Liszt Stiftung 獎學金，赴英國隨知名文藝復興聲樂團 The Tallis Scholars 學習，並於其藝術總監 Peter Phillips 指導下演出。這些經歷極大拓展了他的藝術視野。"
             ]
           }
         },
@@ -280,22 +190,13 @@
           },
           "paragraphs": {
             "en": [
-              "I have also been actively involved in various performances and productions. In 2014, I served as artistic director, leading the Weimar early music ensemble and choir in Marc-Antoine Charpentier’s Missa Assumpta est Maria. The same year, I performed Bach’s Mass in B minor with the same ensemble in Jerusalem, Israel.",
-              "In 2016, I took part in the world premiere of Brazilian composer Giordano Bruno do Nascimento’s modern opera Die Marmorpuppe. That same year, I was invited to Tokyo, Japan, to serve as guest artistic director of the Asia Collegium Musicum for six months and gave concerts in multiple cities across Japan.",
-              "In 2019, I conducted Haydn’s oratorio The Seasons with the Trossingen orchestra and choir. In 2020, I conducted the French Baroque concert De la fin du temps à l’éternité with the Trossingen early music ensemble and choir.",
-              "In 2022, I performed as tenor soloist in Mendelssohn’s symphonic cantata Lobgesang. In 2025, I was invited by Musica Viva Hong Kong to serve as vocal coach and continuo player for Mozart’s opera Mitridate, re di Ponto."
+              "He is actively involved in various performances and productions. In 2014, he served as artistic director, leading the ensemble and choir of the Hochschule für Musik Franz Liszt Weimar in a performance of Marc-Antoine Charpentier's Missa Assumpta est Maria; in the same year, he traveled with the same ensemble to Jerusalem, Israel, to perform Bach's Mass in B Minor. In 2016, he participated in the world premiere of the modern opera Die Marmorpuppe by the Brazilian composer Giordano Bruno do Nascimento. That same year, he was invited to Tokyo, Japan, to serve as Guest Artistic Director of the Asia Collegium Musicum for six months, performing in several Japanese cities. In 2019, he conducted the ensemble and choir of the State University of Music Trossingen in Haydn's oratorio The Seasons; in 2020, he led the Trossingen Ensemble for Early Music and choir in a French Baroque concert entitled De la fin du temps à l'éternité. In 2022, he performed as a tenor soloist in Mendelssohn's symphonic cantata Lobgesang; from 2025 to 2026, he was invited by Musica Viva Hong Kong to serve as vocal coach and continuo player for Mozart's operas Mitridate, re di Ponto and Lucio Silla. In 2026, he was invited to participate in the Isny Opera Festival as a tenor soloist."
             ],
             "de": [
-              "Ich war zudem in vielfältige Aufführungen und Produktionen eingebunden. 2014 wirkte ich als künstlerischer Leiter und leitete das Weimarer Ensemble für Alte Musik und den Chor in Marc-Antoine Charpentiers Missa Assumpta est Maria. Im selben Jahr führte ich mit demselben Ensemble Bachs h-Moll-Messe in Jerusalem auf.",
-              "2016 war ich an der Uraufführung der modernen Oper Die Marmorpuppe des brasilianischen Komponisten Giordano Bruno do Nascimento beteiligt. Ebenfalls 2016 wurde ich für sechs Monate nach Tokio eingeladen, um als Gast-Künstlerischer Leiter des Asia Collegium Musicum zu wirken und in mehreren japanischen Städten zu konzertieren.",
-              "2019 dirigierte ich Haydns Oratorium Die Jahreszeiten mit dem Trossinger Orchester und Chor. 2020 leitete ich das französische Barockprogramm De la fin du temps à l’éternité mit dem Trossinger Ensemble für Alte Musik und Chor.",
-              "2022 trat ich als Tenorsolist in Mendelssohns symphonischer Kantate Lobgesang auf. 2025 lud mich Musica Viva Hong Kong als Gesangscoach und Continuospieler für Mozarts Oper Mitridate, re di Ponto ein."
+              "Er ist aktiv an verschiedenen Aufführungen und Produktionen beteiligt. 2014 war er künstlerischer Leiter und leitete das Ensemble und den Chor der Hochschule für Musik Franz Liszt Weimar in einer Aufführung von Marc-Antoine Charpentiers Missa Assumpta est Maria; im selben Jahr reiste er mit demselben Ensemble nach Jerusalem, Israel, um Bachs h-Moll-Messe aufzuführen. 2016 wirkte er an der Uraufführung der modernen Oper Die Marmorpuppe des brasilianischen Komponisten Giordano Bruno do Nascimento mit. Im selben Jahr wurde er nach Tokio, Japan, eingeladen, um für sechs Monate als Gastkünstlerischer Leiter des Asia Collegium Musicum zu wirken und in mehreren japanischen Städten aufzutreten. 2019 dirigierte er das Ensemble und den Chor der Hochschule für Musik Trossingen in Haydns Oratorium Die Jahreszeiten; 2020 leitete er das Trossinger Ensemble für Alte Musik und den Chor in einem französischen Barockkonzert mit dem Titel De la fin du temps à l'éternité. 2022 trat er als Tenorsolist in Mendelssohns sinfonischer Kantate Lobgesang auf; von 2025 bis 2026 wurde er von Musica Viva Hong Kong eingeladen, als Gesangscoach und Continuo-Spieler für Mozarts Opern Mitridate, re di Ponto und Lucio Silla zu wirken. Im Jahr 2026 wurde er als Tenorsolist zum Isny Opernfestival eingeladen."
             ],
             "zh-Hant": [
-              "我亦積極參與各類演出與製作。2014 年，我擔任藝術總監，帶領威瑪古樂合奏團與合唱團演出 Marc-Antoine Charpentier 的《Missa Assumpta est Maria》；同年亦與同一團隊於以色列耶路撒冷演出巴赫《b 小調彌撒》。",
-              "2016 年，我參與巴西作曲家 Giordano Bruno do Nascimento 現代歌劇《Die Marmorpuppe》的世界首演。同年，我受邀前往日本東京，擔任 Asia Collegium Musicum 客席藝術總監六個月，並於日本多個城市舉行演出。",
-              "2019 年，我指揮特羅辛根樂團與合唱團演出海頓神劇《四季》；2020 年，我指揮特羅辛根古樂合奏團與合唱團演出法國巴洛克音樂會《De la fin du temps à l’éternité》。",
-              "2022 年，我以男高音獨唱身分演出孟德爾頌交響清唱劇《Lobgesang》；2025 年，我受 Musica Viva Hong Kong 邀請，擔任莫札特歌劇《米特里達泰，龐都國王》的聲樂指導與通奏低音演奏者。"
+              "他亦積極參與各類演出與製作。2014 年，他擔任藝術總監，帶領威瑪音樂學院古樂團與合唱團演出 Marc-Antoine Charpentier 的《Missa Assumpta est Maria》；同年亦與同一團隊前往以色列耶路撒冷演出巴赫《b 小調彌撒》。2016 年，他參與巴西作曲家 Giordano Bruno do Nascimento 現代歌劇《Die Marmorpuppe》的世界首演。同年，他受邀前往日本東京，擔任 Asia Collegium Musicum 客席藝術總監六個月，並於日本多個城市舉行演出。2019 年，他指揮特羅辛根音樂學院古樂團與合唱團演出海頓神劇《四季》；2020 年，他指揮特羅辛根古樂合奏團與合唱團演出法國巴洛克音樂會《De la fin du temps à l’éternité》。2022 年，他以男高音獨唱身分演出孟德爾頌交響清唱劇《Lobgesang》；2025 至 2026 年，他受 Musica Viva Hong Kong 邀請，擔任莫札特歌劇《本都大王》與《獨裁君主斯拉》的聲樂指導與數字低音演奏，2026 年他受邀參加伊斯尼歌劇音樂節（Isny Opernfestival），擔任男高音獨唱。"
             ]
           }
         },
@@ -308,22 +209,13 @@
           },
           "paragraphs": {
             "en": [
-              "In teaching and academia, I currently work as harpsichordist for the Hong Kong Early Music Society, vocal coach and harpsichordist for Musica Viva Hong Kong, and guest artistic director for the Hsiang Yun Baroque Ensemble in Taiwan.",
-              "I have been invited multiple times as guest lecturer for early music performance practice workshops at National Sun Yat-sen University and National Tsing Hua University in Taiwan.",
-              "In 2024 and 2025, I served as lead lecturer at the Tsing Hua Baroque Music Week, teaching masterclasses in early music vocal and chamber music, and performing in faculty concerts.",
-              "I am also dedicated to early music research and have published several papers in Taiwan and Hong Kong."
+              "In the realm of teaching and scholarship, he currently serves as harpsichordist of the Hong Kong Early Music Society, vocal coach and harpsichordist at Musica Viva Hong Kong, and Guest Artistic Director of the Klang Baroque Ensemble in Taiwan. He has been invited multiple times as a guest lecturer for workshops in historical performance practice at National Sun Yat-sen University and National Tsing Hua University in Taiwan. In 2024 and 2025, he served as one of the main lecturers of the Tsing Hua Baroque Music Week, where he taught masterclasses in historical voice and chamber music and performed in faculty concerts. In addition, he continues to conduct research in early music and has published several academic papers in Taiwan and Hong Kong."
             ],
             "de": [
-              "Im Bereich Lehre und Wissenschaft arbeite ich derzeit als Cembalist für die Hong Kong Early Music Society, als Gesangscoach und Cembalist für Musica Viva Hong Kong sowie als Gast-Künstlerischer Leiter des Hsiang Yun Baroque Ensemble in Taiwan.",
-              "Mehrfach wurde ich als Gastdozent für Workshops zur Aufführungspraxis Alter Musik an die National Sun Yat-sen University und die National Tsing Hua University in Taiwan eingeladen.",
-              "2024 und 2025 war ich Hauptdozent der Tsing Hua Baroque Music Week, leitete Meisterkurse für historischen Gesang und Kammermusik und wirkte in Konzerten des Lehrkörpers mit.",
-              "Darüber hinaus widme ich mich der Forschung im Bereich Alte Musik und habe mehrere Fachaufsätze in Taiwan und Hongkong veröffentlicht."
+              "Im Bereich Lehre und Wissenschaft ist er derzeit Cembalist der Hong Kong Early Music Society, Gesangscoach und Cembalist bei Musica Viva Hong Kong sowie Gastkünstlerischer Leiter des Klang Baroque Ensemble in Taiwan. Er wurde mehrfach als Gastdozent für Workshops zur historischen Aufführungspraxis an die National Sun Yat-sen University und die National Tsing Hua University in Taiwan eingeladen. 2024 und 2025 war er einer der Hauptdozenten der Tsing Hua Barockmusikwoche, wo er Meisterkurse in historischem Gesang und Kammermusik unterrichtete und an Dozentenkonzerten mitwirkte. Darüber hinaus forscht er kontinuierlich auf dem Gebiet der Alten Musik und hat bereits mehrere Fachaufsätze in Taiwan und Hongkong veröffentlicht."
             ],
             "zh-Hant": [
-              "在教學與學術方面，我目前擔任香港早期音樂學會羽管鍵琴家、Musica Viva Hong Kong 的聲樂指導與羽管鍵琴家，以及台灣香雲巴洛克樂團客席藝術總監。",
-              "我亦曾多次受邀，於台灣國立中山大學與國立清華大學擔任早期音樂演奏實踐工作坊客席講師。",
-              "2024 與 2025 年，我擔任清華巴洛克音樂週首席講師，教授早期聲樂與室內樂大師班，並參與師資音樂會演出。",
-              "此外，我亦持續投入早期音樂研究，並已於台灣與香港發表多篇論文。"
+              "在教學與學術方面，他目前擔任香港早期音樂協會古鍵琴家、Musica Viva Hong Kong 的聲樂指導與古鍵琴家，以及台灣響韵巴洛克樂團客席藝術總監。他亦曾多次受邀，於台灣國立中山大學與國立清華大學擔任早期音樂演奏實踐工作坊客席講師。2024 與 2025 年，他擔任清華巴洛克音樂週其中一位主講藝術家，教授早期聲樂與室內樂大師班，並參與導師音樂會演出。此外，他亦持續投入早期音樂研究，並已於台灣與香港發表多篇論文。"
             ]
           }
         },
@@ -336,38 +228,13 @@
           },
           "paragraphs": {
             "en": [
-              "I have performed with renowned musicians including Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck, and Meng-Heng Chen.",
-              "My performance activities span many countries, including the United Kingdom, France, Germany, Switzerland, Italy, San Marino, Austria, the United States, Japan, Israel, Ukraine, and Slovakia."
+              "He has collaborated with distinguished musicians including Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck, and Chen Meng-Heng. His performances have taken him to numerous countries, including the United Kingdom, France, Germany, Switzerland, Italy, San Marino, Austria, the United States, Japan, Israel, Ukraine, and Slovakia."
             ],
             "de": [
-              "Ich musizierte mit renommierten Künstlern wie Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck und Meng-Heng Chen.",
-              "Meine Konzerttätigkeit führte mich in zahlreiche Länder, darunter das Vereinigte Königreich, Frankreich, Deutschland, die Schweiz, Italien, San Marino, Österreich, die Vereinigten Staaten, Japan, Israel, die Ukraine und die Slowakei."
+              "Er hat mit namhaften Musikern wie Jan van Elsacker, Nils Wanderer, Wim Becu, Gottfried von der Goltz, Huub Claessens, Drora Bruck und Chen Meng-Heng zusammengearbeitet. Seine Auftritte führten ihn in zahlreiche Länder, darunter Großbritannien, Frankreich, Deutschland, die Schweiz, Italien, San Marino, Österreich, die USA, Japan, Israel, die Ukraine und die Slowakei."
             ],
             "zh-Hant": [
-              "我曾與 Jan van Elsacker、Nils Wanderer、Wim Becu、Gottfried von der Goltz、Huub Claessens、Drora Bruck 與陳孟亨等知名音樂家合作演出。",
-              "我的演出足跡遍及多個國家，包括英國、法國、德國、瑞士、義大利、聖馬利諾、奧地利、美國、日本、以色列、烏克蘭與斯洛伐克。"
-            ]
-          }
-        },
-        {
-          "id": "statement",
-          "heading": {
-            "en": "Artistic Statement",
-            "de": "Künstlerisches Selbstverständnis",
-            "zh-Hant": "藝術理念"
-          },
-          "paragraphs": {
-            "en": [
-              "Music is my way of expressing myself and connecting with the world. As a harpsichordist and early music conductor, I hope to build a bridge between early music and contemporary audiences — telling stories through sound and touching hearts with emotion.",
-              "Please feel free to contact me through the website."
-            ],
-            "de": [
-              "Musik ist meine Weise, mich auszudrücken und mit der Welt in Verbindung zu treten. Als Cembalist und Dirigent für Alte Musik möchte ich eine Brücke zwischen früher Musik und heutigem Publikum schlagen, Geschichten durch Klang erzählen und Herzen durch Emotion berühren.",
-              "Bitte nehmen Sie gern über die Website Kontakt mit mir auf."
-            ],
-            "zh-Hant": [
-              "音樂是我表達自我、也與世界建立聯繫的方式。作為羽管鍵琴家與古樂指揮，我希望在早期音樂與當代觀眾之間搭起橋樑，以聲響敘事，並以情感觸動人心。",
-              "歡迎透過本網站與我聯絡。"
+              "他曾與 Jan van Elsacker、Nils Wanderer、Wim Becu、Gottfried von der Goltz、Huub Claessens、Drora Bruck 與陳孟亨等知名音樂家合作演出。他的演出足跡遍及多個國家，包括英國、法國、德國、瑞士、義大利、聖馬利諾、奧地利、美國、日本、以色列、烏克蘭與斯洛伐克。"
             ]
           }
         }

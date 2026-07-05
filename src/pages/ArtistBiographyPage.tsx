@@ -30,14 +30,12 @@ export function ArtistBiographyPage({
 
   if (!artist) return null
 
-  const overviewLabel = lang === 'de' ? 'Künstlerübersicht' : lang === 'zh-Hant' ? '藝術家總覽' : 'Artists overview'
-  const contactLabel = lang === 'de' ? 'Kontakt aufnehmen' : lang === 'zh-Hant' ? '聯絡邀約' : 'Make contact'
-  const dossierLabel = lang === 'de' ? 'Künstlerdossier' : lang === 'zh-Hant' ? '藝術家檔案' : 'Artist dossier'
+  const pageCopy = ELINA_COPY.pages.artist
 
   return (
     <main className="page artistPage">
       <section className="section">
-        <div className="kicker">{dossierLabel}</div>
+        <div className="kicker">{pageCopy.dossierLabel[lang]}</div>
         <div className="artistDossierGrid artistDossierHero">
           <div className="artistPortraitPanel">
             <img src={artist.portraitSrc} alt={artist.portraitAlt[lang]} className="artistPortraitImage" />
@@ -51,10 +49,10 @@ export function ArtistBiographyPage({
 
             <div className="heroActions">
               <Link className="btn btn-primary" to={`/${lang}/contact`}>
-                {contactLabel}
+                {pageCopy.contactLabel[lang]}
               </Link>
               <Link className="btn" to={`/${lang}/artists`}>
-                {overviewLabel}
+                {pageCopy.overviewLabel[lang]}
               </Link>
             </div>
           </div>

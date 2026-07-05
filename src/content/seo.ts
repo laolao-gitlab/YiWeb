@@ -1,4 +1,4 @@
-import seoData from './data/seo.json'
 import type { SeoContent } from './schema'
+import { siteContent } from './site'
 
-export const seoContent: SeoContent = seoData as SeoContent
+export const seoContent: SeoContent = siteContent.seo

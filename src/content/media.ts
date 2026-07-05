@@ -1,4 +1,4 @@
-import mediaData from './data/media.json'
 import type { MediaContent } from './schema'
+import { siteContent } from './site'
 
-export const mediaContent: MediaContent = mediaData as MediaContent
+export const mediaContent: MediaContent = siteContent.media

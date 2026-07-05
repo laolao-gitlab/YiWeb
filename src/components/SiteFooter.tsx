@@ -11,15 +11,14 @@ export function SiteFooter({
   onOpenImprint: () => void
   onOpenPrivacy: () => void
 }) {
-  const inquiriesLabel = lang === 'de' ? 'Anfragen' : lang === 'zh-Hant' ? '洽詢' : 'Inquiries'
-  const contactLabel = lang === 'de' ? 'Kontakt' : lang === 'zh-Hant' ? '聯絡' : 'Contact'
+  const footerCopy = ELINA_COPY.pages.footer
   const instagramUrl = ELINA_COPY.contact.instagramUrl ?? `https://www.instagram.com/${ELINA_COPY.contact.instagram.replace('@', '')}/`
 
   return (
     <footer className="siteFooter">
       <div className="siteFooterInner">
         <div className="siteFooterMain">
-          <div className="kicker">{inquiriesLabel}</div>
+          <div className="kicker">{footerCopy.inquiriesLabel[lang]}</div>
           <div className="footerContactBlock">
             <div>
               <a className="underline" href={`mailto:${ELINA_COPY.contact.email}`}>
@@ -33,7 +32,7 @@ export function SiteFooter({
               Instagram
             </a>
             <Link className="underline" to={`/${lang}/contact`}>
-              {contactLabel}
+              {footerCopy.contactLabel[lang]}
             </Link>
           </div>
         </div>

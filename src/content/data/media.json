@@ -313,7 +313,7 @@
       "title": {
         "en": "Gemelli in Harmonia video 1",
         "de": "Gemelli in Harmonia Video 1",
-        "zh-Hant": "Gemelli in Harmonia ?? 1"
+        "zh-Hant": "Gemelli in Harmonia 影音 1"
       }
     },
     {
@@ -322,7 +322,7 @@
       "title": {
         "en": "Gemelli in Harmonia video 2",
         "de": "Gemelli in Harmonia Video 2",
-        "zh-Hant": "Gemelli in Harmonia ?? 2"
+        "zh-Hant": "Gemelli in Harmonia 影音 2"
       }
     },
     {
@@ -331,7 +331,7 @@
       "title": {
         "en": "Gemelli in Harmonia video 3",
         "de": "Gemelli in Harmonia Video 3",
-        "zh-Hant": "Gemelli in Harmonia ?? 3"
+        "zh-Hant": "Gemelli in Harmonia 影音 3"
       }
     },
     {
@@ -340,28 +340,28 @@
       "title": {
         "en": "Gemelli in Harmonia video 4",
         "de": "Gemelli in Harmonia Video 4",
-        "zh-Hant": "Gemelli in Harmonia ?? 4"
+        "zh-Hant": "Gemelli in Harmonia 影音 4"
       }
     }
   ],
   "photosHeading": {
     "en": "Curated images",
     "de": "Bildauswahl",
-    "zh-Hant": "????"
+    "zh-Hant": "精選圖像"
   },
   "videosHeading": {
     "en": "Videos",
     "de": "Videos",
-    "zh-Hant": "??"
+    "zh-Hant": "影音"
   },
   "videosIntro": {
     "en": "Selected video materials are embedded directly on the website for uninterrupted viewing.",
-    "de": "Ausgew?hlte Videoeinblicke, direkt auf der Website eingebettet und ohne Medienbruch abspielbar.",
-    "zh-Hant": "??????????????????????????????"
+    "de": "Ausgewählte Videoeinblicke, direkt auf der Website eingebettet und ohne Medienbruch abspielbar.",
+    "zh-Hant": "精選影音素材已直接嵌入網站，方便不中斷地觀看。"
   },
   "creditsNote": {
     "en": "For photo, video, source, or copyright inquiries, please contact: musical_kelvin@yahoo.com.hk",
     "de": "Bei Fragen zu Fotos, Videos, Quellenangaben oder Urheberrechten kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
-    "zh-Hant": "????????????????????????musical_kelvin@yahoo.com.hk"
+    "zh-Hant": "如有照片、影片、來源或版權相關洽詢，請聯絡：musical_kelvin@yahoo.com.hk"
   }
 }

@@ -1,4 +1,4 @@
-import eventsData from './data/events.json'
 import type { SeasonContent } from './schema'
+import { siteContent } from './site'
 
-export const seasonContent: SeasonContent = eventsData as SeasonContent
+export const seasonContent: SeasonContent = siteContent.season

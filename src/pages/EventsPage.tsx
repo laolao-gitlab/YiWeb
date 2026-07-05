@@ -11,14 +11,14 @@ export function SeasonPage({ lang }: { lang: Lang }) {
     canonicalPath: `/${lang}/season`
   })
 
-  const pageTitle = lang === 'de' ? 'Saisonhöhepunkte' : lang === 'zh-Hant' ? '樂季重點' : 'Season highlights'
+  const pageCopy = ELINA_COPY.pages.season
 
   return (
     <main className="page">
       <section className="section">
         <div className="sectionHeadingBlock sectionHeadingBlock--narrow">
-          <div className="kicker">{lang === 'de' ? 'Saison' : lang === 'zh-Hant' ? '樂季' : 'Season'}</div>
-          <h2>{pageTitle}</h2>
+          <div className="kicker">{pageCopy.pageKicker[lang]}</div>
+          <h2>{pageCopy.pageTitle[lang]}</h2>
           <p>{ELINA_COPY.season.intro[lang]}</p>
         </div>
       </section>

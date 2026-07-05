@@ -17,7 +17,41 @@
     },
     "email": "musical_kelvin@yahoo.com.hk",
     "instagram": "yi.earlymusic",
-    "instagramUrl": "https://www.instagram.com/yi.earlymusic/"
+    "instagramUrl": "https://www.instagram.com/yi.earlymusic/",
+    "directContacts": [
+      {
+        "id": "liu-yi",
+        "name": {
+          "en": "Liu Yi",
+          "de": "Liu Yi",
+          "zh-Hant": "劉一"
+        },
+        "role": {
+          "en": "Countertenor",
+          "de": "Countertenor",
+          "zh-Hant": "假聲男高音"
+        },
+        "phone": "+49 176 32866265",
+        "phoneHref": "tel:+4917632866265",
+        "whatsappHref": "https://wa.me/4917632866265"
+      },
+      {
+        "id": "kelvin-tsui",
+        "name": {
+          "en": "Kelvin Tsui",
+          "de": "Kelvin Tsui",
+          "zh-Hant": "徐錦輝"
+        },
+        "role": {
+          "en": "Harpsichordist / Early Music Conductor / Vocal Coach",
+          "de": "Cembalist / Dirigent für Alte Musik / Gesangspädagoge",
+          "zh-Hant": "古鍵琴家／古樂指揮／聲樂指導"
+        },
+        "phone": "+49 176 65534751",
+        "phoneHref": "tel:+4917665534751",
+        "whatsappHref": "https://wa.me/4917665534751"
+      }
+    ]
   },
   "legal": {
     "imprint": {
@@ -32,18 +66,18 @@
     },
     "imprintBody": {
       "en": "Gemelli in Harmonia\n\nContact for legal and editorial inquiries: musical_kelvin@yahoo.com.hk",
-      "de": "Gemelli in Harmonia\n\nKontakt f?r rechtliche und redaktionelle Anfragen: musical_kelvin@yahoo.com.hk",
-      "zh-Hant": "Gemelli in Harmonia\n\n????????????musical_kelvin@yahoo.com.hk"
+      "de": "Gemelli in Harmonia\n\nKontakt für rechtliche und redaktionelle Anfragen: musical_kelvin@yahoo.com.hk",
+      "zh-Hant": "Gemelli in Harmonia\n\n法律及編輯相關洽詢請聯絡：musical_kelvin@yahoo.com.hk"
     },
     "privacyBody": {
       "en": "Inquiry data is handled with professional discretion and used exclusively for artistic communication and booking-related responses. For questions regarding privacy, media credits, photo/video sources, or copyright matters, please contact: musical_kelvin@yahoo.com.hk",
-      "de": "Anfragedaten werden mit professioneller Diskretion behandelt und ausschlie?lich f?r k?nstlerische Kommunikation sowie buchungsbezogene R?ckmeldungen verwendet. Bei Fragen zum Datenschutz, zu Mediennachweisen, Foto-/Videoquellen oder urheberrechtlichen Anliegen kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
-      "zh-Hant": "????????????????????????????????????????????????????????????????musical_kelvin@yahoo.com.hk"
+      "de": "Anfragedaten werden mit professioneller Diskretion behandelt und ausschließlich für künstlerische Kommunikation sowie buchungsbezogene Rückmeldungen verwendet. Bei Fragen zum Datenschutz, zu Mediennachweisen, Foto-/Videoquellen oder urheberrechtlichen Anliegen kontaktieren Sie bitte: musical_kelvin@yahoo.com.hk",
+      "zh-Hant": "洽詢資料將以專業審慎方式處理，並僅用於藝術溝通及演出邀約相關回覆。如有隱私、媒體標註、照片／影片來源或版權相關問題，請聯絡：musical_kelvin@yahoo.com.hk"
     },
     "footerLine": {
       "en": "For legal, privacy, and media-related inquiries, please write to musical_kelvin@yahoo.com.hk.",
-      "de": "F?r rechtliche, datenschutzbezogene und medienbezogene Anfragen schreiben Sie bitte an musical_kelvin@yahoo.com.hk.",
-      "zh-Hant": "??????????????????? musical_kelvin@yahoo.com.hk?"
+      "de": "Für rechtliche, datenschutzbezogene und medienbezogene Anfragen schreiben Sie bitte an musical_kelvin@yahoo.com.hk.",
+      "zh-Hant": "如有法律、隱私或媒體相關洽詢，請來信至 musical_kelvin@yahoo.com.hk。"
     }
   }
 }

@@ -1,21 +1,35 @@
 import siteData from './data/site.json'
 import type { NavigationItem } from './types'
-import type { BrandContent, DuoContent } from './schema'
+import type { BrandContent, DuoContent, SiteContent, SiteJsonContent } from './schema'
 
-const data = siteData as {
-  brand: BrandContent
-  duo: DuoContent
+const data = siteData as SiteJsonContent
+
+function hrefForNavItem(id: NavigationItem['id']): NavigationItem['href'] {
+  switch (id) {
+    case 'home':
+      return (lang) => `/${lang}`
+    case 'duo':
+      return (lang) => `/${lang}/duo`
+    case 'artists':
+      return (lang) => `/${lang}/artists`
+    case 'season':
+      return (lang) => `/${lang}/season`
+    case 'media':
+      return (lang) => `/${lang}/media`
+    case 'contact':
+      return (lang) => `/${lang}/contact`
+  }
 }
 
-export const siteBrand: BrandContent = data.brand
+export const siteNavigation: NavigationItem[] = data.nav.map((item) => ({
+  ...item,
+  href: hrefForNavItem(item.id)
+}))
 
-export const siteNavigation: NavigationItem[] = [
-  { id: 'home', href: (lang) => `/${lang}`, label: { en: 'Home', de: 'Start', 'zh-Hant': '首頁' } },
-  { id: 'duo', href: (lang) => `/${lang}/duo`, label: { en: 'Duo', de: 'Duo', 'zh-Hant': '二重奏' } },
-  { id: 'artists', href: (lang) => `/${lang}/artists`, label: { en: 'Artists', de: 'Künstler', 'zh-Hant': '藝術家' } },
-  { id: 'season', href: (lang) => `/${lang}/season`, label: { en: 'Season', de: 'Saison', 'zh-Hant': '樂季' } },
-  { id: 'media', href: (lang) => `/${lang}/media`, label: { en: 'Media', de: 'Medien', 'zh-Hant': '媒體' } },
-  { id: 'contact', href: (lang) => `/${lang}/contact`, label: { en: 'Contact', de: 'Kontakt', 'zh-Hant': '聯絡' } }
-]
+export const siteContent: SiteContent = {
+  ...data,
+  nav: siteNavigation
+}
 
-export const duoContent: DuoContent = data.duo
+export const siteBrand: BrandContent = siteContent.brand
+export const duoContent: DuoContent = siteContent.duo

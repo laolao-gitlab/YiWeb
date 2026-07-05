@@ -1,4 +1,4 @@
-import artistsData from './data/artists.json'
 import type { ArtistContentEntry } from './schema'
+import { siteContent } from './site'
 
-export const artistsContent: ArtistContentEntry[] = (artistsData as { artists: ArtistContentEntry[] }).artists
+export const artistsContent: ArtistContentEntry[] = siteContent.artists

@@ -1,4 +1,5 @@
 import type { Lang, LocalizedText } from '../content/types'
+import { ELINA_COPY } from '../content/elinaContent'
 import { Modal } from '../app/Modal'
 
 export function LegalModal({
@@ -14,22 +15,21 @@ export function LegalModal({
   title: LocalizedText
   body: LocalizedText
 }) {
-  const legalLabel = lang === 'de' ? 'Rechtliches' : lang === 'zh-Hant' ? '法律資訊' : 'Legal'
-  const closeLabel = lang === 'de' ? 'Schließen' : lang === 'zh-Hant' ? '關閉' : 'Close'
+  const modalCopy = ELINA_COPY.pages.legalModal
 
   return (
     <Modal open={open} onClose={onClose} ariaLabel={title[lang]}>
       <div style={{ display: 'grid', gap: 14 }}>
         <div>
           <div className="kicker" style={{ marginBottom: 10 }}>
-            {legalLabel}
+            {modalCopy.legalLabel[lang]}
           </div>
           <h2 style={{ marginTop: 0 }}>{title[lang]}</h2>
         </div>
         <div style={{ lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>{body[lang]}</div>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <button className="btn btn-primary" onClick={onClose} type="button">
-            {closeLabel}
+            {modalCopy.closeLabel[lang]}
           </button>
         </div>
       </div>

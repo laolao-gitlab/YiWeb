@@ -2,6 +2,11 @@ import type { ArtistId, LocalizedText, NavigationItem } from './types'
 
 export type LocalizedArray = { en: string[]; de: string[]; 'zh-Hant': string[] }
 
+export type NavigationContentItem = {
+  id: NavigationItem['id']
+  label: LocalizedText
+}
+
 export type ArtistSection = {
   id: string
   heading: LocalizedText
@@ -72,10 +77,10 @@ export type MediaVideoEmbed = {
 
 export type MediaContent = {
   intro: LocalizedText
-  photosHeading?: LocalizedText
-  videosHeading?: LocalizedText
-  videosIntro?: LocalizedText
-  creditsNote?: LocalizedText
+  photosHeading: LocalizedText
+  videosHeading: LocalizedText
+  videosIntro: LocalizedText
+  creditsNote: LocalizedText
   items: MediaItem[]
   videos: MediaVideoEmbed[]
 }
@@ -87,6 +92,16 @@ export type ContactContent = {
   email: string
   instagram: string
   instagramUrl?: string
+  directContacts: DirectContactContent[]
+}
+
+export type DirectContactContent = {
+  id: string
+  name: LocalizedText
+  role: LocalizedText
+  phone: string
+  phoneHref: string
+  whatsappHref: string
 }
 
 export type LegalContent = {
@@ -106,9 +121,73 @@ export type SeoContent = {
   contact: { title: LocalizedText; description: LocalizedText }
 }
 
+export type PageLabelContent = {
+  header: {
+    menuLabel: LocalizedText
+    primaryNavAria: LocalizedText
+  }
+  home: {
+    discoverDuoLabel: LocalizedText
+    seasonLabel: LocalizedText
+    contactLabel: LocalizedText
+    seasonKicker: LocalizedText
+    featuredHeading: LocalizedText
+    fullSeasonLabel: LocalizedText
+    biographiesLabel: LocalizedText
+    artistProfilesHeading: LocalizedText
+    mediaLabel: LocalizedText
+  }
+  duo: {
+    kicker: LocalizedText
+    foundedPrefix: LocalizedText
+    footprintLabel: LocalizedText
+    formatsLabel: LocalizedText
+    artistsLabel: LocalizedText
+  }
+  artists: {
+    pageKicker: LocalizedText
+    pageTitle: LocalizedText
+    pageIntro: LocalizedText
+  }
+  artist: {
+    overviewLabel: LocalizedText
+    contactLabel: LocalizedText
+    dossierLabel: LocalizedText
+  }
+  season: {
+    pageKicker: LocalizedText
+    pageTitle: LocalizedText
+  }
+  media: {
+    pageKicker: LocalizedText
+    pageTitle: LocalizedText
+    imagesKicker: LocalizedText
+    imageKind: LocalizedText
+    videoKind: LocalizedText
+  }
+  contact: {
+    pageKicker: LocalizedText
+    generalLabel: LocalizedText
+    emailButtonLabel: LocalizedText
+    phoneButtonLabel: LocalizedText
+    whatsappLabel: LocalizedText
+    socialLabel: LocalizedText
+    directContactLabel: LocalizedText
+  }
+  footer: {
+    inquiriesLabel: LocalizedText
+    contactLabel: LocalizedText
+  }
+  legalModal: {
+    legalLabel: LocalizedText
+    closeLabel: LocalizedText
+  }
+}
+
 export type SiteContent = {
   brand: BrandContent
   nav: NavigationItem[]
+  pages: PageLabelContent
   duo: DuoContent
   artists: ArtistContentEntry[]
   season: SeasonContent
@@ -116,4 +195,8 @@ export type SiteContent = {
   contact: ContactContent
   legal: LegalContent
   seo: SeoContent
+}
+
+export type SiteJsonContent = Omit<SiteContent, 'nav'> & {
+  nav: NavigationContentItem[]
 }

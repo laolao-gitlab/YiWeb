@@ -11,22 +11,15 @@ export function ArtistsPage({ lang }: { lang: Lang }) {
     canonicalPath: `/${lang}/artists`
   })
 
-  const pageKicker = lang === 'de' ? 'Künstler' : lang === 'zh-Hant' ? '藝術家' : 'Artists'
-  const pageTitle = lang === 'de' ? 'Künstlerische Profile' : lang === 'zh-Hant' ? '藝術家檔案' : 'Artist profiles'
-  const pageIntro =
-    lang === 'de'
-      ? 'Ausführliche Biografien von Yi Liu und Kelvin Tsui für Veranstalter, Institutionen und künstlerische Partner.'
-      : lang === 'zh-Hant'
-        ? '為主辦單位、機構與藝術合作夥伴整理的劉一與徐錦輝完整藝術家簡介。'
-        : 'Extended biographies of Yi Liu and Kelvin Tsui for presenters, institutions, and artistic partners.'
+  const pageCopy = ELINA_COPY.pages.artists
 
   return (
     <main className="page">
       <section className="section">
         <div className="sectionHeadingBlock sectionHeadingBlock--narrow">
-          <div className="kicker">{pageKicker}</div>
-          <h2>{pageTitle}</h2>
-          <p>{pageIntro}</p>
+          <div className="kicker">{pageCopy.pageKicker[lang]}</div>
+          <h2>{pageCopy.pageTitle[lang]}</h2>
+          <p>{pageCopy.pageIntro[lang]}</p>
         </div>
       </section>
 
@@ -44,7 +37,7 @@ export function ArtistsPage({ lang }: { lang: Lang }) {
                 <p className="artistPreviewText">{artist.intro[lang]}</p>
 
                 <div className="artistOverviewExcerptList">
-                  {artist.sections.slice(1, 3).map((section) => (
+                  {artist.sections.slice(0, 2).map((section) => (
                     <div key={section.id} className="artistOverviewExcerpt">
                       <div className="kicker">{section.heading[lang]}</div>
                       <p>{section.paragraphs[lang][0]}</p>

@@ -13,15 +13,7 @@ export function HomePage({ lang }: { lang: Lang }) {
 
   const season = ELINA_COPY.season.highlights
   const artists = ELINA_COPY.artists
-
-  const discoverLabel = lang === 'de' ? 'Zum Duo' : lang === 'zh-Hant' ? '認識二重奏' : 'Discover the duo'
-  const seasonLabel = lang === 'de' ? 'Saison ansehen' : lang === 'zh-Hant' ? '查看樂季' : 'View season'
-  const contactLabel = lang === 'de' ? 'Kontakt' : lang === 'zh-Hant' ? '聯絡' : 'Contact'
-  const featuredLabel = lang === 'de' ? 'Ausgewählte Höhepunkte' : lang === 'zh-Hant' ? '精選亮點' : 'Featured highlights'
-  const fullSeasonLabel = lang === 'de' ? 'Alle Termine' : lang === 'zh-Hant' ? '完整樂季' : 'Full season'
-  const seasonKicker = lang === 'de' ? 'Saison 2025' : lang === 'zh-Hant' ? '2025 樂季' : 'Season 2025'
-  const biographiesLabel = lang === 'de' ? 'Künstlerbiografien' : lang === 'zh-Hant' ? '藝術家簡介' : 'Artist biographies'
-  const mediaLabel = lang === 'de' ? 'Medien' : lang === 'zh-Hant' ? '媒體' : 'Media'
+  const homeCopy = ELINA_COPY.pages.home
 
   return (
     <main className="page pageHome">
@@ -33,9 +25,9 @@ export function HomePage({ lang }: { lang: Lang }) {
             <p className="heroLead">{ELINA_COPY.brand.shortIntro[lang]}</p>
 
             <div className="heroActions">
-              <Link className="btn btn-primary" to={`/${lang}/duo`}>{discoverLabel}</Link>
-              <Link className="btn" to={`/${lang}/season`}>{seasonLabel}</Link>
-              <Link className="btn btn-ghost" to={`/${lang}/contact`}>{contactLabel}</Link>
+              <Link className="btn btn-primary" to={`/${lang}/duo`}>{homeCopy.discoverDuoLabel[lang]}</Link>
+              <Link className="btn" to={`/${lang}/season`}>{homeCopy.seasonLabel[lang]}</Link>
+              <Link className="btn btn-ghost" to={`/${lang}/contact`}>{homeCopy.contactLabel[lang]}</Link>
             </div>
 
             <div className="heroMetaRow">
@@ -52,10 +44,10 @@ export function HomePage({ lang }: { lang: Lang }) {
       <section className="section">
         <div className="sectionHeadingRow">
           <div className="sectionHeadingBlock">
-            <div className="kicker">{seasonKicker}</div>
-            <h2>{featuredLabel}</h2>
+            <div className="kicker">{homeCopy.seasonKicker[lang]}</div>
+            <h2>{homeCopy.featuredHeading[lang]}</h2>
           </div>
-          <Link className="btn" to={`/${lang}/season`}>{fullSeasonLabel}</Link>
+          <Link className="btn" to={`/${lang}/season`}>{homeCopy.fullSeasonLabel[lang]}</Link>
         </div>
 
         <div className="cardsGrid cardsGrid--three seasonGrid">
@@ -71,8 +63,8 @@ export function HomePage({ lang }: { lang: Lang }) {
 
       <section className="section">
         <div className="sectionHeadingBlock sectionHeadingBlock--narrow">
-          <div className="kicker">{biographiesLabel}</div>
-          <h2>{lang === 'de' ? 'Persönliche Künstlerprofile' : lang === 'zh-Hant' ? '藝術家個人檔案' : 'Individual artist profiles'}</h2>
+          <div className="kicker">{homeCopy.biographiesLabel[lang]}</div>
+          <h2>{homeCopy.artistProfilesHeading[lang]}</h2>
         </div>
 
         <div className="cardsGrid cardsGrid--two artistPreviewList">
@@ -90,8 +82,8 @@ export function HomePage({ lang }: { lang: Lang }) {
         </div>
 
         <div className="homeLinkRow">
-          <Link className="btn btn-primary" to={`/${lang}/artists`}>{biographiesLabel}</Link>
-          <Link className="btn btn-ghost" to={`/${lang}/media`}>{mediaLabel}</Link>
+          <Link className="btn btn-primary" to={`/${lang}/artists`}>{homeCopy.biographiesLabel[lang]}</Link>
+          <Link className="btn btn-ghost" to={`/${lang}/media`}>{homeCopy.mediaLabel[lang]}</Link>
         </div>
       </section>
     </main>

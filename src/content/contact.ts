@@ -1,10 +1,5 @@
-import contactData from './data/contact.json'
 import type { ContactContent, LegalContent } from './schema'
+import { siteContent } from './site'
 
-const data = contactData as {
-  contact: ContactContent
-  legal: LegalContent
-}
-
-export const contactContent: ContactContent = data.contact
-export const legalContent: LegalContent = data.legal
+export const contactContent: ContactContent = siteContent.contact
+export const legalContent: LegalContent = siteContent.legal

@@ -14,28 +14,27 @@ export function MediaPage({ lang }: { lang: Lang }) {
 
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const selected = selectedId ? ELINA_COPY.media.items.find((item) => item.id === selectedId) ?? null : null
+  const pageCopy = ELINA_COPY.pages.media
   const mediaTypeLabel = (kind: 'image' | 'video') =>
-    kind === 'video' ? 'Video' : lang === 'de' ? 'Bild' : lang === 'zh-Hant' ? '影像' : 'Image'
-  const pageKicker = lang === 'de' ? 'Medien' : lang === 'zh-Hant' ? '媒體' : 'Media'
-  const pageTitle = lang === 'de' ? 'Kuratiertes Material' : lang === 'zh-Hant' ? '精選媒體素材' : 'Curated media'
-  const photosHeading = ELINA_COPY.media.photosHeading?.[lang] ?? (lang === 'de' ? 'Bildauswahl' : lang === 'zh-Hant' ? '精選圖像' : 'Curated images')
-  const videosHeading = ELINA_COPY.media.videosHeading?.[lang] ?? (lang === 'de' ? 'Videos' : lang === 'zh-Hant' ? '影音' : 'Videos')
-  const videosIntro = ELINA_COPY.media.videosIntro?.[lang] ?? ''
-  const creditsNote = ELINA_COPY.media.creditsNote?.[lang]
+    kind === 'video' ? pageCopy.videoKind[lang] : pageCopy.imageKind[lang]
+  const photosHeading = ELINA_COPY.media.photosHeading[lang]
+  const videosHeading = ELINA_COPY.media.videosHeading[lang]
+  const videosIntro = ELINA_COPY.media.videosIntro[lang]
+  const creditsNote = ELINA_COPY.media.creditsNote[lang]
 
   return (
     <main className="page">
       <section className="section">
         <div className="sectionHeadingBlock sectionHeadingBlock--narrow">
-          <div className="kicker">{pageKicker}</div>
-          <h2>{pageTitle}</h2>
+          <div className="kicker">{pageCopy.pageKicker[lang]}</div>
+          <h2>{pageCopy.pageTitle[lang]}</h2>
           <p>{ELINA_COPY.media.intro[lang]}</p>
         </div>
       </section>
 
       <section className="section mediaSection">
         <div className="sectionHeadingBlock sectionHeadingBlock--narrow">
-          <div className="kicker">{lang === 'de' ? 'Bilder' : lang === 'zh-Hant' ? '圖片' : 'Images'}</div>
+          <div className="kicker">{pageCopy.imagesKicker[lang]}</div>
           <h2>{photosHeading}</h2>
         </div>
 
