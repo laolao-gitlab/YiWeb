@@ -128,11 +128,10 @@ LinkedIn is intentionally not used on this website.
 
 ## Direct Contact Details
 
-The public contact page now shows direct contact options instead of a website form:
+The public contact page now shows direct email and social contact options instead of a website form:
 
 - General email: `musical_kelvin@yahoo.com.hk`
-- Liu Yi phone / WhatsApp: `+49 176 32866265`
-- Kelvin Tsui phone / WhatsApp: `+49 176 65534751`
+- Artist cards: shared email contact only
 - Instagram: `https://www.instagram.com/yi.earlymusic/`
 
 ## Very Important Image Rules

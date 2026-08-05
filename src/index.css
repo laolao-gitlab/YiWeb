@@ -592,8 +592,7 @@ p {
   padding-bottom: 8px;
 }
 
-.contactEmailLink,
-.contactPhoneText {
+.contactEmailLink {
   color: var(--ink);
   font-family: var(--serif);
   font-size: clamp(1.35rem, 2.4vw, 2rem);
@@ -601,12 +600,9 @@ p {
   overflow-wrap: anywhere;
 }
 
-.contactPhoneText {
-  font-size: 1.2rem;
-}
-
 .contactArtistCard {
   gap: 18px;
+  align-content: space-between;
 }
 
 .contactAside {

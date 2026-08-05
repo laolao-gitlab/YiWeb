@@ -54,24 +54,8 @@ export function ContactPage({ lang }: { lang: Lang }) {
                     <p>{contact.role[lang]}</p>
                   </div>
 
-                  <a className="contactPhoneText" href={contact.phoneHref} aria-label={`${pageCopy.phoneButtonLabel[lang]} ${contact.name[lang]} ${contact.phone}`}>
-                    {contact.phone}
-                  </a>
-
                   <div className="heroActions">
-                    <a className="btn btn-primary" href={contact.phoneHref} aria-label={`${pageCopy.phoneButtonLabel[lang]} ${contact.name[lang]}`}>
-                      {pageCopy.phoneButtonLabel[lang]}
-                    </a>
-                    <a
-                      className="btn btn-ghost"
-                      href={contact.whatsappHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`${pageCopy.whatsappLabel[lang]} ${contact.name[lang]}`}
-                    >
-                      {pageCopy.whatsappLabel[lang]}
-                    </a>
-                    <a className="btn btn-ghost" href={`mailto:${email}`}>
+                    <a className="btn btn-primary" href={`mailto:${email}`}>
                       {pageCopy.emailButtonLabel[lang]}
                     </a>
                   </div>

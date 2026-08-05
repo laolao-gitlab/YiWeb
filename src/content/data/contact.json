@@ -6,9 +6,9 @@
       "zh-Hant": "聯絡"
     },
     "intro": {
-      "en": "For concert invitations, collaborations, artistic inquiries, and media-related questions, please contact us directly.",
-      "de": "Für Konzerteinladungen, Kooperationen, künstlerische Anfragen und medienbezogene Anliegen kontaktieren Sie uns bitte direkt.",
-      "zh-Hant": "如有演出邀約、合作洽詢、藝術相關事宜或媒體聯絡，歡迎直接與我們聯繫。"
+      "en": "For concert invitations, collaborations, artistic inquiries, and media-related questions, please contact us by email.",
+      "de": "Für Konzerteinladungen, Kooperationen, künstlerische Anfragen und medienbezogene Anliegen kontaktieren Sie uns bitte per E-Mail.",
+      "zh-Hant": "如有演出邀約、合作洽詢、藝術相關事宜或媒體聯絡，歡迎透過電郵與我們聯繫。"
     },
     "invitation": {
       "en": "Direct contact details for Gemelli in Harmonia are listed below.",
@@ -30,10 +30,7 @@
           "en": "Countertenor",
           "de": "Countertenor",
           "zh-Hant": "假聲男高音"
-        },
-        "phone": "+49 176 32866265",
-        "phoneHref": "tel:+4917632866265",
-        "whatsappHref": "https://wa.me/4917632866265"
+        }
       },
       {
         "id": "kelvin-tsui",
@@ -46,10 +43,7 @@
           "en": "Harpsichordist / Early Music Conductor / Vocal Coach",
           "de": "Cembalist / Dirigent für Alte Musik / Gesangspädagoge",
           "zh-Hant": "古鍵琴家／古樂指揮／聲樂指導"
-        },
-        "phone": "+49 176 65534751",
-        "phoneHref": "tel:+4917665534751",
-        "whatsappHref": "https://wa.me/4917665534751"
+        }
       }
     ]
   },

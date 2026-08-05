@@ -99,9 +99,6 @@ export type DirectContactContent = {
   id: string
   name: LocalizedText
   role: LocalizedText
-  phone: string
-  phoneHref: string
-  whatsappHref: string
 }
 
 export type LegalContent = {
@@ -169,8 +166,6 @@ export type PageLabelContent = {
     pageKicker: LocalizedText
     generalLabel: LocalizedText
     emailButtonLabel: LocalizedText
-    phoneButtonLabel: LocalizedText
-    whatsappLabel: LocalizedText
     socialLabel: LocalizedText
     directContactLabel: LocalizedText
   }
